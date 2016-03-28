@@ -17,18 +17,3 @@ $RECYCLE.BIN/
 # Mac crap
 .DS_Store
 
-#############
-## Project Lifehacks
-#############
-
-# Planing
-projektplanung/
-
-# lernen
-lernen/
-
-# build
-build/
-
-# Logs
-logs/
