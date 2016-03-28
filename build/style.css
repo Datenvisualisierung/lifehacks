@@ -1,0 +1,59 @@
+/* Ajax Form */
+body{
+    line-height: 28px;
+    color: #003333;
+    font-family: Helvetica,Tahoma,Geneva,Verdana,sans-serif;
+    text-shadow: 0.03px 0.03px 0.4px #CCCCCC;
+}
+.editbox
+{
+    display:none;
+}
+.text
+{
+    font-size: 15px;
+    width: 280px;
+}
+.edit_tr{
+    line-height: 40px;
+}
+.edit_tr td:first-child{
+    width:100px;
+    font-weight: bold;
+}
+.edit_tr td{
+    padding-left: 10px;
+}
+.edit_pen{
+    padding-left: 5px !important;
+    width: 30px !important;
+}
+.edit_pen img{
+    display: block;
+    margin: auto;
+}
+.odd{
+    background: #EEEEEE;
+}
+input[type="text"]{
+    background: -moz-linear-gradient(center top , #FAFAFA 0%, #EEEEEE 100%) repeat scroll 0 0 transparent;
+    border: 1px solid #C5C5C5;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1) inset;
+    font-size: 15px;
+    margin: 5px 2px;
+    padding: 4px;
+    width: 280px;
+}
+input[type="text"]:focus, input[type="text"]:hover{
+    border: 1px solid #E7C971;
+    box-shadow: 0 0 5px #FFE8B1, 0 2px 2px rgba(0, 0, 0, 0.1) inset;
+}
+#edit_tab{
+    width: 480px;
+    margin: auto;
+    background: #d9d9d9;
+    border-color: #999999;
+    border-style: solid;
+    border-width: 1px;
+}

@@ -1,0 +1,61 @@
+p.arrow-link{
+    padding: 0 0 0 10px;
+    >a {
+    position: relative;
+
+
+    	&:before {
+    	    font-family: 'FontAwesome';
+    	    content: '\f105';
+    	    color: @link-color;
+            position: absolute;
+            left: -10px; /* same as ul padding-left */
+
+    	}
+    	&:hover::before {
+    	    color: @link-hover-color;
+    	}
+    }
+
+
+}
+.image-h2{
+    margin:auto 9px 5px auto;
+
+}
+.telefonnummer{
+    font-size: 15px;
+    font-weight: bold;
+    background-image: url("../images/ov_13.svg");
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position: left center;
+    padding-left: 24px ;
+    margin: 0 0 12px;
+}
+.telefonnummer.schweiz {
+  background-image: url("../images/ov_6.svg");
+  margin: 0 0 15px;
+}
+.telefonnummer.deutschland {
+  background-image: url("../images/ov_7.svg");
+  margin: 0 0 15px;
+}
+.telefonnummer.oesterreich {
+  background-image: url("../images/ov_8.svg");
+  margin: 0 0 15px;
+}
+.faxnummer{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 0 12px;
+}
+.erreichbarkeit{
+    font-size: 11px;
+    margin: 0;
+}
+
+
+
+
+

@@ -1,0 +1,19 @@
+<!-- Nav tabs -->
+<ul class="nav nav-tabs" role="tablist">
+	<li ><a href="#konditionen" role="tab" data-toggle="tab">Konditionen</a></li>
+	<li class="active"><a href="#handelslimite" role="tab" data-toggle="tab">Handelslimite</a></li>
+	<li><a href="#kontraktuebersicht" role="tab" data-toggle="tab">Kontraktübersicht</a></li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+	<div class="tab-pane fade" id="konditionen">
+	{% include 'text-konditionen.html' %}
+	</div>
+	<div class="tab-pane fade in active" id="handelslimite">
+	{% include 'handelslimite .html' %}
+	</div>
+	<div class="tab-pane fade" id="kontraktuebersicht">
+	{% include 'kontraktuebersicht.html' %}
+	</div>
+</div>

@@ -1,0 +1,307 @@
+//
+// Modals
+// --------------------------------------------------
+
+// .modal-open      - body class for killing the scroll
+// .modal           - container to scroll within
+// .modal-dialog    - positioning shell for the actual modal
+// .modal-content   - actual modal w/ bg and corners and shit
+// extended with classes  draggable-* for draggable modals
+// .btn-close       - close Buttons
+
+// Kill the scroll on the body
+.modal-open {
+    overflow:hidden;
+}
+
+// Container that the modal scrolls within
+.modal {
+  display: none;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: @zindex-modal;
+  -webkit-overflow-scrolling: touch;
+
+  // Prevent Chrome on Windows from adding a focus outline. For details, see
+  // https://github.com/twbs/bootstrap/pull/10951.
+  outline: 0;
+
+  // When fading in the modal, animate it to slide down
+  &.fade .modal-dialog {
+    .translate3d(0, -25%, 0);
+    .transition-transform(~"0.3s ease-out");
+  }
+  &.in .modal-dialog { .translate3d(0, 0, 0) }
+}
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+// Shell div to position the modal with bottom padding
+.modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 10px;
+}
+
+// Actual modal
+.modal-content {
+  position: relative;
+  background-color: @modal-content-bg;
+  border: 1px solid @modal-content-fallback-border-color; //old browsers fallback (ie8 etc)
+  border: 1px solid @modal-content-border-color;
+  border-radius: 0;
+  .box-shadow(0 0 0 rgba(0,0,0,.5));
+  background-clip: padding-box;
+  // Remove focus outline from opened modal
+  outline: 0;
+  padding: 28px 48px 38px 38px;
+  color:@grey;
+
+    &.draggable-content {
+        padding:0;
+        .box-shadow(0 3px 2px 0px rgba(0,0,0,.2));
+    }
+
+    &.small-content {
+        padding:0;
+        .box-shadow(0 3px 2px 0px rgba(0,0,0,.2));
+    }
+}
+
+// Modal background
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: @zindex-modal-background;
+  background-color: @modal-backdrop-bg;
+  // Fade for backdrop
+  &.fade { .opacity(0); }
+  &.in { .opacity(@modal-backdrop-opacity); }
+}
+
+// Modal header
+// Top section of the modal w/ title and dismiss
+.modal-header {
+  padding: @modal-title-padding;
+
+   .logos {
+       overflow: hidden;
+       height:97px;
+       padding: 12px 0 0 0;
+   }
+
+   &.draggable-header {
+       border-bottom: 1px solid @modal-header-border-color;
+       background-color:@blue-grey;
+       padding: 17px 19px 0 19px;
+       cursor: move;
+
+
+       &.drag-icon {
+           background-image:url(../images/modal_drag.gif);
+           background-repeat: no-repeat;
+           background-position:  6px  6px;
+           padding: 17px 19px 0 25px;
+       }
+
+
+       h3 {
+           color:@onvista-blue;
+           margin:0 0 20px 0;
+       }
+
+   }
+
+    &.blue-header {
+        .draggable-header();
+        cursor: default;
+    }
+}
+
+
+// Close icon
+.modal-header .close {
+  margin-top: -2px;
+}
+
+// Title text within header
+.modal-title {
+  margin: 0;
+  line-height: @modal-title-line-height;
+}
+
+.modal {
+    overflow-y: auto;
+}
+
+
+
+// Modal body
+// Where all modal content resides (sibling of .modal-header and .modal-footer)
+.modal-body {
+  position: relative;
+  padding: @modal-inner-padding;
+
+    h1 {
+      margin: 0 0 15px 0;
+
+        &.tablehead {
+            font-size: 20px;
+            line-height: 20px;
+            margin: 0 0 16px 0;
+        }
+    }
+
+    h2 {
+        margin: 0 0 26px 0;
+
+        &:first-child {
+            margin: -12px 0 26px 0;
+        }
+    }
+
+
+
+    p {
+        margin: 0 0 18px 0;
+    }
+
+    p.margin-small {
+        margin: 0 0 11px 0;
+    }
+
+    .first-item {
+        margin: 0 30px 0 0;
+    }
+
+    .draggable-content & {
+        padding: 39px 19px 27px 19px;
+
+    }
+
+    .small-content & {
+        padding: 17px 19px 20px 19px;
+
+        .table-simple:first-child {
+            margin:3px  0  20px 0;
+        }
+
+    }
+
+    .btn {
+        margin: 0 0 10px 0;
+    }
+
+    h1 + .text-center {
+        margin: 33px 0 0;
+    }
+}
+
+.drag-icon  + .modal-body {
+    padding: 29px 19px 27px;
+
+    h1 {
+        margin: 0 0 25px 0;
+    }
+
+
+}
+
+// Footer (for actions)
+.modal-footer {
+  padding: @modal-inner-padding;
+  text-align: right; // right align buttons
+  border-top: 1px solid @modal-footer-border-color;
+  &:extend(.clearfix all); // clear it in case folks use .pull-* classes on buttons
+
+  // Properly space out buttons
+  .btn + .btn {
+    margin-left: 5px;
+    margin-bottom: 0; // account for input[type="submit"] which gets the bottom margin like all other inputs
+  }
+  // but override that for button groups
+  .btn-group .btn + .btn {
+    margin-left: -1px;
+  }
+  // and override it for block buttons as well
+  .btn-block + .btn-block {
+    margin-left: 0;
+  }
+}
+
+// Measure scrollbar width for padding body during modal show/hide
+.modal-scrollbar-measure {
+  position: absolute;
+  top: -9999px;
+  width: 50px;
+  height: 50px;
+  overflow: scroll;
+}
+
+// Scale up the modal
+@media (min-width: @screen-sm-min) {
+  // Automatically set modal's width for larger viewports
+  .modal-dialog {
+    width: @modal-lg;
+    margin: 100px auto 30px;
+
+      // Modal sizes
+      &.modal-md { width: @modal-md; }
+      &.modal-sm { width: @modal-sm; }
+  }
+
+   .modal-content {
+    .box-shadow(0 0 0 rgba(0,0,0,.5));
+  }
+
+}
+
+
+
+
+// Close Buttons
+.btn-close{
+    width: 40px;
+    height: 50px;
+    background:url(../images/btn_close.png) no-repeat;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    z-index: 1500;
+    border:0;
+
+    &:hover {
+        background:url(../images/btn_close_hover.png) no-repeat;
+    }
+}
+
+.btn-close--white{
+    width: 40px;
+    height: 50px;
+    background:url(../images/btn_close_white.png) no-repeat;
+    position: absolute;
+    top: 10px;
+    right: 9px;
+    z-index: 1500;
+    border:0;
+
+    &:hover {
+        background:url(../images/btn_close_hover.png) no-repeat;
+    }
+}
+
+
+.buttons-modal {
+    .btn + .btn {
+        margin: -10px 0 0 20px;
+    }
+}

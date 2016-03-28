@@ -1,0 +1,648 @@
+//
+// Typography
+// --------------------------------------------------
+
+
+// Headings
+// -------------------------
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: @headings-font-family;
+  font-weight: @headings-font-weight;
+  line-height: @headings-line-height;
+  color: @headings-color;
+
+
+  small,
+  .small {
+    font-weight: normal;
+    line-height: 1;
+    color: @headings-small-color;
+  }
+}
+h1, .h1{
+   margin: 0 0 15px 0;
+}
+h1, .h1,
+h2, .h2,
+h3, .h3{
+  margin: 25px 0 15px 0;
+  small,
+  .small {
+    font-size: 65%;
+  }
+
+
+
+}
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin: 25px 0 15px 0;
+
+  small,
+  .small {
+    font-size: 75%;
+  }
+}
+
+
+
+h1, .h1 { font-size: @font-size-h1; }
+h2, .h2 { font-size: @font-size-h2; }
+h3, .h3 { font-size: @font-size-h3; }
+h4, .h4 { font-size: @font-size-h4; }
+h5, .h5 { font-size: @font-size-h5; }
+h6, .h6 { font-size: @font-size-h6; }
+
+/////////////////////////////////////////////
+/// Typo 3
+////////////////////////////////////////////
+h1, .h1, 
+h2, .h2,
+h3, .h3,
+h4, .h4, 
+h5, .h5, 
+h6, .h6{
+  &.csc-firstHeader{
+    margin: 0 0 15px 0; 
+  }
+}
+
+
+// Handle diverse margins in content depending on location
+.content{
+  .csc-textpic {
+    margin:0 0 15px 0;
+      h1, .h1, 
+      h2, .h2,
+      h3, .h3,
+      h4, .h4, 
+      h5, .h5, 
+      h6, .h6{
+      margin: 0 0 15px 0; 
+      }
+  }
+  //avoids adding of padding if content is in new row after an other row
+  .col{
+    p.bodytext:last-child{
+      margin: 0;
+    }
+  }
+
+  //rewrites the privious css in case of FAQ
+  .col .faq{
+    p.bodytext:last-child{
+      margin: 0 0 15px;
+    }
+  }
+
+
+
+
+
+}
+
+
+.icon-lock {
+    margin: 0 0 17px 0;
+    &:before {
+        font-family: 'FontAwesome';
+        content: '\f023';
+        margin: 0 12px 0 0;
+        position: relative;
+        top:3px;
+        font-size: 30px;
+    }
+}
+
+.icon-lock + .copy-bold {
+    margin: 0 0 27px 0;
+}
+
+.icon-check--green {
+    padding: 0 0 0 46px;
+    position: relative;
+    &:before {
+        font-family: 'FontAwesome';
+        content: '\f00c';
+        position: absolute;
+        top:0;
+        left:0;
+        font-size: 40px;
+        color: @green;
+    }
+}
+
+.icon-error--red {
+    padding: 0 0 0 46px;
+    position: relative;
+    &:before {
+        font-family: 'FontAwesome';
+        content: '\f00d';
+        position: absolute;
+        top:0;
+        left:0;
+        font-size: 40px;
+        color: @error;
+    }
+}
+
+// Body text
+// -------------------------
+
+p {
+    font-size: @font-size-base;
+    line-height: 20px;
+    margin: 0 0 15px 0;
+
+    &.copy,
+    &.bodycopy{
+        font-weight: 400;
+        margin: 0 0 20px 0;
+
+    }
+
+    &.copy-bold {
+        font-weight: 700;
+        margin: 0 0 20px 0;
+    }
+
+    &.error-message {
+        color: @error;
+    }
+
+    &.copy-bold.gap,&.copy.gap {
+        margin: 0 0 40px 0;
+    }
+}
+
+
+
+
+// Emphasis & misc
+// -------------------------
+
+// Ex: 14px base font * 85% = about 12px
+small,
+.small {
+  font-size: 11px;
+  line-height: 15px;
+}
+
+// Undo browser default styling
+cite {
+  font-style: normal;
+}
+
+mark,
+.mark {
+  background-color: @state-warning-bg;
+  padding: .2em;
+}
+
+// Alignment
+.text-left           { text-align: left; }
+.text-right          { text-align: right; }
+.text-center         { text-align: center; }
+.text-justify        { text-align: justify; }
+.text-nowrap         { white-space: nowrap; }
+
+// Transformation
+.text-lowercase      { text-transform: lowercase; }
+.text-uppercase      { text-transform: uppercase; }
+.text-capitalize     { text-transform: capitalize; }
+
+// Contextual colors
+.text-muted {
+  color: @text-muted;
+}
+.text-primary {
+  .text-emphasis-variant(@brand-primary);
+}
+.text-success {
+  .text-emphasis-variant(@state-success-text);
+}
+.text-info {
+  .text-emphasis-variant(@state-info-text);
+}
+.text-warning {
+  .text-emphasis-variant(@state-warning-text);
+}
+.text-danger {
+  .text-emphasis-variant(@state-danger-text);
+}
+
+// Contextual backgrounds
+// For now we'll leave these alongside the text classes until v4 when we can
+// safely shift things around (per SemVer rules).
+.bg-primary {
+  // Given the contrast here, this is the only class to have its color inverted
+  // automatically.
+  color: #fff;
+  .bg-variant(@brand-primary);
+}
+.bg-success {
+  .bg-variant(@state-success-bg);
+}
+.bg-info {
+  .bg-variant(@state-info-bg);
+}
+.bg-warning {
+  .bg-variant(@state-warning-bg);
+}
+.bg-danger {
+  .bg-variant(@state-danger-bg);
+}
+
+
+// Page header
+// -------------------------
+
+.page-header {
+  padding-bottom: ((@line-height-computed / 2) - 1);
+  margin: (@line-height-computed * 2) 0 @line-height-computed;
+  border-bottom: 1px solid @page-header-border-color;
+}
+
+
+// Lists
+// -------------------------
+
+
+// Unordered and Ordered lists
+ul,
+ol {
+    font-size: @font-size-base;
+    line-height: 20px;
+    margin: 0 0 20px 0;
+
+
+    &.list-numbers{
+        margin: 0 0 15px 0;
+        counter-reset: item;
+        padding:0;
+
+
+        li {
+            padding:0 0 11px 0px;
+            font-weight: 400;
+            display: block;
+            position: relative;            
+
+
+            &:before {
+                content: counter(item) ". ";
+                counter-increment: item;
+                font-weight: 700;
+                //margin: 0 4px 0 -19px;
+                //text-indent: 20px;
+                //position: absolute;
+                left: -19px;
+                top: 0px;
+                z-index: 10;
+            }
+        }
+
+
+        &.small li {
+          padding:0 0 5px 0;
+          &:before {
+            left: -14px;
+          }
+        }
+    }
+
+    ul,
+  ol {
+    margin: 0;
+  }
+}
+
+
+.copy + .list-bullets {
+    margin: -2px 0 15px 0px;
+}
+
+
+// list with check icons as bullets
+.list-check,
+.list-bullets,
+.row-teaser-smal ul {
+    list-style: none;
+    padding: 0 0 0 19px;
+    margin: 20px 0 19px 0;
+
+    li {
+        padding: 0 0 11px 0;
+        font-size: 15px;
+        position: relative;
+    &:last-child{
+        padding: 0 0 0 0;
+    }
+
+
+        &:before {
+            font-family: 'FontAwesome';
+            content: '\f00c';
+            color: @violet-red;
+            position: absolute;
+            left: -19px; /* same as ul padding-left */
+            top: 0px;
+            z-index: 10;
+        }
+    }
+
+    &.small li {
+        font-size: 11px;
+        padding: 0 0 5px 0;
+        &:before {
+          left: -14px;
+        }
+    }
+
+}
+//Color Variants
+.list-check.blue,
+.list-bullets.blue{
+  li{
+        &:before {
+            color: @onvista-blue;
+        }    
+  }
+}
+.list-check.gray,
+.list-bullets.gray{
+  li{
+        &:before {
+            color: @gray;
+        }    
+  }
+}
+
+.copy + .list-check {
+    margin: -2px 0 15px 0px;
+}
+
+.list-bullets,
+.row-teaser-smal ul {
+
+
+    li {
+
+
+
+
+
+        &:before {
+            font-family: 'FontAwesome';
+            font-size: 6px;
+            content: '\f111';
+            color: @violet-red;
+
+        }
+    }
+
+
+
+
+
+}
+.list-bullets-aside {
+    list-style: none;
+    padding: 0 0 0 10px;
+    margin: 0 0 0px 0;
+
+    li {
+        padding: 0 0 11px 0;
+        font-size: 15px;
+        position: relative;
+
+
+
+
+        &:before {
+            font-family: 'FontAwesome';
+            font-size: 6px;
+            content: '\f111';
+            color: @violet-red;
+            position: absolute;
+            left: -10px; /* same as ul padding-left */
+            top: 0px;
+            z-index: 10;
+        }
+    }
+
+
+
+    &.small li {
+        font-size: 11px;
+        padding: 0 0 5px 0;
+    }
+
+}
+
+
+
+
+.link-list {
+    margin: 0;
+    padding: 0 0 0 10px;
+    list-style: none;
+
+
+
+    li {
+        padding: 0;
+        font-size: 15px;
+        position: relative;
+    
+
+        &:before {
+            font-family: 'FontAwesome';
+            content: '\f105';
+            color: @link-color;
+            position: absolute;
+            left: -10px; /* same as ul padding-left */
+
+        }
+        &:hover::before {
+            color: @link-hover-color;
+        }
+    }
+
+}
+
+.list-check--green {
+    list-style: none;
+    padding: 0 0 0 19px;
+    margin: 0 0 19px 0;
+
+    li {
+        padding: 0 0 11px 0;
+        font-size: 15px;
+        position: relative;
+
+        &:before {
+            font-family: 'FontAwesome';
+            content: '\f00c';
+            color: @green;
+            position: absolute;
+            left: -19px; /* same as ul padding-left */
+            top: 0px;
+            z-index: 10;
+        }
+
+    }
+
+    &.small li {
+        font-size: 11px;
+        padding: 0 0 5px 0;
+    }
+
+}
+
+
+
+// List options
+
+// Unstyled keeps list items block level, just removes default browser padding and list-style
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+// Inline turns list items into inline-block
+.list-inline {
+  .list-unstyled();
+  margin-left: -5px;
+
+  > li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+// Description Lists
+dl {
+  margin-top: 0; // Remove browser default
+  margin-bottom: @line-height-computed;
+}
+dt,
+dd {
+  line-height: @line-height-base;
+}
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-left: 0; // Undo browser default
+}
+
+// Horizontal description lists
+//
+// Defaults to being stacked without any of the below styles applied, until the
+// grid breakpoint is reached (default of ~768px).
+
+.dl-horizontal {
+  dd {
+    &:extend(.clearfix all); // Clear the floated `dt` if an empty `dd` is present
+  }
+
+  @media (min-width: @grid-float-breakpoint) {
+    dt {
+      float: left;
+      width: (@dl-horizontal-offset - 20);
+      clear: left;
+      text-align: right;
+      .text-overflow();
+    }
+    dd {
+      margin-left: @dl-horizontal-offset;
+    }
+  }
+}
+
+
+// Misc
+// -------------------------
+
+// Abbreviations and acronyms
+abbr[title],
+// Add data-* attribute to help out our tooltip plugin, per https://github.com/twbs/bootstrap/issues/5257
+abbr[data-original-title] {
+  cursor: help;
+  border-bottom: 1px dotted @abbr-border-color;
+}
+.initialism {
+  font-size: 90%;
+  text-transform: uppercase;
+}
+
+// Blockquotes
+blockquote {
+  padding: (@line-height-computed / 2) @line-height-computed;
+  margin: 0 0 @line-height-computed;
+  font-size: @blockquote-font-size;
+  border-left: 5px solid @blockquote-border-color;
+
+  p,
+  ul,
+  ol {
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  // Note: Deprecated small and .small as of v3.1.0
+  // Context: https://github.com/twbs/bootstrap/issues/11660
+  footer,
+  small,
+  .small {
+    display: block;
+    font-size: 80%; // back to default font-size
+    line-height: @line-height-base;
+    color: @blockquote-small-color;
+
+    &:before {
+      content: '\2014 \00A0'; // em dash, nbsp
+    }
+  }
+}
+
+// Opposite alignment of blockquote
+//
+// Heads up: `blockquote.pull-right` has been deprecated as of v3.1.0.
+.blockquote-reverse,
+blockquote.pull-right {
+  padding-right: 15px;
+  padding-left: 0;
+  border-right: 5px solid @blockquote-border-color;
+  border-left: 0;
+  text-align: right;
+
+  // Account for citation
+  footer,
+  small,
+  .small {
+    &:before { content: ''; }
+    &:after {
+      content: '\00A0 \2014'; // nbsp, em dash
+    }
+  }
+}
+
+// Quotes
+blockquote:before,
+blockquote:after {
+  content: "";
+}
+
+// Addresses
+address {
+  margin-bottom: @line-height-computed;
+  font-style: normal;
+  line-height: @line-height-base;
+}

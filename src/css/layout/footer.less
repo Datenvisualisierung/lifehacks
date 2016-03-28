@@ -1,0 +1,171 @@
+/////////////////////////////////////
+//  The USP Aside Area 
+////////////////////////////////////
+/* the aside goes 100% of viewport 
+*/
+.usp{
+
+	height: 79px;
+	background-color: @light-blue-grey;
+	border-bottom: 1px solid @bordercol;
+	border-top: 1px solid @bordercol;
+	padding: 1px 0 ;
+	background-clip: content-box;
+
+
+	h3{
+		color: @dark-grey;
+ 		margin: 0 0 2px;
+	}
+	a{
+		font-size: 15px;
+		color: @dark-grey;
+	}
+}
+/* if the user is using more the 4 usp-items they are not visible 
+*/
+.usp-container{
+	overflow: hidden;
+	padding-right: 10px;
+}
+/* one table arount all
+*/
+.usp-table{
+	display: table;
+	width: 100%;
+}
+
+/* to define a table cell around usp-item
+*/
+.usp-item-wrapper{
+	display: table-cell;
+	/* vertical-align: middle; */
+	padding: 18px 0;
+	height: 81px;
+	padding-right: 5px;
+	&:hover a {
+		color: @light-blue;
+		text-decoration: underline;
+	}
+}
+.usp-item{
+	margin: 0 auto;
+	text-align: center;
+	width: 242px;
+	cursor: pointer;
+
+}
+.usp-image{
+
+	float: left;
+	margin-right: 10px;
+}
+.usp-txt{
+	float: left;
+	text-align: left;
+}
+
+/////////////////////////////////////
+//  The Footer Navigation
+////////////////////////////////////
+
+
+
+.footer-navi{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	h3{
+		color: @dark-grey;
+			margin: 0 0 20px;			
+	}
+
+	.col-md-4 {
+		padding-left: 20px;
+		border-left: 1px solid @bordercol;
+
+	}
+	.lp{
+		border-right: 1px solid @bordercol;		
+	}
+	.col-md-4:first-child {
+		padding-left: 10px;
+		border-left: none;
+	}
+	[class^="icon-"]:before, [class*=" icon-"]:before {
+
+		margin-left: 0em;
+		text-align: right;
+	}
+	.margin-left-20{
+		margin-left: 20px;
+	}
+	.margin-bottom-25{
+		margin-bottom: 25px;
+	}
+	.footer-link-list {
+		padding:0;
+
+		list-style: none;
+
+		li {
+			margin: 0 0 10px;		
+		}
+	}
+	.footer-link-list-lp {
+		padding: 15px 0 0 0;
+		margin: 0;
+		list-style: none;
+
+		li {
+			margin: 0 0 10px;		
+
+			&:last-child{
+				margin:0 0 5px;	
+			}
+		}
+	}
+	.link-list{
+		padding-bottom: 40px;
+	}
+
+}
+.footer-boerse {
+
+
+	ul {
+		padding:0;
+		list-style: none;
+		text-align: center;
+
+
+	}
+	li{
+
+		display: inline-block;
+		padding: 0 10px;
+		border-left: 1px solid @bordercol;		
+
+		&:first-child{
+			border-left: none;	
+			padding-left:0;
+		}
+		&:last-child {
+			padding-right:0;
+
+		}
+
+	}
+	.col{
+
+	}
+}
+.footer-onside{
+	text-align: center;
+	p{
+		line-height: 15px;
+	}
+}
+.footer-main{
+	padding-bottom: 40px;
+	margin-top: 60px;
+}
