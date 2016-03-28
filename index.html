@@ -1,0 +1,36 @@
+<html>
+  <head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.js"></script>
+  </head>
+  <body>
+
+  <!-------------------------------------------------------------------------
+  1) Create some html content that can be accessed by jquery
+  -------------------------------------------------------------------------->
+  <h2> Client example </h2>
+  <h3>Output: </h3>
+  <div id="output">this element will be accessed by jquery and this text replaced</div>
+
+  <script id="source" language="javascript" type="text/javascript">
+
+function ajaxCall(category)
+{
+    $.ajax({
+        url: 'api.php',
+        type: "GET",
+        data: {cat: category},
+        dataType: 'json',    
+        success: function(rows) {
+           alert(rows);
+        },
+        error: function() {
+           alert("An error occurred.");
+        }
+    });
+}
+
+ajaxCall('testspalte1');
+  </script>
+  </body>
+</html>
