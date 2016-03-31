@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+body {
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;  
+}
+ol, ul {
+  list-style: none;
+}
+a img, a {
+  border: none;
+  outline: none;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}

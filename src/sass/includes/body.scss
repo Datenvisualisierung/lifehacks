@@ -1,0 +1,148 @@
+//////////////////////////////
+// Structur
+//////////////////////////////
+body{
+	@include mybreakpoint(sm) {
+	}
+}
+
+.wrapper{
+	margin: 0 auto;
+	background-color: white;
+	@include rem (max-width, 1075px);
+	@include rem (min-width, 995px);
+	@include mybreakpoint(md) {
+    	@include rem (min-width, 762px);
+ 		@include rem (max-width, 848px);
+	}
+	@include mybreakpoint(sm) {
+    	@include rem (min-width, 440px);
+    	@include rem (max-width, 480px);
+    	background-color: white;
+	}
+	@include mybreakpoint(xs) {
+    	@include rem (min-width, 300px);
+    	@include rem (max-width, 320px);
+	}
+}
+.page{
+
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+
+	width: 995px;
+
+	@include mybreakpoint(md) {
+    	@include rem (width, 762px);
+	}
+	@include mybreakpoint(sm) {
+    	@include rem (width, 440px);
+    	overflow: visible;
+	}
+	@include mybreakpoint(xs) {
+    	@include rem (width, 300px);
+	}
+}
+
+#header{
+	background-color: white;
+	width: 100%;
+	height: 124px;
+	position: relative;
+	@include mybreakpoint(md) {
+    		height: 92px;
+	}
+	@include mybreakpoint(sm) {
+    		height: 78px;
+	}
+}
+
+.worldwide,
+.locations{
+	@include mybreakpoint(md) {
+    	display: none;
+	}
+}
+
+
+.mainSlider{
+	margin-top: 10px;
+
+ 	@include mybreakpoint(sm) {
+ 		margin-top: 20px;
+ 		margin-left: -20px;
+		margin-right: -20px;
+ 	}
+    @include mybreakpoint(xs) {
+    	margin-left: -10px;
+    	margin-right: -10px;
+    }
+}
+
+main{
+
+	background-color: white;
+	@include rem (width, 655px);
+	height: auto;
+	float:right;
+	@include rem (margin-left, -825px);
+	@include rem (margin-right, 170px);
+	@include mybreakpoint(md) {
+		width: 100%;
+		float:none;
+		margin-left: 0;
+		margin-right: 0;
+		height: inherit;
+
+	}
+	@include mybreakpoint(sm) {
+		margin-top: 42px;
+		float:left;
+		width: 100%;
+
+		margin-left:0;
+		margin-right:0;
+	}
+	@include mybreakpoint(xs) {
+
+	}
+}
+
+footer{
+	padding-top: 30px;
+	clear: both;
+	background-color: white;
+	width: 100%;
+	height: 114px;
+	@include mybreakpoint(sm) {
+		height: auto;
+	}
+}
+
+//Schatten am Ende des Footers für 3-D Anmutung
+.shaddow {
+    background: url("../../img/bms/shadow.png") no-repeat  center 0 $gray2;
+    background-size: 100% 100%;
+    @include rem (height, 23px);
+    @include rem (margin, 0 0 143px);
+    position: relative;
+ 	@include rem (max-width, 1075px);
+	@include rem (min-width, 995px);
+	@include mybreakpoint(md) {
+    	@include rem (min-width, 762px);
+ 		@include rem (max-width, 848px);
+     	@include rem (margin, 0 0 126px);
+	}
+	@include mybreakpoint(sm) {
+    	@include rem (min-width, 480px);
+ 		@include rem (max-width, 568px);
+     	@include rem (margin, 0 0 126px);
+	}
+	@include mybreakpoint(xs) {
+    	@include rem (min-width, 320px);
+ 		@include rem (max-width, 380px);
+     	@include rem (margin, 0 0 126px);
+	}
+
+}

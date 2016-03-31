@@ -1,0 +1,272 @@
+.panel {
+	position: absolute;
+	top: 24px;
+	z-index: 129;
+	display: none;
+	width: 995px;
+	border-bottom: 1px solid #dcdcdc;
+	background: #fff;
+	font-size: 12px;
+}
+
+.panel  h2{
+	border-bottom: 1px solid $gray6;
+}
+.panelbottom {
+	position: absolute;
+	bottom: -49px;
+	display: block;
+	width: 100%;
+	height: 23px;
+	border-top: 25px solid #f3f3f3;
+	background: transparent url("../../img/bms/shadow.png") no-repeat center 0;
+}
+
+.closepanel {
+	position: absolute;
+	bottom: -1px;
+	left: 50%;
+	overflow: hidden;
+	margin-left: -25px;
+	width: 48px;
+	height: 18px;
+	border: 1px solid #dcdcdc;
+	border-bottom-color: #f3f3f3;
+	background: #f3f3f3 url(../../img/bms/sprite.png) no-repeat 0 -1686px;
+	text-indent: -999px;
+}
+
+.closepaneltop {
+	position: absolute;
+	top: -19px;
+	right: 20px;
+	display: block;
+	padding: 2px 27px 2px 11px;
+	background: #efefef url(../../img/bms/sprite.png) no-repeat 42px -1648px;
+	font-size: 11px;
+}
+
+a.closepaneltop {
+	color: #333;
+}
+
+.p02 {
+	padding: 27px 20px 56px;
+}
+
+
+.size575 {
+    padding-right: 10px;
+    width: 565px;
+}
+
+.panel strong {
+	color: #4b4b4b;
+}
+
+.panel h2 {
+	font-size: 12px;
+	font-weight: bold;
+}
+.panel h3 {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.panel .img {
+	margin-bottom: 9px;
+	padding-top: 2px;
+}
+
+.panel hr {
+	margin-top: 2px;
+	margin-bottom: 9px;
+}
+
+.panel hr.seperator {
+	margin-top: 20px;
+	margin-bottom: 18px;
+}
+
+.panelmargi .h5 {
+	margin: 0 10px 9px;
+	padding: 8px 0;
+	border-bottom: 1px solid #dcdcdc;
+}
+
+.panelmargi .h5:first-child {
+	padding-top: 0;
+}
+
+.panelmargi hr {
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+.media .article:first-child {
+	margin-top: -4px;
+}
+
+.world {
+	background: #fff url(../../img/bms/map.png) no-repeat 0 0;
+}
+.unit {
+    float: left;
+}
+
+.scroll-pane {
+	overflow: auto;
+	width: 100%;
+	height: 310px;
+}
+
+.scrollbox {
+	height: 290px;
+}
+
+.tel {
+	padding-left: 18px;
+	background: url(../../img/bms/sprite.png) no-repeat 0 -2550px;
+}
+/*
+.protected {
+	display: inline-block !important;
+	width: 16px;
+	height: 12px;
+	background-position: 3px -2601px;
+}
+.size-col-a {
+    width: 190px;
+}
+.lastUnit {
+    float: none;
+    width: auto;
+}
+
+.panelmargi .h5 {
+    border-bottom: 1px solid #dcdcdc;
+    margin: 0 10px 9px;
+    padding: 8px 0;
+}
+.panelmargi .h5:first-child {
+    padding-top: 0;
+}
+.line, .lastUnit {
+    overflow: hidden;
+}
+*/
+.spacer {
+    clear: both;
+    height: 16px;
+}
+/*
+h5, .h5 {
+    color: $green1;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.333em;
+    margin-bottom: 0;
+    margin-right: 18px;
+    padding: 13px 0 4px;
+}
+*/
+
+.size1of1 {
+    float: none;
+}
+.panelLine{
+	height:322px; 
+	border-left:1px solid #dcdcdc; 
+	margin:0 10px 0 9px;
+}
+
+.size1of2 {
+    width: 50%;
+}
+
+//alles zu Panel "All Websites"
+
+.allWebsite{
+
+}
+.size300First {
+	display: table-cell;
+    width: 299px;
+    padding-right: 14px;
+    border-right: 1px solid $gray6;
+}
+.size300Last {
+	display: table-cell;
+    width: 299px;
+    padding-left: 14px;
+    border-left: 1px solid $gray6;
+}
+.size300 {
+	display: table-cell;
+    width: 299px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 10px;
+
+}
+.allWebsite .p02 a{
+	margin-top: 10px;
+    color: $green1;
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1rem;
+    padding: 0;
+}
+.allWebsite .p02 a.active{
+	margin-top: 10px;
+    color: $orange1;
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1rem;
+    padding: 0;
+}
+.allWebsite  .p02 a.active:after{
+    content: none;
+}
+.allWebsite  .p02 a:after{
+    content: "\f0da";
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 3px;
+    text-decoration: none;
+}
+
+//alles zum Panel "Locations"
+
+.size190First{
+	display: table-cell;
+	width: 190px;
+    padding-right: 14px;
+    border-right: 1px solid $gray6;
+}
+.sizeVariaLast {
+	display: table-cell;
+    width: auto;
+    padding-left: 14px;
+    border-left: 1px solid $gray6;
+}
+.size565 {
+	display: table-cell;
+ 	width: 510px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 10px;
+
+}
+.locations .link a {
+    margin-bottom: 6px;
+}
+.locations .scrollbox {
+    margin-top: 10px;
+}

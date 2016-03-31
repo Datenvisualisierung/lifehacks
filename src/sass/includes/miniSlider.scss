@@ -1,0 +1,122 @@
+.miniSlider{
+    color: $gray1;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: normal;
+    margin: 0 0 20px 0;
+
+    @include mybreakpoint(sm) {
+        margin: 30px 0 0;
+        font-size: 15px;
+        line-height: 20px;       
+    }
+}
+.miniSlider h1{
+    color: $gray1;
+    font-size: 15px;
+    font-weight: normal;
+    padding-bottom: 8px;
+    @include mybreakpoint(sm) {
+    font-size: 18px;
+    line-height: 20px;
+    }
+}
+
+.miniSlider .slides img {
+    display: block;
+    width: 100%;
+
+    height: auto;
+    @include mybreakpoint(sm) {
+        margin-bottom: 10px;
+    }
+}
+
+.miniSlider h2{
+	margin-top: 10px;
+	color: $gray1;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: bold;
+    @include mybreakpoint(sm) {
+    font-size: 15px;
+    line-height: 20px;
+    }
+}
+
+.miniSlider > .flex-control-nav { 
+    padding-bottom: 7px;
+    padding-top: 3px;
+    right: auto;
+    position: static;
+    text-align: center;
+    margin-top: 12px;
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+    @include mybreakpoint(sm) {
+        padding-top: 9px;
+        padding-bottom: 11px;
+    }
+}
+
+.miniSlider .flex-control-nav {
+    display: table;
+    vertical-align: middle;
+    padding-right: 0;
+}
+.miniSlider > .flex-control-nav li {
+    display: inline-block;
+    vertical-align: middle;
+    width: 13px;
+
+    @include mybreakpoint(sm) {
+        width: 17px;
+        margin: 0 12px;
+    }
+}
+
+.miniSlider > .flex-control-nav li a {
+    background: white;
+    border-radius: 20px;
+    cursor: pointer;
+    height:5px;
+    width: 5px;
+    border: 2px solid $orange2;
+
+
+    @include mybreakpoint(sm) {
+        border-radius: 20px;
+        width: 6px;
+        height: 6px;
+        border: 2px solid $orange2;
+    }
+}
+
+
+.miniSlider > .flex-control-nav li a.flex-active{
+	background-color: $orange1;
+    border: 2px solid $orange1;
+    height:6px;
+    width: 6px;
+    @include mybreakpoint(sm) {
+        width: 9px;
+        height: 9px;
+    }
+}
+
+.miniSlider > .flex-control-nav li a:hover{
+    background-color: $orange2;
+    border: 2px solid $orange1;
+}
+
+.miniSlider .stagehdln{
+    text-transform: none;
+}
+
+//Class for still Images
+.noSlide .slides > li{
+    display: block;
+    -webkit-backface-visibility: visible;
+
+} 

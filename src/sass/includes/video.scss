@@ -1,0 +1,17 @@
+.videoHolderHolder figurecaption{
+		display:table;
+		width:100%;
+}
+.videoHolder figurecaption p{
+		display:table-cell;
+		width: 80%;
+
+}
+
+.videoHolder time{
+	display:table-cell;
+	width: 20%;
+	text-align: right;
+	@include rem (font-size, 12px);
+	@include rem (line-height, 18px);
+}

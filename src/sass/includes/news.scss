@@ -1,0 +1,117 @@
+a.newsHeaderLink {
+	display: inline-block;
+	text-align: right;
+	float:right;
+
+    @include mybreakpoint(sm) {
+		display: none;
+    }
+}
+a.mobileNewsHeaderLink{
+	display: none;
+    @include mybreakpoint(sm) {
+		display: inline-block;
+    	text-align: left;
+		margin-top: 8px;
+		margin-bottom: 10px;
+    	@include rem (font-size, 15px);	
+		@include rem (line-height, 20px);	
+    }
+}
+
+.rss{
+	display: inline-block;
+	float:left;
+    @include mybreakpoint(sm) {
+		display: none;
+    }
+}
+.mobileRSS{
+	display: none;
+    @include mybreakpoint(sm) {
+    	display: inline-block;
+    	text-align: right;
+		margin-top: 8px;
+		margin-bottom: 10px;
+		float: right;
+    }
+}
+.rss:before,
+.mobileRSS:before {
+    content: "\f143";
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-right: 3px;
+    text-decoration: none;
+    @include rem (font-size, 12px);
+    @include rem (line-height, 16px);
+    margin-left:7px;
+}
+.news article,
+.videoHolder article{
+	@include rem (padding-bottom,10px);
+	border-bottom-style: solid;
+	border-bottom-color: $gray4;
+	@include rem (border-bottom-width, 1px);
+    @include mybreakpoint(sm) {
+		padding-bottom: 15px; 	
+    }
+}
+.news article{
+	@include rem (font-size, 12px);	
+	@include rem (line-height, 18px);	
+	font-weight: normal;
+	color: $gray1;
+    @include mybreakpoint(sm) {
+    	@include rem (font-size, 15px);	
+		@include rem (line-height, 20px);	
+    }
+}
+.news article date{
+	display: block;
+	@include rem (font-size, 12px);	
+	@include rem (padding-top, 10px);
+    @include mybreakpoint(sm) {
+    	@include rem (font-size, 15px);	
+		@include rem (line-height, 20px);	
+    }
+}
+.news article h3{
+	@include rem (font-size, 12px);	
+	@include rem (line-height, 18px);	
+	font-weight: bold;
+	color: $gray1;
+    @include mybreakpoint(sm) {
+    	@include rem (font-size, 15px);	
+		@include rem (line-height, 20px);	
+    }
+}
+
+
+.newsMore{
+	display: inline;
+    @include mybreakpoint(sm) {
+    	@include rem (font-size, 15px);	
+		@include rem (line-height, 20px);	
+    }
+}
+.news article img{
+	float: left;
+	margin: 15px 15px 5px 0;
+    @include mybreakpoint(sm) {
+		margin: 20px 10px 5px 0;
+    }
+}
+//Space btw. teasertext and link more
+.news article .newsText{
+	padding-right: 5px;
+}
+.news .teaser h3{
+	padding-top: 12px;
+    @include mybreakpoint(sm) {
+		padding-top: 17px;
+    }
+}

@@ -1,0 +1,42 @@
+.asideTeaser{
+    position: relative;
+    //height: 230px;
+    padding-bottom: 15px;
+    @include mybreakpoint(sm) {
+       //height: 330px;
+    }
+}
+.asideTeaser h1{
+    margin-top: 20px;
+    color: $gray1;
+    font-size: 15px;
+    font-weight: normal;
+    padding-bottom: 8px;
+}
+.asideTeaser  img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.asideTeaser .orangeLine{
+    height: 4px;
+    width: 100%;
+    background-color: $orange1;
+    border-bottom: 1px solid white;   
+}
+
+.asideTeaser h2{
+	margin-top: 10px;
+	color: $gray1;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: bold;
+
+}
+.asideTeaser p{
+	color: $gray1;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: normal;
+
+}

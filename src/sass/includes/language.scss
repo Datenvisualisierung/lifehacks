@@ -1,0 +1,73 @@
+.language {
+    display: none;
+    @include mybreakpoint(md) {
+	position: absolute;
+    right: 0px;
+    width: 370px;
+    z-index: 100;
+    }
+    @include mybreakpoint(sm) {
+    	position: static;
+    	width: auto;
+		margin-right: -20px;
+		margin-left: -20px;
+    }
+     @include mybreakpoint(xs) {
+		margin-right: -10px;
+		margin-left: -10px;
+    }
+ }
+
+.language li  > a:after {
+    content: "\f0da";
+}
+.language a:after{
+    color: white;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: normal;
+    left: auto;
+
+    margin-left: 0;
+    padding-top: 0px;
+    position: absolute;
+    right: 19px;
+}
+
+
+.language li {
+    min-height: 44px;
+    padding: 0;
+    position: relative;
+    top: 0;
+    background-color: $green2;
+}
+
+.language  li  a {
+
+	display: block;
+    border-bottom: 1px solid #c3ebeb;
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    line-height: 16px;
+    text-decoration: none;
+    font-size: 16px ;
+    margin-left:20px;
+    margin-right: 20px;
+    padding: 17px 0px;
+
+	@include mybreakpoint(sm) {
+    }
+  	include mybreakpoint(xs) {
+	    margin-left:10px;
+	    margin-right: 10px;
+    }
+}
+.language  li:last-child a{
+	@include mybreakpoint(sm) {
+		border-bottom:none;
+	}
+}

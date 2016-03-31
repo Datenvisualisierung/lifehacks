@@ -1,0 +1,374 @@
+//dunkelgrauer Kasten um Last updated..& Copyright...
+.cright {
+    line-height: 10px;
+    display: inline;
+    @include mybreakpoint(sm) {
+    	line-height: 14px;
+    	display: block;
+    	background-color: $gray5;
+    	padding-top: 8px;
+    	padding-left: 20px;
+    	padding-right: 20px;
+    	padding-bottom: 8px;
+    }
+}
+
+.cright:after {
+    @include mybreakpoint(sm) {
+	    clear: both;
+	    content: "";
+	    display: block;
+	    height: 0;
+	    visibility: hidden;
+    }
+}
+// Last updated..& Copyright...
+.cright span {
+
+    @include mybreakpoint(sm) {
+    	float: left;
+    	color: white;
+    	font-size: 10px;
+    	font-weight: bold;
+    }
+    @include mybreakpoint(xs) {
+    	display: block;
+    }
+}
+
+// nur das Copyright
+span.copy{
+    @include mybreakpoint(sm) {
+    	float: right;
+    }
+    @include mybreakpoint(xs) {
+    	float: none;
+    }
+
+
+}
+
+.pagefunctions {
+	float: right;
+	margin: -6px 0 -5px;
+	position: relative;
+    @include mybreakpoint(sm) {
+		float: left;
+		margin-top: 0;
+		width: 100%;
+		padding-bottom: 25px;
+    }
+}
+.pagefunctions li {
+
+    @include mybreakpoint(sm) {
+    	background-color: $green2;
+    	display: table-cell;
+    	width: 50%;
+    	margin-top: 1px;
+    	margin: 0;
+    	//damit mit 50% gerechnet werden kann
+		@include boxSizing;
+    }
+}
+.ifooter {
+	margin: 40px 10px 19px;
+	padding: 6px 10px 5px;
+	background-color: #f3f3f3;
+	color: #666;
+	font-size: 11px;
+	position: relative;
+    @include mybreakpoint(sm) {
+    	background-color: white;
+		margin: 0;
+		padding: 0;
+    }
+}
+
+.pagefunctions a {
+	display: block;
+	padding: 6px 10px 5px 10px;
+	border-left: 1px solid #fff;
+	color: #666;
+    @include mybreakpoint(sm) {
+		color: white;
+		font-size: 15px;
+		font-weight: bold;
+		padding: 11px 20px 11px 20px;
+    	border-left: none;
+    }
+}
+
+.ifooter li {
+	float: left;
+}
+// die Icons
+.ifooter .icnPrint a:before,
+.ifooter .icnShare a:before,
+.ifooter .icnTop a:before,
+.ifooter .icnContact a:before{
+
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	margin-right: 4px;
+}
+.ifooter .icnPrint a:before{
+	content:"\f02f";
+}
+.ifooter .icnShare > a:before{
+	content:"\f067";
+}
+.ifooter .icnTop a:before{
+	content:"\f0d8";
+}
+.ifooter .icnContact a:before{
+	content:"\f0e0";
+}
+
+
+.ifooter .icnPrint a {
+    @include mybreakpoint(sm) {
+		border-bottom: 1px solid white!important;
+	}
+}
+.ifooter .icnShare{
+    @include mybreakpoint(sm) {
+		//border-left: 1px solid white;
+	}
+}
+
+.ifooter .icnTop{
+    @include mybreakpoint(sm) {
+		border-left: 1px solid white;
+	}
+}
+
+.ifooter .icnShare a{
+    @include mybreakpoint(sm) {
+		border-bottom: 1px solid white!important;
+	}
+}
+
+.ifooter .icnTop a{
+	padding-left: 68px;
+    @include mybreakpoint(sm) {
+		padding-left: 20px;
+	}
+}
+
+.ifooter .icnContact{
+	display: none;
+    @include mybreakpoint(sm) {
+    	display: block;
+	}
+}
+
+
+.lgladvice {
+	margin: 10px 12px 11px;
+	font-size: 11px;
+    @include mybreakpoint(sm) {
+	margin: 10px 12px 30px;
+	}
+}
+
+.lgladvice li {
+	float: left
+}
+
+.lgladvice a {
+	padding: 0 8px;
+	border-right: 1px solid #dcdcdc;
+	line-height: 11px;
+	display: block;
+	color: #666;
+	margin-bottom: 7px;
+    @include mybreakpoint(sm) {
+		color: $green1;
+		font-size: 15px;
+		margin-top: 10px;
+	}
+}
+
+
+.lgladvice li:last-child a {
+	border: 0
+}
+
+.lgladvice .last a {
+	border: 0
+}
+
+.shareTwitter:before,
+.shareFacebook:before,
+.shareGoogle:before,
+.shareGooglePlus:before,
+.shareLinkedin:before,
+.shareXing:before,
+.shareMail:before{
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	font-size:16px;
+	margin-right: 4px;
+}
+.shareTwitter:before{
+	content:"\f081";
+}
+.shareFacebook:before{
+	content:"\f082";
+}
+.shareGoogle:before{
+	content:"\f1a0";
+}
+.shareGooglePlus:before{
+	content:"\f0d4";
+}
+.shareLinkedin:before{
+	content:"\f08c";
+}
+.shareXing:before{
+	content:"\f169";
+}
+.shareMail:before{
+	content:"\f199";
+}
+
+
+
+///////////////////////////////
+// CSS-Share-Menu
+//////////////////////////////
+.ifooter ul li ul {
+        -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+		box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.ifooter ul li a,
+.ifooter ul li a:visited {
+    display: block;
+    text-align: left;
+    border: 1px solid $gray2;
+    border-width: 0 1px 0 1px;
+    @include mybreakpoint(sm) {
+	    border: none;
+	    border-width: 0 1px 0 1px;
+	}
+}
+.ifooter ul li {
+    float: left;
+    position: relative;
+}
+.ifooter ul li ul {
+	display:none;
+    position: absolute;
+    z-index:1;
+	bottom: 97%;
+    left: 0;
+    border: 1px solid $green2;
+    @include mybreakpoint(sm) {
+    	bottom: 40px;
+		border: 1px solid $green2;
+		width: 100%;
+	}
+}
+
+.ifooter>ul>li:hover>a,
+.ifooter>ul>li:focus>a {
+    background: white;
+    @include mybreakpoint(sm) {
+
+	}
+}
+.ifooter ul li:hover a,
+.ifooter ul li:hover li
+ {
+    @include mybreakpoint(sm) {
+        background-color: $green3!important;
+    	color: $green1;
+	}
+}
+
+
+//grüner Rahmen nur um Share
+
+.icnShare > a,
+.icnShare > a:visited {
+	position: relative;
+	z-index:2;
+    @include mybreakpoint(sm) {
+
+		border-left: 1px solid white!important;
+	}
+}
+.icnShare:focus>a,
+.icnShare:hover>a {
+	border-left: 1px solid $green2!important;
+	border-right:1px solid $green2!important;
+	border-bottom: 1px solid $green2!important;
+    @include mybreakpoint(sm) {
+		border-left: 1px solid $green2!important;
+		border-right:1px solid $green2!important;
+		border-bottom: 1px solid $green2!important;
+	}
+}
+.ifooter ul li ul {
+	display:none;
+}
+.ifooter ul li:hover ul,
+.ifooter ul li:focus ul {
+    display:block;
+}
+.ifooter ul li:hover ul li,
+.ifooter ul li:focus ul li {
+    display: block;
+    background: white;
+    color: #000;
+    width: 179px;
+    clear: both;
+    @include mybreakpoint(sm) {
+		background: $green2;
+		width: 100%;
+	}
+}
+
+
+.ifooter ul li:hover ul li a,
+.ifooter ul li:focus ul li a {
+    display: block;
+    background: white;
+    border-bottom: 1px solid $gray2;
+    @include mybreakpoint(sm) {
+    	border-bottom: 1px solid white;
+	}
+}
+
+.ifooter ul li:hover ul li:hover,
+.ifooter ul li:focus ul li:focus {
+    background: $gray2;
+    color: #000;
+    @include mybreakpoint(sm) {
+    	color: $green1;
+	}
+
+}
+
+.ifooter ul li:hover ul li:hover ul,
+.ifooter ul li:focus ul li:focus ul {
+    display: block;
+    bottom: 0;
+}
+
+
+
+//Schrift innerhalb der Share-Navigation soll grün sein
+.icnShare li>a
+ {
+    @include mybreakpoint(sm) {
+    	color: $green1;
+	}
+}
+

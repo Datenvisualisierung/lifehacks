@@ -1,0 +1,28 @@
+//////////////////////////////
+// Ersatz für Breakpoints-Plugin
+//////////////////////////////
+@mixin mybreakpoint($class) {
+  //desktop
+  @if $class == lg {
+
+  }
+  //tablet portrait
+  @else if $class == md {
+    @media screen and (max-width: 1012px)
+    //and (orientation : portrait)
+
+    { @content; }
+  }
+  //smartphone landscape
+   @else if $class == sm {
+    @media screen and (max-width: 767px) { @content; }
+  }
+  //smartphone portrait
+  @else if $class == xs {
+    @media screen and (max-width: 440px) { @content; }
+  }
+
+  @else {
+    @warn "Breakpoint mixin supports: xs, sm, md, lg";
+  }
+}

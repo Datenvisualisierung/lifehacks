@@ -1,0 +1,73 @@
+
+#mobileSearch {
+	@include boxSizing;
+	display: none;
+    background-color: $green2;
+    @include mybreakpoint(md) {
+	    height: 70px;
+	    clear: both;
+	    overflow: hidden;
+	    position: absolute;
+	    z-index: 100;
+	    width: 390px;
+	}
+	    @include mybreakpoint(sm) {
+
+        top: 0px;
+        position: relative;
+		width: auto;
+	    margin-left: -20px;
+	    margin-right: -20px;
+	}
+    @include mybreakpoint(xs) {
+        margin-left: -10px;
+        margin-right: -10px;
+    }       
+
+}
+
+#mobileSearch  input {
+	@include boxSizing;
+    background-color: $green3;
+    border: 1px solid $green1;
+    color: $green1;
+    font-size: 12px;
+    font-weight: bold;
+    height: 28px;
+    margin-left: 20px;
+    margin-top: 19px;
+    width: 290px;
+    padding: 0 12px;
+    vertical-align: middle;
+    @include mybreakpoint(xs) {
+    width: 220px;
+    }    
+}
+#mobileSearch .btn{
+	width: 36px;
+	height: 28px;
+	background-color: $green1;
+    text-indent: -9999em;
+    margin-top: 9px;
+    margin-left: 15px;
+	position: relative;
+    overflow: hidden;
+    border: none;
+	padding: 0;
+}
+#mobileSearch .btn:after {
+    color: white;
+    content: "\f0da";
+    display: block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    height: 20px;
+    top: 7px;
+    left: 7px;
+    position: absolute;
+    text-decoration: none;
+    text-indent: 0;
+    width: 20px;
+}

@@ -1,0 +1,106 @@
+//////////////////////////////
+// Main
+//////////////////////////////
+
+//////////////////////////////
+//Typo in Main
+//////////////////////////////
+main h1{
+	@include rem (line-height, 28px);
+	@include rem (padding-bottom, 7px);
+	@include rem (padding-top, 20px);
+	font-size: 24px;
+	color: $green1;
+}
+
+main{
+	@include rem (font-size, 12px);
+	@include rem (line-height, 18px);
+	@include mybreakpoint(sm) {
+		@include rem (font-size, 15px);
+		@include rem (line-height, 20px);
+	}
+}
+
+
+.mainRow1{
+	padding-left: $spMainL;
+	padding-right: $spMainR;
+	padding-bottom: 20px;
+
+	@include mybreakpoint(md) {
+		@include rem (padding-left, 0px);
+		@include rem (padding-right, 0px);
+	}
+	@include mybreakpoint(sm) {
+	}
+
+
+}
+.mainRow1 h1{
+	width: 100%;
+}
+
+//this complex div is made bec. of responsive behavior on Homepage
+.mainRow2{
+	width: 100%;
+	@include rem (margin-left, 0px);
+	@include rem (padding-left, 20px);
+	@include rem (padding-right, 20px);
+
+	@include mybreakpoint(md) {
+		@include rem (width, 364px);
+		height: auto; 
+		float:right;
+		@include rem (margin-left, -825px); 
+		@include rem (margin-right, 170px);
+		@include rem (padding-left, 29px);
+		@include rem (padding-right, 29px);
+	}
+	@include mybreakpoint(sm) {
+		width:100%; 
+		float: none;
+		margin-left: 0; 
+		margin-right: 0;
+		@include rem (padding-left, 0px);
+		@include rem (padding-right, 0px);
+	}
+}
+.news{
+
+
+	@include mybreakpoint(md) {
+		width: 100%;
+	}
+	@include mybreakpoint(sm) {
+
+	}
+}
+.videoHolder{
+
+
+	@include mybreakpoint(md) {
+		width: 100%;
+	}
+	@include mybreakpoint(sm) {
+
+	}
+}
+
+.columnLeft{
+	float: left;
+	@include rem (width, 360px);
+	margin-right: 25px;
+	@include mybreakpoint(md) {
+		float: none;
+		width: 100%;
+	}
+}
+.columnRight{
+	float: left;
+	@include rem (width, 225px);
+	@include mybreakpoint(md) {
+		float: none;
+		width: 100%;
+	}
+}

@@ -1,0 +1,248 @@
+// Mobile Navigation
+
+// Menu Search Contact
+.mobilenav {
+	background-color: $green1;
+	display: none;
+	height: 44px;
+
+	position: relative;
+    @include mybreakpoint(sm) {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    @include mybreakpoint(xs) {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+}
+
+// Menu oder Search oder Contact
+.mobilenav li {
+	float: left;
+
+}
+
+// Menu oder Search oder Contact
+.mobilenav a {
+	border-right: 1px solid $green3;
+	@include boxSizing;
+	display: block;
+	padding: 15px 20px 15px 20px;
+	height: 44px;
+	line-height: 1;
+	color: #fff;
+	font-weight: 700;
+	font-size: 15px;
+    @include mybreakpoint(xs) {
+		background-color: $green1;
+		position: relative;
+		z-index: 2;
+		padding: 15px 10px 15px 10px;
+    }
+}
+.mlang a{
+    border-right: none;
+	padding: 15px 20px 15px 20px;
+    @include mybreakpoint(xs) {
+
+    	@include boxSizing;
+		position: absolute;
+		z-index: 1;
+		background-color: $green1;
+		right:0;
+		padding: 15px 7px 15px 30px;
+		overflow: hidden;
+    }
+}
+.mlang a span{
+	background-color: $green4;
+	padding: 5px 9px 5px 9px;;
+}
+.mlang a:hover span,
+.mobilenav .active  span{
+	background-color: $green1;
+}
+
+// Menu oder Search oder Contact
+.mobilenav .active a{
+	background-color: $green2;
+}
+
+//Menu
+a.mnav:before {
+	content:"\f0c9";
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	margin-right: 4px;
+}
+//Search
+a.msearch:before {
+	content: "\f002";
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	margin-right: 4px;
+}
+//Contact
+a.mcontact:before {
+	content:"\f0e0";
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	margin-right: 4px;
+}
+
+// hover , selected Menu , Search, Contact
+.mobilenav .selected a,
+.mobilenav a:hover {
+	background-color: $green2;
+	color: white;
+	text-decoration: none
+}
+li.mlang {
+	float: right;
+	border: 0
+}
+a.mlang {
+	margin: 7px 8px 0;
+	padding: 2px 9px 2px;
+	background: #4cadd0
+}
+@include mybreakpoint(md) {
+	.megamenu {
+		height: auto;
+		display: none;
+	}
+	
+	.megamenu .imageBox {
+		display: none
+	}
+
+	.megamenu .notmobile {
+		display: block !important
+	}
+//erste Ebene: Company - Sites - Product and Service...
+	.megamenu ul,
+	.megamenu li,
+	.megamenu a {
+		float: none !important;
+		margin: 0 !important;
+		width: auto !important;
+		border: 0 !important;
+		color: $green1;
+	}
+	.megamenu a:after{
+
+
+}
+
+	.megamenu ul,.megamenu li {
+		position: relative !important;
+		top: 0 !important;
+		padding: 0 !important;
+		min-height: 44px !important
+	}
+
+	.megamenu a {
+		padding: 17px 12px 19px 20px !important;
+		border-bottom: 1px solid $green3!important;
+		color: white;
+		text-decoration: none !important;
+		font-weight: 700 !important;
+		font-size: 16px !important;
+	}
+
+
+	//allgemein FontAwesome
+	.megamenu a.haschild:after,
+	.megamenu li:hover>a.haschild:after,
+	.megamenu a.haschild.selected:after,
+		.megamenu .newlevel2 li.haschild > a:after /*Desktop überschreiben*/
+
+	 {
+
+		display: inline-block!important;
+		font-family: FontAwesome;
+		font-size: 23px;
+		font-style: normal;
+		font-weight: normal;
+		line-height: 1;
+		margin-left: 0;
+		position: absolute;
+		left: auto;
+		right: 19px;
+		padding-top: 3px;
+		color: $green1;
+
+	}
+
+
+	//FontAwesome erste Ebene und weitere
+	.megamenu a.haschild:after,
+	.megamenu .newlevel2 li.haschild > a:after /*Desktop-Zeichen überschreiben */
+	{
+		/* Pfeil nach unten*/
+		content: "\f0d7";
+	}
+
+
+	//FontAwesome zweite Ebene, wenn haschild
+	.megamenu li:hover>a.haschild:after,
+	.megamenu a.haschild.selected:after {
+		/* Pfeil nach oben*/
+		content: "\f0d8"; 
+		
+	}
+
+	.megamenu a.selected {
+		color: white;
+		background-color: $green2
+	}
+
+	.megamenu .selected>ul,
+	.megamenu .newlevel2 .selected>ul {
+		display: block;
+
+	}
+
+	.megamenu>li>a {
+	    @include mybreakpoint(sm) {		
+			background-color: $green2;
+			color: white;
+			padding-left: 20px;
+		}
+	}
+//zweite Ebene 
+	.megamenu ul ul a {
+		background-color: $green3!important;
+		color:$green1!important;
+		padding-left: 40px!important;
+		border-color: white!important;
+
+	}
+.megamenu .newlevel2 li.haschild > a:after {
+
+}
+
+//Dritte Ebene
+	.megamenu ul ul ul a {
+		padding-left: 60px !important
+	}
+//Vierte Ebene
+	.megamenu ul ul ul ul a {
+		padding-left: 80px !important
+	}
+//	.rwd .mobilenav {
+	.mobilenav {
+		display: block
+	}
+
+}

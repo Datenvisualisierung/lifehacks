@@ -1,0 +1,10 @@
+.meta .bayerGroupMobile{
+	display: none;
+    @include mybreakpoint(md) {
+		display: inline-block;
+        padding-left: 45px;
+    }
+    @include mybreakpoint(sm) {
+		display: none;
+    }
+}

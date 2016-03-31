@@ -1,0 +1,264 @@
+.megamenu {
+    background: none repeat scroll 0 0 $green1;
+    @include rem (font-size,13px) ;
+    font-family: $arial;
+    @include rem (height, 26px);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    font-weight: 700;
+    z-index: 10;
+    @include mybreakpoint(sm) {
+        margin-left: -20px;
+        margin-right: -20px;
+        width: auto;
+    }
+    @include mybreakpoint(xs) {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+}
+
+.megamenu ul {
+	display: none;
+}
+
+.megamenu ul, .megamenu ul li {
+	list-style: none;
+}
+
+.megamenu ul {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.megamenu .newsub ul {
+	display: block;
+
+}
+.megamenu .newsub ul li:hover{
+	background-color: $green1;
+	color: white;
+
+
+}
+.megamenu > li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.megamenu > li > a {
+	border-right: 1px solid $green3;
+	color: #fff;
+	display: block;
+	float: left;
+	font-weight: bold;
+	line-height: 16px;
+	padding: 5px 14px 5px 15px;
+	text-decoration: none;
+}
+
+.megamenu > li > a:hover,
+ .megamenu > li:hover > a
+ , #nav.megamenu a.selected:hover {
+	background-color: $green2;
+	color: white;
+}
+
+.megamenu li.mhover > ul {
+	display: block !important;
+}
+
+.megamenu .newsub.subhover {
+	display: block;
+}
+
+.megamenu .newsub {
+	background-color: $green2;
+	left: 0;
+	min-height: 192px;
+	padding: 25px 30px;
+	position: absolute;
+	top: 26px;
+	width: 935px;
+	-webkit-box-shadow:  0 24px 18px -18px rgba(0,0,0, 0.8);
+	-moz-box-shadow:  0 24px 18px -18px rgba(0,0,0, 0.8);
+	box-shadow:  0 24px 18px -18px rgba(0,0,0, 0.8);
+	    box-shadow: 0 24px 18px -18px rgba(0,0,0, 0.8);
+	z-index: 2;
+	@include mybreakpoint(md) {
+    	-webkit-box-shadow: none;
+		-moz-box-shadow:  none;
+		box-shadow:  none;
+	    box-shadow:  none;
+	}
+}
+
+
+
+
+
+.imageBox {
+    background-color: #fff;
+    float: left;
+    margin-right: 20px;
+    padding: 0 15px 28px;
+    width: 170px;
+
+	@include mybreakpoint(md) {
+    	display: none;
+    }
+}
+
+.imageBox p {
+	color: #333;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight:400;
+	margin: 0;
+	padding: 10px 0 0 0 ;
+}
+
+.imageBox h2 {
+    margin: 0;
+    padding: 7px 0 8px;
+    color: $green1;
+    font-weight: bold;
+}
+
+.imageBox img {
+
+}
+
+
+
+.megamenu .link {
+	margin: 5px 0 0;
+}
+
+.megamenu .newlevel2 {
+	float: left;
+	width: 190px;
+}
+
+.megamenu .newlevel2 a{
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	border-color: $green1;
+	border-image: none;
+	border-style: solid;
+	border-width: 1px 0;
+	color: $green1;
+	display: block;
+	float: none;
+	font-weight: bold;
+	margin-bottom: -1px;
+	padding: 5px 19px 6px 8px;
+}
+
+
+.megamenu .newlevel2 li.haschild > a:after {
+    content: "\f0da";
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    margin-left: 0;
+    position: absolute;
+    left: 180px;
+    padding-top: 3px;
+
+}
+.megamenu .newlevel2 li.haschild:hover > a {
+	padding-right: 33px;
+	position: relative;
+	width: 160px;
+	z-index: 20;
+}
+
+.megamenu .newlevel2 li.haschild:hover {
+	height: auto;
+}
+
+.megamenu .newlevel2 li:hover > a{
+	background-color: $green3;
+
+	text-decoration: none;
+}
+
+
+.megamenu .newlevel2 ul ul {
+	display: none;
+}
+
+// .megamenu .newlevel2 ul li:hover > ul {
+// 	display: block;
+// }
+
+.megamenu .newlevel2 ul ul {
+	background-color: $green3;
+	border-left: 1px solid $green1;
+	box-shadow: none;
+	margin-left: 200px;
+	min-height: 250px;
+	padding: 0 10px 0 9px;
+	position: absolute;
+	top: 0;
+	width: 191px;
+}
+
+.megamenu .newlevel2 ul ul:nth-child(3) {
+	margin-left: 421px;
+}
+
+.megamenu .newlevel2 ul ul:nth-child(n+4) {
+	display: none !important;
+}
+
+.megamenu .newlevel2 ul ul ul {
+	margin-left: 220px;
+	z-index: 1;
+}
+
+.megamenu .newlevel2 li li.haschild:hover > a {
+	width: 171px;
+	text-decoration: none;
+	background-color: white;
+	//padding-left: 18px;
+	//margin-left: -10px;
+}
+
+.megamenu .newlevel2 ul ul ul:nth-child(n+3) {
+	display: none !important;
+}
+
+
+// 3. Unterebene
+
+.megamenu .newlevel2 ul ul ul {
+	background-color: white;
+	min-height: 250px;
+}
+
+//Speziell für Homepage
+
+.homepage .megamenu .n1 a {
+    visibility: hidden;
+    width: 60px;
+}
+
+
+.homepage .megamenu .n1 {
+    border-right: 1px solid $green3;
+
+	@include mybreakpoint(md) {
+    	display: none;
+    }
+}

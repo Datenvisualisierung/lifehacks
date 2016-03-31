@@ -1,0 +1,45 @@
+//////////////////////////////
+// Aside
+//////////////////////////////
+
+.asideRight{
+    @include rem (width, 170px);
+	float:right; 
+	margin-right: 0; 
+	@include rem (padding-top, 23px);
+
+	@include mybreakpoint(md) {
+
+
+	}
+	@include mybreakpoint(sm) {
+		float:left;
+		width: 100%;
+		margin-left:0; 
+		margin-right:0; 
+	}	
+}
+.asideLeft{
+	float: left; 
+	width: 170px;
+    @include rem (width, 170px);
+	margin-left: 0; 
+	margin-right: 0; 
+	@include rem (padding-top, 23px);
+
+	@include mybreakpoint(md) {
+		float: left; 
+
+		margin-left: 0; 
+		margin-right: -5px; 
+	}
+	@include mybreakpoint(sm) {
+		float:left;
+		width: 100%;
+		margin-left:0; 
+		margin-right:0; 
+		@include rem (padding-top, 0px);
+	}
+
+
+}

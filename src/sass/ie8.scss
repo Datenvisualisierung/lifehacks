@@ -1,0 +1,5259 @@
+article {
+	display: block;
+}
+aside {
+	display: block;
+}
+details {
+	display: block;
+}
+figcaption {
+	display: block;
+}
+figure {
+	display: block;
+}
+footer {
+	display: block;
+}
+header {
+	display: block;
+}
+hgroup {
+	display: block;
+}
+nav {
+	display: block;
+}
+section {
+	display: block;
+}
+audio {
+	display: inline-block;
+}
+canvas {
+	display: inline-block;
+}
+video {
+	display: inline-block;
+}
+audio:not([controls]) {
+	display: none;
+}
+[hidden] {
+	display: none;
+}
+html {
+	font-size: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;
+}
+html {
+	color: rgb(51, 51, 51); font-family: Arial,Helvetica,sans-serif;
+}
+button {
+	color: rgb(51, 51, 51); font-family: Arial,Helvetica,sans-serif;
+}
+input {
+	color: rgb(51, 51, 51); font-family: Arial,Helvetica,sans-serif;
+}
+select {
+	color: rgb(51, 51, 51); font-family: Arial,Helvetica,sans-serif;
+}
+textarea {
+	color: rgb(51, 51, 51); font-family: Arial,Helvetica,sans-serif;
+}
+body {
+	margin: 0px; line-height: 1.3333; font-size: 0.75em; -ms-overflow-y: scroll;
+}
+::selection {
+	background: rgb(179, 212, 252); text-shadow: none;
+}
+a {
+	color: rgb(0, 144, 197); text-decoration: none;
+}
+a:visited {
+	color: rgb(0, 144, 197);
+}
+a:hover {
+	color: rgb(0, 144, 197); text-decoration: underline;
+}
+a:focus {
+	outline: dotted thin;
+}
+a:hover {
+	outline: 0px;
+}
+a:active {
+	outline: 0px;
+}
+abbr[title] {
+	border-bottom-color: currentColor; border-bottom-width: 1px; border-bottom-style: dotted;
+}
+b {
+	font-weight: 700;
+}
+strong {
+	font-weight: 700;
+}
+blockquote {
+	margin: 1em 40px;
+}
+hr {
+	border-width: 1px 0px 0px; border-style: solid none none; border-color: rgb(220, 220, 220) currentColor currentColor; margin: 1em 0px; padding: 0px; border-image: none; height: 1px; display: block;
+}
+hr.dottet {
+	border-style: dotted;
+}
+small {
+	font-size: 85%;
+}
+.small {
+	font-size: 85%;
+}
+sub {
+	line-height: 0; font-size: 75%; vertical-align: baseline; position: relative;
+}
+sup {
+	line-height: 0; font-size: 75%; vertical-align: baseline; position: relative;
+}
+sup {
+	top: -0.5em;
+}
+sub {
+	bottom: -0.25em;
+}
+ul {
+	margin: 1em 0px; padding: 0px 0px 0px 40px;
+}
+ol {
+	margin: 1em 0px; padding: 0px 0px 0px 40px;
+}
+dd {
+	margin: 0px 0px 0px 20px;
+}
+dh {
+	float: left;
+}
+img {
+	border: 0px currentColor; border-image: none; vertical-align: middle;
+}
+iframe {
+	border: 0px currentColor; border-image: none; vertical-align: middle;
+}
+img {
+	-ms-interpolation-mode: bicubic;
+}
+svg:not(:root) {
+	overflow: hidden;
+}
+figure {
+	margin: 0px;
+}
+figure {
+	width: 100%; position: relative;
+}
+figure img {
+	width: 100%; height: auto;
+}
+.flexfigure {
+	overflow: hidden;
+}
+.flexfigure .flexslider {
+	position: relative;
+}
+figcaption {
+	padding: 8px 8px 12px; background-color: rgb(243, 243, 243);
+}
+.figheadline {
+	padding: 8px; color: rgb(0, 135, 185) !important; background-color: rgb(243, 243, 243);
+}
+figcaption p {
+	margin: 0px;
+}
+.zoomin {
+	background-position: 0px -2200px; width: 22px; height: 22px; right: 0px; margin-top: -22px; position: absolute; cursor: pointer; background-image: url("//shared.bayer.com/img/sys/sprite.png");
+}
+.zoomout {
+	background-position: 0px -2200px; width: 22px; height: 22px; right: 0px; margin-top: -22px; position: absolute; cursor: pointer; background-image: url("//shared.bayer.com/img/sys/sprite.png");
+}
+.zoomout {
+	background-position: 0px -2250px;
+}
+.modalbody figure {
+	width: 100%; position: relative;
+}
+.standardwidth {
+	width: 300px;
+}
+.halfwidth {
+	width: 180px;
+}
+.width122 {
+	width: 122px;
+}
+.width85 {
+	width: 85px;
+}
+.fullwidth img {
+	width: 100% !important; height: auto !important;
+}
+.autowidth {
+	width: auto;
+}
+.zoomed.standardwidth {
+	width: 100%; height: auto; margin-right: 0px;
+}
+.zoomed.halfwidth {
+	width: 300px; height: auto;
+}
+form {
+	margin: 0px;
+}
+fieldset {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+label {
+	cursor: pointer;
+}
+legend {
+	padding: 0px; border: 0px currentColor; border-image: none; white-space: normal;
+}
+button {
+	margin: 0px; font-size: 100%; vertical-align: baseline;
+}
+input {
+	margin: 0px; font-size: 100%; vertical-align: baseline;
+}
+select {
+	margin: 0px; font-size: 100%; vertical-align: baseline;
+}
+textarea {
+	margin: 0px; font-size: 100%; vertical-align: baseline;
+}
+button {
+	line-height: normal;
+}
+input {
+	line-height: normal;
+}
+button {
+	cursor: pointer; -webkit-appearance: button;
+}
+input[type='button'] {
+	cursor: pointer; -webkit-appearance: button;
+}
+input[type='reset'] {
+	cursor: pointer; -webkit-appearance: button;
+}
+input[type='submit'] {
+	cursor: pointer; -webkit-appearance: button;
+}
+button[disabled] {
+	cursor: default;
+}
+input[disabled] {
+	cursor: default;
+}
+input[type='checkbox'] {
+	padding: 0px; box-sizing: border-box;
+}
+input[type='radio'] {
+	padding: 0px; box-sizing: border-box;
+}
+input[type='search'] {
+	box-sizing: content-box; -webkit-appearance: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; -webkit-border-radius: 0;
+}
+textarea {
+	overflow: auto; vertical-align: top; resize: vertical;
+}
+.margininput {
+	width: 170px; padding-top: 2px; margin-left: 8px;
+}
+.contnt .margininput {
+	width: 162px;
+}
+legend {
+	display: none;
+}
+legend small {
+	color: rgb(153, 153, 153); font-size: 13.5px;
+}
+label {
+	line-height: 16px; font-size: 12px; font-weight: 400;
+}
+input {
+	line-height: 16px; font-size: 12px; font-weight: 400;
+}
+button {
+	line-height: 16px; font-size: 12px; font-weight: 400;
+}
+select {
+	line-height: 16px; font-size: 12px; font-weight: 400;
+}
+textarea {
+	line-height: 16px; font-size: 12px; font-weight: 400;
+}
+label {
+	margin-bottom: 5px; display: block;
+}
+select {
+	padding: 0px 5px; border: 1px solid rgb(220, 220, 220); border-image: none; height: 22px; color: rgb(102, 102, 102); line-height: 16px; font-size: 12px; margin-bottom: 9px; display: inline-block; background-color: rgb(255, 255, 255);
+}
+textarea {
+	padding: 0px 5px; border: 1px solid rgb(220, 220, 220); border-image: none; height: 22px; color: rgb(102, 102, 102); line-height: 16px; font-size: 12px; margin-bottom: 9px; display: inline-block; background-color: rgb(255, 255, 255);
+}
+input[type='text'] {
+	padding: 0px 5px; border: 1px solid rgb(220, 220, 220); border-image: none; height: 22px; color: rgb(102, 102, 102); line-height: 16px; font-size: 12px; margin-bottom: 9px; display: inline-block; background-color: rgb(255, 255, 255);
+}
+input[type='password'] {
+	padding: 0px 5px; border: 1px solid rgb(220, 220, 220); border-image: none; height: 22px; color: rgb(102, 102, 102); line-height: 16px; font-size: 12px; margin-bottom: 9px; display: inline-block; background-color: rgb(255, 255, 255);
+}
+input[type='number'] {
+	padding: 0px 5px; border: 1px solid rgb(220, 220, 220); border-image: none; height: 22px; color: rgb(102, 102, 102); line-height: 16px; font-size: 12px; margin-bottom: 9px; display: inline-block; background-color: rgb(255, 255, 255);
+}
+input[type='email'] {
+	padding: 0px 5px; border: 1px solid rgb(220, 220, 220); border-image: none; height: 22px; color: rgb(102, 102, 102); line-height: 16px; font-size: 12px; margin-bottom: 9px; display: inline-block; background-color: rgb(255, 255, 255);
+}
+input[type='url'] {
+	padding: 0px 5px; border: 1px solid rgb(220, 220, 220); border-image: none; height: 22px; color: rgb(102, 102, 102); line-height: 16px; font-size: 12px; margin-bottom: 9px; display: inline-block; background-color: rgb(255, 255, 255);
+}
+input[type='search'] {
+	padding: 0px 5px; border: 1px solid rgb(220, 220, 220); border-image: none; height: 22px; color: rgb(102, 102, 102); line-height: 16px; font-size: 12px; margin-bottom: 9px; display: inline-block; background-color: rgb(255, 255, 255);
+}
+input[type='tel'] {
+	padding: 0px 5px; border: 1px solid rgb(220, 220, 220); border-image: none; height: 22px; color: rgb(102, 102, 102); line-height: 16px; font-size: 12px; margin-bottom: 9px; display: inline-block; background-color: rgb(255, 255, 255);
+}
+input {
+	width: 210px;
+}
+textarea {
+	width: 210px;
+}
+select {
+	padding: 2px; outline: 0px;
+}
+select:focus {
+	outline: 0px; -moz-outline-style: none;
+}
+textarea {
+	height: auto; padding-top: 3px; padding-right: 0px;
+}
+textarea:focus {
+	border-color: rgba(82, 168, 236, 0.8); outline: 0px; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(82,168,236,0.6); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6);
+}
+input[type='text']:focus {
+	border-color: rgba(82, 168, 236, 0.8); outline: 0px; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(82,168,236,0.6); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6);
+}
+input[type='password']:focus {
+	border-color: rgba(82, 168, 236, 0.8); outline: 0px; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(82,168,236,0.6); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6);
+}
+input[type='number']:focus {
+	border-color: rgba(82, 168, 236, 0.8); outline: 0px; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(82,168,236,0.6); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6);
+}
+input[type='email']:focus {
+	border-color: rgba(82, 168, 236, 0.8); outline: 0px; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(82,168,236,0.6); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6);
+}
+input[type='url']:focus {
+	border-color: rgba(82, 168, 236, 0.8); outline: 0px; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(82,168,236,0.6); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6);
+}
+input[type='search']:focus {
+	border-color: rgba(82, 168, 236, 0.8); outline: 0px; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(82,168,236,0.6); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6);
+}
+input[type='tel']:focus {
+	border-color: rgba(82, 168, 236, 0.8); outline: 0px; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(82,168,236,0.6); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6);
+}
+input[type='radio'] {
+	margin: 3px 0px; line-height: normal; cursor: pointer;
+}
+input[type='checkbox'] {
+	margin: 3px 0px; line-height: normal; cursor: pointer;
+}
+input[type='submit'] {
+	width: auto;
+}
+input[type='reset'] {
+	width: auto;
+}
+input[type='button'] {
+	width: auto;
+}
+input[type='radio'] {
+	width: auto;
+}
+input[type='checkbox'] {
+	width: auto;
+}
+.uneditable-textarea {
+	width: auto; height: auto;
+}
+select {
+	height: 24px; line-height: 24px;
+}
+input[type='file'] {
+	height: 24px; line-height: 24px;
+}
+select[multiple] {
+	height: auto;
+}
+select[size] {
+	height: auto;
+}
+input[type='file']:focus {
+	outline: rgb(51, 51, 51) dotted thin; outline-offset: -2px;
+}
+input[type='radio']:focus {
+	outline: rgb(51, 51, 51) dotted thin; outline-offset: -2px;
+}
+input[type='checkbox']:focus {
+	outline: rgb(51, 51, 51) dotted thin; outline-offset: -2px;
+}
+.radio {
+	line-height: 20px; padding-left: 18px; min-height: 18px;
+}
+.checkbox {
+	line-height: 20px; padding-left: 18px; min-height: 18px;
+}
+.radio input[type='radio'] {
+	margin-left: -18px; float: left;
+}
+.checkbox input[type='checkbox'] {
+	margin-left: -18px; float: left;
+}
+.controls > :first-child.radio {
+	padding-top: 5px;
+}
+.controls > :first-child.checkbox {
+	padding-top: 5px;
+}
+.inline.radio {
+	padding-top: 5px; margin-top: -3px; margin-bottom: 0px; vertical-align: middle; display: inline-block;
+}
+.inline.checkbox {
+	padding-top: 5px; margin-top: -3px; margin-bottom: 0px; vertical-align: middle; display: inline-block;
+}
+.inline.radio + .inline.radio {
+	margin-left: 10px;
+}
+.inline.checkbox + .inline.checkbox {
+	margin-left: 10px;
+}
+.input-xxsmall {
+	width: 33px;
+}
+select.input-xxsmall {
+	width: 45px;
+}
+textarea.input-xxsmall {
+	width: 38px;
+}
+.input-small {
+	width: 156px;
+}
+select.input-small {
+	width: 166px;
+}
+.input-medium {
+	width: 243px;
+}
+select.input-medium {
+	width: 255px;
+}
+textarea.input-medium {
+	width: 248px;
+}
+.input-large {
+	width: 388px;
+}
+select.input-large {
+	width: 400px;
+}
+textarea.input-large {
+	width: 393px;
+}
+.input-xlarge {
+	width: 586px;
+}
+select.input-xlarge {
+	width: 598px;
+}
+textarea.input-xlarge {
+	width: 591px;
+}
+.input-margi {
+	width: 220px; margin-right: 16px; margin-left: 10px;
+}
+select.input-margi {
+	width: 232px;
+}
+textarea.input-margi {
+	width: 228px;
+}
+.buttons {
+	padding: 12px 0px 16px; text-align: right;
+}
+input {
+	margin-left: 0px;
+}
+textarea {
+	margin-left: 0px;
+}
+.error {
+	color: rgb(204, 0, 0) !important;
+}
+.error.control-group > label {
+	color: rgb(185, 74, 72);
+}
+.error.control-group .help-block {
+	color: rgb(185, 74, 72);
+}
+.error.control-group .help-inline {
+	color: rgb(185, 74, 72);
+}
+.error.control-group .checkbox {
+	border-color: rgb(185, 74, 72); color: rgb(185, 74, 72);
+}
+.error.control-group .radio {
+	border-color: rgb(185, 74, 72); color: rgb(185, 74, 72);
+}
+.error.control-group input {
+	border-color: rgb(185, 74, 72); color: rgb(185, 74, 72);
+}
+.error.control-group select {
+	border-color: rgb(185, 74, 72); color: rgb(185, 74, 72);
+}
+.error.control-group textarea {
+	border-color: rgb(185, 74, 72); color: rgb(185, 74, 72);
+}
+.error.control-group .checkbox:focus {
+	border-color: rgb(149, 59, 57); box-shadow: 0px 0px 6px #d59392; -webkit-box-shadow: 0 0 6px #d59392; -moz-box-shadow: 0 0 6px #d59392;
+}
+.error.control-group .radio:focus {
+	border-color: rgb(149, 59, 57); box-shadow: 0px 0px 6px #d59392; -webkit-box-shadow: 0 0 6px #d59392; -moz-box-shadow: 0 0 6px #d59392;
+}
+.error.control-group input:focus {
+	border-color: rgb(149, 59, 57); box-shadow: 0px 0px 6px #d59392; -webkit-box-shadow: 0 0 6px #d59392; -moz-box-shadow: 0 0 6px #d59392;
+}
+.error.control-group select:focus {
+	border-color: rgb(149, 59, 57); box-shadow: 0px 0px 6px #d59392; -webkit-box-shadow: 0 0 6px #d59392; -moz-box-shadow: 0 0 6px #d59392;
+}
+.error.control-group textarea:focus {
+	border-color: rgb(149, 59, 57); box-shadow: 0px 0px 6px #d59392; -webkit-box-shadow: 0 0 6px #d59392; -moz-box-shadow: 0 0 6px #d59392;
+}
+.success.control-group > label {
+	color: rgb(70, 136, 71);
+}
+.success.control-group .help-block {
+	color: rgb(70, 136, 71);
+}
+.success.control-group .help-inline {
+	color: rgb(70, 136, 71);
+}
+.success.control-group .checkbox {
+	border-color: rgb(70, 136, 71); color: rgb(70, 136, 71);
+}
+.success.control-group .radio {
+	border-color: rgb(70, 136, 71); color: rgb(70, 136, 71);
+}
+.success.control-group input {
+	border-color: rgb(70, 136, 71); color: rgb(70, 136, 71);
+}
+.success.control-group select {
+	border-color: rgb(70, 136, 71); color: rgb(70, 136, 71);
+}
+.success.control-group textarea {
+	border-color: rgb(70, 136, 71); color: rgb(70, 136, 71);
+}
+.success.control-group .checkbox:focus {
+	border-color: rgb(53, 102, 53); box-shadow: 0px 0px 6px #7aba7b; -webkit-box-shadow: 0 0 6px #7aba7b; -moz-box-shadow: 0 0 6px #7aba7b;
+}
+.success.control-group .radio:focus {
+	border-color: rgb(53, 102, 53); box-shadow: 0px 0px 6px #7aba7b; -webkit-box-shadow: 0 0 6px #7aba7b; -moz-box-shadow: 0 0 6px #7aba7b;
+}
+.success.control-group input:focus {
+	border-color: rgb(53, 102, 53); box-shadow: 0px 0px 6px #7aba7b; -webkit-box-shadow: 0 0 6px #7aba7b; -moz-box-shadow: 0 0 6px #7aba7b;
+}
+.success.control-group select:focus {
+	border-color: rgb(53, 102, 53); box-shadow: 0px 0px 6px #7aba7b; -webkit-box-shadow: 0 0 6px #7aba7b; -moz-box-shadow: 0 0 6px #7aba7b;
+}
+.success.control-group textarea:focus {
+	border-color: rgb(53, 102, 53); box-shadow: 0px 0px 6px #7aba7b; -webkit-box-shadow: 0 0 6px #7aba7b; -moz-box-shadow: 0 0 6px #7aba7b;
+}
+:-ms-input-placeholder {
+	color: rgb(153, 153, 153);
+}
+.help-block {
+	color: rgb(51, 51, 51);
+}
+.help-inline {
+	color: rgb(51, 51, 51);
+}
+.help-block {
+	margin-bottom: 9px; display: block;
+}
+.help-inline {
+	padding-left: 5px; vertical-align: middle; display: inline-block;
+}
+.input-append {
+	margin-bottom: 5px;
+}
+.input-append input {
+	margin-bottom: 0px; vertical-align: middle; position: relative;
+}
+.input-append select {
+	margin-bottom: 0px; vertical-align: middle; position: relative;
+}
+.input-append input:focus {
+	z-index: 2;
+}
+.input-append select:focus {
+	z-index: 2;
+}
+.input-append .btn {
+	margin-left: -1px;
+}
+.form-inline input {
+	margin-bottom: 0px; display: inline-block;
+}
+.form-horizontal input {
+	margin-bottom: 0px; display: inline-block;
+}
+.form-inline textarea {
+	margin-bottom: 0px; display: inline-block;
+}
+.form-horizontal textarea {
+	margin-bottom: 0px; display: inline-block;
+}
+.form-inline select {
+	margin-bottom: 0px; display: inline-block;
+}
+.form-horizontal select {
+	margin-bottom: 0px; display: inline-block;
+}
+.form-inline .help-inline {
+	margin-bottom: 0px; display: inline-block;
+}
+.form-horizontal .help-inline {
+	margin-bottom: 0px; display: inline-block;
+}
+.form-inline .input-append {
+	margin-bottom: 0px; display: inline-block;
+}
+.form-horizontal .input-append {
+	margin-bottom: 0px; display: inline-block;
+}
+.form-inline label {
+	display: inline-block;
+}
+.form-inline .input-append {
+	margin-bottom: 0px;
+}
+.form-inline .radio {
+	padding-left: 0px; margin-bottom: 0px; vertical-align: middle;
+}
+.form-inline .checkbox {
+	padding-left: 0px; margin-bottom: 0px; vertical-align: middle;
+}
+.form-inline .radio input[type='radio'] {
+	margin-right: 3px; margin-left: 0px; float: left;
+}
+.form-inline .checkbox input[type='checkbox'] {
+	margin-right: 3px; margin-left: 0px; float: left;
+}
+.control-group {
+	margin-bottom: 9px;
+}
+.form-horizontal .control-group {
+	margin: 0px 10px 1px; padding: 5px 20px 4px 10px; background-color: rgb(243, 243, 243);
+}
+.form-horizontal .control-group::before {
+	display: table; content: "";
+}
+.form-horizontal .control-group::after {
+	display: table; content: "";
+}
+.form-horizontal .control-group::after {
+	clear: both;
+}
+.form-horizontal .advs-label {
+	width: 100px; padding-top: 4px; float: left;
+}
+.form-horizontal .advs-col2 {
+	width: 215px; float: left;
+}
+.form-horizontal .advs-label2 {
+	width: 215px; padding-top: 4px; float: left;
+}
+.form-horizontal .advs-label2-indent {
+	width: 215px; padding-top: 4px; margin-left: 100px; float: left;
+}
+.form-horizontal .control-label {
+	width: 140px; padding-top: 4px; float: left;
+}
+.form-horizontal .controls-advs {
+	margin-left: 315px;
+}
+.form-horizontal .controls {
+	margin-left: 160px;
+}
+.form-horizontal :first-child.controls {
+	
+}
+.form-horizontal .help-block {
+	margin-top: 9px; margin-bottom: 0px;
+}
+.btn {
+	background: url("//shared.bayer.com/img/sys/sprite.png") no-repeat right -198px rgb(243, 243, 243); padding: 3px 34px 3px 28px; border: 1px solid rgb(243, 243, 243); border-image: none; text-align: center; color: rgb(51, 51, 51); line-height: 16px; font-size: 12px; margin-top: -1px; margin-bottom: 0px; vertical-align: middle; display: inline-block; cursor: pointer; text-shadow: 0px 1px 1px rgba(255,255,255,0.75);
+}
+.control-group .btn {
+	border: 1px solid rgb(219, 219, 219); border-image: none; background-color: rgb(219, 219, 219);
+}
+.btn:visited {
+	color: rgb(255, 255, 255);
+}
+.btn:hover {
+	background-color: rgb(230, 230, 230);
+}
+.disabled.btn {
+	background-color: rgb(230, 230, 230);
+}
+[disabled].btn {
+	background-color: rgb(230, 230, 230);
+}
+:first-child.btn {
+	
+}
+.btn:hover {
+	color: rgb(51, 51, 51); text-decoration: none; background-color: rgb(230, 230, 230);
+}
+.btn:focus {
+	outline: rgb(51, 51, 51) dotted thin; outline-offset: -2px;
+}
+.disabled.btn {
+	cursor: default; opacity: 0.65; box-shadow: none; background-image: none; background-color: rgb(230, 230, 230); -webkit-box-shadow: none; -moz-box-shadow: none;
+}
+[disabled].btn {
+	cursor: default; opacity: 0.65; box-shadow: none; background-image: none; background-color: rgb(230, 230, 230); -webkit-box-shadow: none; -moz-box-shadow: none;
+}
+.btn-primary {
+	color: rgb(255, 255, 255); text-shadow: 0px -1px 0px rgba(0,0,0,0.25);
+}
+.btn-primary:hover {
+	color: rgb(255, 255, 255); text-shadow: 0px -1px 0px rgba(0,0,0,0.25);
+}
+.btn-primary {
+	background-position: right -600px; border-color: rgb(0, 144, 197); background-color: rgb(0, 144, 197);
+}
+.control-group .btn-primary {
+	background-position: right -600px; border-color: rgb(0, 144, 197); background-color: rgb(0, 144, 197);
+}
+.btn-primary:hover {
+	background-color: rgb(47, 150, 180);
+}
+.disabled.btn-primary {
+	background-color: rgb(47, 150, 180);
+}
+[disabled].btn-primary {
+	background-color: rgb(47, 150, 180);
+}
+button.btn {
+	
+}
+input[type='submit'].btn {
+	
+}
+button.btn-small.btn {
+	
+}
+input[type='submit'].btn-small.btn {
+	
+}
+.btn-small {
+	padding: 5px 9px; line-height: 16px; font-size: 11px;
+}
+.btn-small [class^='icon-'] {
+	margin-top: -1px;
+}
+body {
+	background: rgb(243, 243, 243);
+}
+.wrapper {
+	background: rgb(255, 255, 255); margin: 0px auto; min-width: 995px; max-width: 1075px;
+}
+.page {
+	margin: 0px auto; width: 995px; position: relative;
+}
+body > .page {
+	height: auto; min-height: 100%;
+}
+#header {
+	height: 124px; background-color: rgb(255, 255, 255);
+}
+.namingarea {
+	margin: 60px 0px 0px 68px; width: 700px; height: auto;
+}
+.logo {
+	background: url("//shared.bayer.com/img/logo.png") no-repeat 0px 0px; top: 38px; width: 72px; height: 72px; right: 45px; display: block; position: absolute; z-index: 1;
+}
+.logo object {
+	width: 72px; height: 72px; display: none; visibility: hidden;
+}
+.logo img {
+	width: 72px; height: 72px; display: none; visibility: hidden;
+}
+section {
+	background: rgb(255, 255, 255); clear: both; margin-top: 0px; display: block;
+}
+.main {
+	margin: 0px -10px; min-height: 432px;
+}
+footer {
+	padding: 32px 0px 56px; position: relative; min-width: 995px; max-width: 1075px; background-color: rgb(243, 243, 243);
+}
+footer .shdw {
+	background: url("//shared.bayer.com/img/sys/shadow.png") no-repeat center 0px rgb(243, 243, 243); margin: -32px 0px 9px; height: 23px; position: relative; opacity: 0.3;
+}
+.fatfooter {
+	margin: 0px auto !important; width: 975px;
+}
+.line {
+	overflow: hidden;
+}
+.lastUnit {
+	overflow: hidden;
+}
+.unit {
+	float: left;
+}
+.unitRight {
+	float: right;
+}
+.size1of1 {
+	float: none;
+}
+.size1of2 {
+	width: 50%;
+}
+.size1of3 {
+	width: 33.33%;
+}
+.size2of3 {
+	width: 66.66%;
+}
+.size1of4 {
+	width: 25%;
+}
+.size3of4 {
+	width: 75%;
+}
+.size1of5 {
+	width: 20%;
+}
+.size2of5 {
+	width: 40%;
+}
+.size3of5 {
+	width: 60%;
+}
+.size4of5 {
+	width: 80%;
+}
+.lastUnit {
+	width: auto; float: none; _position: relative; _left: -3px; _margin-right: -3px;
+}
+.sizeFull {
+	width: 100%;
+}
+.size-vl {
+	width: 19px;
+}
+.size3metarows {
+	width: 766px;
+}
+.size575 {
+	width: 565px; padding-right: 10px;
+}
+.size140 {
+	width: 160px;
+}
+.size440 {
+	width: 460px;
+}
+.size-col-a {
+	width: 190px;
+}
+.size-col-aa {
+	width: 380px;
+}
+.size-col-b {
+	margin: 0px 15px; width: 225px;
+}
+.size-col-c {
+	width: 570px; overflow: hidden;
+}
+.size-col-d {
+	width: 620px; margin-right: 7px;
+}
+.subhm .size-col-d {
+	width: 630px; margin-right: 0px;
+}
+.size-nomargi {
+	width: 824px;
+}
+.subhm .size-col-b {
+	padding-top: 10px; padding-bottom: 16px; margin-top: -10px; margin-right: 0px; background-color: rgb(240, 250, 227);
+}
+.margi {
+	margin-top: -16px;
+}
+.subhm .margi {
+	margin-top: -262px; margin-left: 5px;
+}
+.smallkv .margi {
+	margin-top: -159px;
+}
+.fullstage .margi {
+	margin-top: -16px;
+}
+.onecol .size-col-aa {
+	display: none;
+}
+.onecol .size-col-b {
+	display: none;
+}
+.kyvsl {
+	margin: 10px 10px 30px; overflow: hidden;
+}
+.contnt .margi {
+	width: 178px; overflow: hidden; margin-top: 0px; margin-left: 10px; background-color: rgb(255, 255, 255);
+}
+.lt-ie8 .margi {
+	width: auto;
+}
+.feature .size-col-d {
+	width: 564px; margin-right: 0px;
+}
+.feature .margi {
+	margin: 0px -10px; width: 270px; position: relative;
+}
+.feature .margiblock {
+	width: 270px;
+}
+.feature .margi .onAccordionContent {
+	width: 252px; margin-left: 10px; position: absolute; z-index: 20; background-color: rgb(243, 243, 243);
+}
+.feature .input-margi {
+	width: 204px;
+}
+.feature .margi .onAccHead {
+	border-width: 1px; margin-bottom: 0px; background-color: rgb(243, 243, 243);
+}
+.feature .margi .onAccordion {
+	margin: 0px -4px 0px -6px;
+}
+.blue {
+	color: rgb(0, 144, 197);
+}
+.green {
+	color: rgb(51, 153, 0);
+}
+.orange {
+	color: rgb(255, 102, 0);
+}
+.hilight {
+	color: rgb(51, 153, 0) !important;
+}
+.grey {
+	color: rgb(51, 51, 51) !important;
+}
+h1 {
+	margin: 0px 10px;
+}
+h2 {
+	margin: 0px 10px;
+}
+h3 {
+	margin: 0px 10px;
+}
+h4 {
+	margin: 0px 10px;
+}
+h5 {
+	margin: 0px 10px;
+}
+h6 {
+	margin: 0px 10px;
+}
+ul {
+	margin: 0px 10px;
+}
+ol {
+	margin: 0px 10px;
+}
+dl {
+	margin: 0px 10px;
+}
+p {
+	margin: 0px 10px;
+}
+blockquote {
+	margin: 0px 10px;
+}
+.media {
+	margin: 0px 10px;
+}
+hr {
+	margin: 0px 10px;
+}
+.img {
+	margin: 0px 10px;
+}
+.topline {
+	margin: 0px 10px;
+}
+.introtext {
+	margin: 0px 10px;
+}
+.p {
+	margin: 0px 10px;
+}
+.plaintext {
+	margin: 0px 10px;
+}
+.introtext p {
+	margin-right: 0px; margin-left: 0px;
+}
+.p p {
+	margin-right: 0px; margin-left: 0px;
+}
+.media h3 {
+	margin-right: 0px; margin-left: 0px;
+}
+.media p {
+	margin-right: 0px; margin-left: 0px;
+}
+.panel .lnk {
+	margin-right: 0px; margin-left: 0px;
+}
+.media .lnk {
+	margin-right: 0px; margin-left: 0px;
+}
+h1 {
+	padding-bottom: 0px;
+}
+h2 {
+	padding-bottom: 0px;
+}
+h3 {
+	padding-bottom: 0px;
+}
+h4 {
+	padding-bottom: 0px;
+}
+h5 {
+	padding-bottom: 0px;
+}
+h6 {
+	padding-bottom: 0px;
+}
+img {
+	padding-bottom: 0px;
+}
+.size-col-b .media {
+	margin-right: 8px; margin-left: 8px;
+}
+.size-col-b h4 {
+	margin-right: 8px; margin-left: 8px;
+}
+.size-col-b .media p {
+	margin: 0px;
+}
+.size-col-b .media h1 {
+	margin: 0px;
+}
+.media .img {
+	margin: 0px;
+}
+.homepage .media p {
+	display: inline;
+}
+.subhm .media p {
+	display: inline;
+}
+h1 {
+	color: rgb(0, 144, 197); font-style: normal; font-weight: 700;
+}
+.h1 {
+	color: rgb(0, 144, 197); font-style: normal; font-weight: 700;
+}
+h2 {
+	color: rgb(0, 144, 197); font-style: normal; font-weight: 700;
+}
+.h2 {
+	color: rgb(0, 144, 197); font-style: normal; font-weight: 700;
+}
+h3 {
+	color: rgb(0, 144, 197); font-style: normal; font-weight: 700;
+}
+.h3 {
+	color: rgb(0, 144, 197); font-style: normal; font-weight: 700;
+}
+h1 {
+	font-size: 200%; margin-bottom: 14px;
+}
+.h1 {
+	font-size: 200%; margin-bottom: 14px;
+}
+h2 {
+	line-height: 1.25em; padding-bottom: 3px; font-size: 133.3%;
+}
+.h2 {
+	line-height: 1.25em; padding-bottom: 3px; font-size: 133.3%;
+}
+h3 {
+	font-size: 100%;
+}
+.h3 {
+	font-size: 100%;
+}
+h4 {
+	font-size: 100%; font-style: normal; font-weight: 700;
+}
+.h4 {
+	font-size: 100%; font-style: normal; font-weight: 700;
+}
+h5 {
+	padding: 13px 0px 4px; color: rgb(0, 135, 185); line-height: 1.33em; font-size: 100%; font-style: normal; font-weight: 400; margin-right: 18px; margin-bottom: 0px;
+}
+.h5 {
+	padding: 13px 0px 4px; color: rgb(0, 135, 185); line-height: 1.33em; font-size: 100%; font-style: normal; font-weight: 400; margin-right: 18px; margin-bottom: 0px;
+}
+h6 {
+	font-size: 100%; font-style: normal; font-weight: 400;
+}
+.h6 {
+	font-size: 100%; font-style: normal; font-weight: 400;
+}
+.colhead {
+	color: rgb(51, 51, 51); font-size: 125%; font-weight: 400; margin-top: -3px; margin-bottom: -8px;
+}
+.subhm .colhead {
+	margin-top: 0px;
+}
+.subhead {
+	margin: 0px 20px 0px 8px; color: rgb(51, 51, 51); font-size: 100%;
+}
+.hdln {
+	color: rgb(51, 153, 0); font-size: 100%; font-weight: 700;
+}
+.hdln a {
+	color: rgb(51, 153, 0);
+}
+.hdln .txtnormal {
+	color: rgb(51, 51, 51);
+}
+.hdln a:hover .txtnormal {
+	color: rgb(51, 51, 51); text-decoration: underline;
+}
+.teaserhr {
+	margin-top: 12px;
+}
+.size-col-b .teaserhr {
+	border-color: rgb(183, 221, 158);
+}
+.reveal-modal h1 {
+	margin-right: 0px; margin-left: 0px;
+}
+.smallh2 {
+	font-size: 100%;
+}
+.subhead14 {
+	font-size: 200%;
+}
+.spacer-small {
+	height: 4px; clear: both;
+}
+.spacer {
+	height: 16px; clear: both;
+}
+.spacer-big {
+	height: 44px; clear: both;
+}
+.spacer-half {
+	height: 8px; clear: both;
+}
+.spacer-ten {
+	height: 10px; clear: both;
+}
+.spacer-fivteen {
+	height: 15px;
+}
+h2 + .spacer-half {
+	height: 6px;
+}
+.spacer + h2 {
+	padding-top: 3px;
+}
+h2 + .onAccordion {
+	margin-top: 12px;
+}
+.vs {
+	background: url("//shared.bayer.com/img/sys/vs.png") repeat-y 0px 0px rgb(255, 255, 255);
+}
+.service {
+	margin: 0px 10px 25px; padding-top: 2px; border-bottom-color: rgb(220, 220, 220); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+.homepage .lfthnd {
+	display: none;
+}
+.homepage .service {
+	display: none;
+}
+.subhm .service {
+	margin-bottom: 0px; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.breadcrumb {
+	margin: 5px 0px 5px 8px; padding: 0px; line-height: 13px; clear: both; font-size: 11px;
+}
+.breadcrumb li {
+	color: rgb(0, 144, 197); display: inline;
+}
+.breadcrumb li::after {
+	padding: 0px 6px 0px 10px; display: inline-block; content: "\203a";
+}
+.breadcrumb li:last-child::after {
+	content: "";
+}
+.breadcrumb li.last::after {
+	content: "";
+}
+.breadcrumb a {
+	color: rgb(0, 144, 197); white-space: nowrap;
+}
+.servicenav {
+	left: 820px; top: 7px; position: absolute;
+}
+.servicenav li {
+	float: left; display: inline-block;
+}
+.servicenav a {
+	padding: 1px 5px 0px; line-height: 1; font-size: 11px; border-right-color: rgb(170, 213, 230); border-right-width: 1px; border-right-style: solid; display: block;
+}
+.servicenav .last {
+	padding-right: 0px; border-right-color: currentColor; border-right-width: 0px; border-right-style: none;
+}
+.pagecount {
+	color: rgb(0, 144, 197); padding-top: 2px; font-size: 11px; float: right; display: none;
+}
+.pagecount a {
+	background: url("//shared.bayer.com/img/sys/pager.png") no-repeat 10px 2px; width: 22px; vertical-align: bottom; display: inline-block;
+}
+.pagecount a.nxt {
+	background-position: 5px -18px;
+}
+.bd {
+	overflow: hidden; -ms-zoom: 1;
+}
+.ft {
+	overflow: hidden; -ms-zoom: 1;
+}
+.hd {
+	overflow: hidden; -ms-zoom: 1;
+}
+.media {
+	overflow: hidden; -ms-zoom: 1;
+}
+.media {
+	margin-top: 9px;
+}
+.subhm .media {
+	max-width: 600px;
+}
+.media .img {
+	margin: 3px 20px 12px 0px; float: left;
+}
+.homepage .media .img {
+	margin-right: 12px;
+}
+.subhm .media .img {
+	margin-right: 12px;
+}
+.media .img img {
+	display: block;
+}
+.media .hdln {
+	margin: 0px;
+}
+.bd {
+	margin-bottom: 10px;
+}
+.size1of3 .media .img {
+	margin-bottom: 10px;
+}
+.size-col-b .media .img {
+	margin-bottom: 10px;
+}
+.teaser .media .img {
+	margin-bottom: 10px;
+}
+.float .bd {
+	overflow: visible;
+}
+.float.media {
+	overflow: visible;
+}
+.size-col-a .media .bd {
+	clear: left;
+}
+.size-col-b .media .bd {
+	clear: left;
+}
+.size-col-c .size1of3 .media .bd {
+	clear: left;
+}
+.margi .media .hdln {
+	font-weight: 400;
+}
+.margi .media {
+	margin-top: 6px;
+}
+.homepage .plntxt.bd {
+	overflow: visible;
+}
+.subhm .plntxt.bd {
+	
+}
+.introtext {
+	font-weight: 700; margin-bottom: 20px;
+}
+.topline {
+	color: rgb(51, 51, 51); font-size: 14px; font-weight: 400; margin-top: 2px; margin-bottom: 3px;
+}
+article header {
+	height: auto;
+}
+img.lazy {
+	background: url("//shared.bayer.com/img/sys/loader.gif") no-repeat center rgb(255, 255, 255);
+}
+.preloader {
+	background: url("//shared.bayer.com/img/sys/loader.gif") no-repeat center rgb(255, 255, 255);
+}
+.panel {
+	background: rgb(255, 255, 255); top: 24px; width: 995px; font-size: 12px; border-bottom-color: rgb(220, 220, 220); border-bottom-width: 1px; border-bottom-style: solid; display: none; position: absolute; z-index: 29;
+}
+.panelbottom {
+	background: url("//shared.bayer.com/img/sys/shadow.png") no-repeat center 0px; width: 100%; height: 23px; bottom: -49px; border-top-color: rgb(243, 243, 243); border-top-width: 25px; border-top-style: solid; display: block; position: absolute;
+}
+.closepanel {
+	background: url("//shared.bayer.com/img/sys/sprite.png") no-repeat 0px -1686px rgb(243, 243, 243); border-width: 1px; border-style: solid; border-color: rgb(220, 220, 220) rgb(220, 220, 220) rgb(243, 243, 243); border-image: none; left: 50%; width: 48px; height: 18px; bottom: -1px; text-indent: -999px; overflow: hidden; margin-left: -25px; position: absolute;
+}
+.closepaneltop {
+	background: url("//shared.bayer.com/img/sys/sprite.png") no-repeat 42px -1648px rgb(239, 239, 239); padding: 2px 27px 2px 11px; top: -19px; right: 20px; font-size: 11px; display: block; position: absolute;
+}
+a.closepaneltop {
+	color: rgb(51, 51, 51);
+}
+.p01 {
+	padding: 27px 10px 56px;
+}
+.p02 {
+	padding: 27px 10px 56px;
+}
+.p03 {
+	padding: 27px 10px 56px;
+}
+.p02 label {
+	display: none;
+}
+.p03 label {
+	display: none;
+}
+.p02 select {
+	margin: 0px 10px; width: 86%;
+}
+.p03 select {
+	margin: 0px 10px; width: 86%;
+}
+.p03 input {
+	margin: 0px 10px; width: 86%;
+}
+.panel strong {
+	color: rgb(75, 75, 75);
+}
+.panel h2 {
+	padding-bottom: 7px; font-size: 12px;
+}
+.panel .img {
+	padding-top: 2px; margin-bottom: 9px;
+}
+.panel hr {
+	margin-top: 2px; margin-bottom: 9px;
+}
+.panel hr.seperator {
+	margin-top: 20px; margin-bottom: 18px;
+}
+.panelmargi .h5 {
+	margin: 0px 10px 9px; padding: 8px 0px; border-bottom-color: rgb(220, 220, 220); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.panelmargi :first-child.h5 {
+	padding-top: 0px;
+}
+.panelmargi hr {
+	margin-top: 0px; margin-bottom: 5px;
+}
+.media :first-child.article {
+	margin-top: -4px;
+}
+.world {
+	background: url("/img/meta/map.png") no-repeat 0px 0px rgb(255, 255, 255);
+}
+.p03 .btn {
+	margin-top: 32px;
+}
+.p03 .media {
+	max-width: 100%;
+}
+.scroll-pane {
+	width: 100%; height: 310px; overflow: auto;
+}
+.scrollbox {
+	height: 290px;
+}
+.sec {
+	background: url("//shared.bayer.com/img/sys/sprite.png") no-repeat 0px -2550px; padding-left: 18px;
+}
+.tel {
+	background: url("//shared.bayer.com/img/sys/sprite.png") no-repeat 0px -2550px; padding-left: 18px;
+}
+.sec {
+	background-position: 0px -2600px;
+}
+.protected {
+	background-position: 3px -2601px; width: 16px; height: 12px; display: inline-block !important;
+}
+.nvgtn {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.nvgtn ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.lfthndnavi {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.lfthndnavi ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.nobulls {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.nobulls ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+nav ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+nav ol {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.nobulls li {
+	margin-left: 0px;
+}
+.nobulls ul {
+	margin-left: 12px;
+}
+.lifl li {
+	float: left;
+}
+.media ul {
+	overflow: hidden;
+}
+.media ol {
+	overflow: hidden;
+}
+ul {
+	padding: 0px 0px 0px 18px;
+}
+ol {
+	padding: 0px 0px 0px 18px;
+}
+.p ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.plntxt ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.p ul li {
+	background: url("//shared.bayer.com/img/sys/bullet.png") no-repeat 0px 0px; padding-left: 25px; margin-bottom: 2px;
+}
+.plntxt ul li {
+	background: url("//shared.bayer.com/img/sys/bullet.png") no-repeat 0px 0px; padding-left: 25px; margin-bottom: 2px;
+}
+.p ol {
+	padding-top: 16px;
+}
+.p ol li {
+	margin-bottom: 2px;
+}
+.clogo {
+	margin: -20px 10px 10px !important;
+}
+#worldwide {
+	top: 4px; position: absolute; z-index: 1; background-color: rgb(255, 255, 255);
+}
+#worldwide li {
+	color: rgb(102, 102, 102); font-size: 11px; float: left; display: list-item;
+}
+#worldwide a {
+	padding: 3px 11px 1px 7px; color: rgb(91, 91, 91); text-decoration: none; border-bottom-color: rgb(220, 220, 220); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+#worldwide strong {
+	padding: 3px 11px 1px 7px; color: rgb(91, 91, 91); text-decoration: none; border-bottom-color: rgb(220, 220, 220); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+#worldwide a {
+	background: url("//shared.bayer.com/img/sys/sprite.png") no-repeat 5px -1600px; padding-right: 17px; padding-left: 20px;
+}
+#worldwide a.sp03 {
+	padding-right: 148px;
+}
+#worldwide .hover a {
+	color: rgb(51, 153, 0);
+}
+#worldwide a:hover {
+	color: rgb(51, 153, 0);
+}
+#worldwide .hover a {
+	background-position: 5px -1630px; border-width: 0px 1px; border-style: solid; border-color: rgb(220, 220, 220); border-image: none;
+}
+#worldwide .hover {
+	margin: 0px -1px; position: relative;
+}
+#worldwide .fastsearch {
+	padding-left: 10px; background-color: rgb(255, 255, 255);
+}
+.fastsearch label {
+	display: none;
+}
+.fastsearch input {
+	border-color: rgb(170, 213, 230); padding-top: 1px; padding-bottom: 2px; font-size: 11px;
+}
+.fastsearch .btn {
+	border-color: rgb(170, 213, 230); padding-top: 1px; padding-bottom: 2px; font-size: 11px;
+}
+.bluebg .btn {
+	border-color: rgb(170, 213, 230); padding-top: 1px; padding-bottom: 2px; font-size: 11px;
+}
+.fastsearch input {
+	width: 204px; height: 16px; border-right-color: currentColor; border-right-width: 0px; border-right-style: none; background-color: rgb(232, 245, 251); -webkit-border-radius: 0;
+}
+.fastsearch .btn {
+	width: 20px; text-indent: -999em; overflow: hidden; margin-top: 0px; border-left-color: currentColor; border-left-width: 0px; border-left-style: none; box-shadow: none;
+}
+.bluebg .btn {
+	width: 20px; text-indent: -999em; overflow: hidden; margin-top: 0px; border-left-color: currentColor; border-left-width: 0px; border-left-style: none; box-shadow: none;
+}
+.bluebg .btn {
+	background-position: 5px -703px; border-color: rgb(170, 213, 230) rgb(170, 213, 230) rgb(170, 213, 230) currentColor; padding: 0px; height: 19px; vertical-align: bottom; border-left-width: 0px; border-left-style: none; background-color: rgb(0, 135, 185);
+}
+.fastsearch .btn {
+	background-position: -18px 2px; padding-right: 0px; padding-left: 0px; background-color: rgb(232, 245, 251);
+}
+.bluebg input[type='search']:focus {
+	-webkit-box-shadow: none;
+}
+.greytext {
+	color: rgb(102, 102, 102);
+}
+.ui-helper-hidden {
+	display: none;
+}
+.ui-helper-hidden-accessible {
+	position: absolute !important; clip: rect(1px, 1px, 1px, 1px);
+}
+.ui-helper-clearfix::before {
+	display: table; content: "";
+}
+.ui-helper-clearfix::after {
+	display: table; content: "";
+}
+.ui-helper-clearfix::after {
+	clear: both;
+}
+.ui-helper-clearfix {
+	-ms-zoom: 1;
+}
+.ui-helper-zfix {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;
+}
+.ui-widget-overlay {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;
+}
+.ui-helper-zfix {
+	opacity: 0;
+}
+.ui-state-disabled {
+	cursor: default !important;
+}
+.ui-autocomplete {
+	position: absolute; cursor: default;
+}
+* html .ui-autocomplete {
+	width: 1px;
+}
+.ui-menu {
+	list-style: none; margin: 0px; padding: 0px; float: left; display: block;
+}
+.ui-menu .ui-menu-item {
+	margin: 0px; padding: 0px; width: 100%; clear: left; float: left; -ms-zoom: 1;
+}
+.ui-menu .ui-menu-item a {
+	text-decoration: none; display: block; -ms-zoom: 1;
+}
+.ui-autocomplete {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(111, 183, 239) rgb(111, 183, 239); border-image: none; background-color: rgb(232, 245, 251);
+}
+.ui-autocomplete a {
+	padding: 4px; color: rgb(102, 102, 102); font-size: 11px;
+}
+.ui-autocomplete a:hover {
+	color: rgb(0, 144, 197); text-decoration: none; background-color: rgb(255, 255, 255);
+}
+.acblue .ui-autocomplete {
+	border-width: 1px 0px 0px; border-color: rgb(66, 177, 218); background-color: rgb(0, 144, 197);
+}
+.acblue .ui-autocomplete a {
+	color: rgb(255, 255, 255); border-bottom-color: rgb(66, 177, 218); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.acblue .ui-autocomplete a:hover {
+	color: rgb(255, 255, 255); background-color: rgb(66, 177, 218);
+}
+.acwhite .ui-autocomplete {
+	border-color: rgb(220, 220, 220); background-color: rgb(255, 255, 255);
+}
+.acwhite .ui-autocomplete a {
+	color: rgb(51, 51, 51); border-bottom-color: rgb(220, 220, 220); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.acwhite .ui-autocomplete a:hover {
+	color: rgb(51, 51, 51); background-color: rgb(243, 243, 243);
+}
+.meta {
+	top: 105px; right: 162px; position: absolute; z-index: 1;
+}
+.meta li {
+	float: left; display: inline-block;
+}
+.meta a {
+	padding: 1px 5px 0px; color: rgb(75, 75, 75); line-height: 1; font-size: 11px; border-right-color: rgb(220, 220, 220); border-right-width: 1px; border-right-style: solid; display: block;
+}
+.meta .last {
+	padding-right: 0px; border-right-color: currentColor; border-right-width: 0px; border-right-style: none;
+}
+.selects {
+	margin: 0px 0px 12px; padding: 9px 14px 15px; height: 49px;
+}
+.selects select {
+	width: 196px;
+}
+.touch .selects select {
+	width: 170px;
+}
+.bluebg {
+	background-color: rgb(66, 177, 218);
+}
+.greenbg {
+	background-color: rgb(143, 209, 63);
+}
+.greybg {
+	background-color: silver;
+}
+.lightgreybg {
+	background-color: rgb(232, 232, 232);
+}
+.whitelabel {
+	color: rgb(255, 255, 255); padding-bottom: 9px; font-size: 16px; font-weight: 700; display: block;
+}
+.lightgreybg .whitelabel {
+	color: rgb(102, 102, 102); font-weight: 400;
+}
+.stylish-select .SSContainerDivWrapper {
+	left: -9999px;
+}
+.stylish-select .SSContainerDivWrapper {
+	margin: 0px; padding: 0px; left: 0px; top: 22px; width: 100%; position: absolute; z-index: 2;
+}
+.stylish-select ul.newList {
+	background: rgb(255, 255, 255); list-style: none; margin: 2px -1px 0px; padding: 0px; border: 1px solid rgb(0, 144, 197); border-image: none; color: rgb(102, 102, 102); overflow: auto;
+}
+.stylish-select .ontop ul.newList {
+	margin-top: -4px;
+}
+.stylish-select ul.newList * {
+	margin: 0px; padding: 0px;
+}
+.stylish-select ul.newList a {
+	padding: 3px 8px; color: rgb(0, 0, 0); text-decoration: none; display: block;
+}
+.stylish-select .newListSelected {
+	background: url("//shared.bayer.com/img/sys/sprite.png") no-repeat right -1800px rgb(0, 144, 197); padding: 0px 0px 0px 6px; border: 1px solid rgb(0, 144, 197); border-image: none; width: 189px; height: 17px; color: rgb(255, 255, 255); float: left; position: absolute !important;
+}
+.stylish-select ul.newList li a:focus {
+	-moz-outline-style: none;
+}
+.stylish-select .selectedTxt {
+	padding: 0px 23px 0px 0px; width: 100%; height: 16px; overflow: hidden;
+}
+.stylish-select .newListHover {
+	cursor: default;
+}
+.stylish-select .newListSelHover {
+	cursor: default;
+}
+.stylish-select .newListSelFocus {
+	cursor: default;
+}
+.stylish-select .newListOptionTitle {
+	font-weight: 700;
+}
+.stylish-select .newListOptionTitle ul {
+	margin: 3px 0px 0px;
+}
+.stylish-select .newListOptionTitle li {
+	font-weight: 400;
+}
+.bluebg input[type='search'] {
+	border-color: rgb(170, 213, 230) currentColor rgb(170, 213, 230) rgb(170, 213, 230); width: 167px; height: 17px; color: rgb(255, 255, 255); padding-left: 3px; margin-bottom: 0px; border-right-width: 0px; border-right-style: none; background-color: rgb(0, 135, 185);
+}
+.bluebg input[type='search']:-ms-input-placeholder {
+	color: rgb(255, 255, 255);
+}
+.greenbg .hiLite {
+	background: rgb(134, 200, 57) !important;
+}
+.greenbg .newListHover {
+	background: rgb(134, 200, 57) !important;
+}
+.greenbg .newListSelected {
+	border-color: rgb(68, 163, 0); background-color: rgb(68, 163, 0);
+}
+.greenbg ul.newList {
+	border-color: rgb(68, 163, 0);
+}
+.greenbg ul.newList a {
+	color: rgb(255, 255, 255); border-bottom-color: rgb(143, 209, 63); border-bottom-width: 1px; border-bottom-style: dotted; background-color: rgb(68, 163, 0);
+}
+.greybg .hiLite {
+	background: rgb(177, 177, 177) !important;
+}
+.greybg .newListHover {
+	background: rgb(177, 177, 177) !important;
+}
+.greybg .newListSelected {
+	border-color: rgb(140, 140, 140); background-color: rgb(140, 140, 140);
+}
+.greybg ul.newList {
+	border-color: rgb(140, 140, 140);
+}
+.greybg ul.newList a {
+	color: rgb(255, 255, 255); border-bottom-color: silver; border-bottom-width: 1px; border-bottom-style: dotted; background-color: rgb(140, 140, 140);
+}
+.lightgreybg .hiLite {
+	background: rgb(232, 232, 232) !important; color: rgb(51, 51, 51) !important;
+}
+.lightgreybg .newListHover {
+	background: rgb(232, 232, 232) !important; color: rgb(51, 51, 51) !important;
+}
+.lightgreybg .newListSelected {
+	background-position: right -1851px; border-color: rgb(255, 255, 255); color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);
+}
+.lightgreybg ul.newList {
+	border-color: silver;
+}
+.lightgreybg ul.newList a {
+	color: rgb(51, 51, 51); border-bottom-color: rgb(203, 203, 203); border-bottom-width: 1px; border-bottom-style: dotted; background-color: rgb(255, 255, 255);
+}
+.whitelabel {
+	margin: 0px; line-height: 1.3125;
+}
+.bll-btn {
+	background: url("//shared.bayer.com/img/sys/sprite.png") no-repeat right -1800px rgb(140, 140, 140); padding: 0px 0px 0px 6px; border: 1px solid rgb(140, 140, 140); border-image: none; height: 17px; display: block;
+}
+a.bll-btn {
+	color: rgb(255, 255, 255);
+}
+.bll-btn:hover {
+	text-decoration: none;
+}
+.bll-btn:active {
+	outline: 0px;
+}
+.bll-btn:focus {
+	outline: 0px;
+}
+.bll-list {
+	background: rgb(255, 255, 255); list-style: none; margin: 1px 0px 0px; padding: 0px; border: 1px solid rgb(140, 140, 140); border-image: none; color: rgb(102, 102, 102); overflow: auto; display: none; position: relative; z-index: 1; max-height: 114px;
+}
+.bll-list a {
+	padding: 3px 8px; color: rgb(255, 255, 255); text-decoration: none; border-bottom-color: silver; border-bottom-width: 1px; border-bottom-style: dotted; display: block; background-color: rgb(140, 140, 140);
+}
+.bll-list a:hover {
+	cursor: default; background-color: rgb(177, 177, 177);
+}
+.greenbg a.bll-btn {
+	border-color: rgb(68, 163, 0); background-color: rgb(68, 163, 0);
+}
+.greenbg .bll-list a {
+	border-color: rgb(68, 163, 0); background-color: rgb(68, 163, 0);
+}
+.greenbg .bll-list {
+	border-color: rgb(68, 163, 0); background-color: rgb(68, 163, 0);
+}
+.greenbg .bll-list a {
+	border-bottom-color: rgb(143, 209, 63);
+}
+.greenbg .bll-list a:hover {
+	background-color: rgb(134, 200, 57);
+}
+.lightgreybg a.bll-btn {
+	background-position: right -1851px; border-color: rgb(255, 255, 255); color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);
+}
+.lightgreybg .bll-list a {
+	background-position: right -1851px; border-color: rgb(255, 255, 255); color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);
+}
+.lightgreybg .bll-list {
+	border-color: silver;
+}
+.lightgreybg .bll-list a {
+	border-bottom-color: rgb(203, 203, 203);
+}
+.lightgreybg .bll-list a:hover {
+	background-color: rgb(232, 232, 232);
+}
+.ifooter {
+	margin: 40px 10px 19px; padding: 6px 10px 5px; color: rgb(102, 102, 102); overflow: hidden; font-size: 11px; background-color: rgb(243, 243, 243);
+}
+.ifooter a {
+	background: url("//shared.bayer.com/img/sys/sprite.png") no-repeat 0px -2325px; padding: 6px 10px 5px 23px; color: rgb(102, 102, 102); border-left-color: rgb(255, 255, 255); border-left-width: 1px; border-left-style: solid; display: block;
+}
+.ifooter li {
+	float: left;
+}
+.pagefunctions {
+	margin: -6px 0px -5px; float: right;
+}
+.ifooter .icnPrint {
+	background-position: 0px -2299px;
+}
+.ifooter .icnShare {
+	background-position: 0px -2325px; padding-left: 22px;
+}
+.ifooter .icnTop {
+	background-position: 56px -1100px; padding-left: 68px;
+}
+.ifooter .icnContact {
+	background-position: 0px -2350px;
+}
+.cright {
+	display: inline;
+}
+.cright span {
+	display: inline-block;
+}
+.cright span:first-child {
+	padding-right: 10px; margin-right: 7px; border-right-color: rgb(220, 220, 220); border-right-width: 1px; border-right-style: solid;
+}
+.cright {
+	line-height: 10px;
+}
+.fctgry {
+	margin: 0px 15px 0px 0px; font-size: 11px; min-width: 112px; max-width: 152px;
+}
+.en .fctgry {
+	max-width: 141px;
+}
+.fhead {
+	line-height: 17px; padding-bottom: 8px; font-size: 13px;
+}
+.fctgry a {
+	color: rgb(102, 102, 102); display: block;
+}
+.fctgry li {
+	line-height: 13px; margin-bottom: 5px;
+}
+.fatfooter > li:last-child {
+	margin-right: 0px; max-width: 100px;
+}
+.lt-ie9 .fatfooter > .n8.unit.fctgry {
+	margin-right: 0px; max-width: 100px;
+}
+.en .fatfooter > li:last-child {
+	max-width: 72px;
+}
+.lgladvice {
+	margin: 0px 12px 11px; font-size: 11px;
+}
+.lgladvice li {
+	float: left;
+}
+.lgladvice a {
+	padding: 0px 8px; color: rgb(102, 102, 102); line-height: 11px; margin-bottom: 7px; border-right-color: rgb(220, 220, 220); border-right-width: 1px; border-right-style: solid; display: block;
+}
+.lgladvice li:last-child a {
+	border: 0px currentColor; border-image: none;
+}
+.lgladvice .last a {
+	border: 0px currentColor; border-image: none;
+}
+.well {
+	margin: 0px 10px 10px; padding: 10px 8px 12px; background-color: rgb(243, 243, 243);
+}
+.well p {
+	margin-right: 0px; margin-left: 0px;
+}
+.well .p {
+	margin-right: 0px; margin-left: 0px;
+}
+.well h3 {
+	margin-right: 0px; margin-left: 0px;
+}
+.well .lnk {
+	margin-right: 0px; margin-left: 0px;
+}
+.well .lnk {
+	padding-top: 2px;
+}
+.well :first-child.lnk {
+	padding-top: 0px;
+}
+.well > h2 {
+	padding-bottom: 8px;
+}
+.well .zoomin {
+	bottom: 0px;
+}
+.well .zoomout {
+	bottom: 0px;
+}
+.current.congrat a {
+	color: rgb(0, 144, 197) !important; background-color: rgb(243, 243, 243) !important;
+}
+.bgwhite {
+	background-color: rgb(255, 255, 255);
+}
+.white {
+	background-color: rgb(255, 255, 255);
+}
+.quote::before {
+	margin-left: -4px; content: "\201C";
+}
+.quote::after {
+	content: "\201D";
+}
+.well .quote::before {
+	margin: 0px !important; content: "";
+}
+.well .quote::after {
+	content: "";
+}
+.well .quote {
+	margin: 0px;
+}
+table {
+	border-collapse: collapse; border-spacing: 0;
+}
+td {
+	vertical-align: top;
+}
+.table {
+	margin: 0px; padding: 0px 2px; width: 100%; text-align: left; overflow: auto; vertical-align: top; border-collapse: separate; position: relative; table-layout: auto; -ms-zoom: 1; border-spacing: 8px 0; empty-cells: show; background-color: rgb(255, 255, 255);
+}
+.table th {
+	padding: 4px 0px 2px; line-height: 16px; border-bottom-color: rgb(220, 220, 220); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.table td {
+	padding: 4px 0px 2px; line-height: 16px; border-bottom-color: rgb(220, 220, 220); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.table th {
+	padding: 8px 0px; text-align: left; font-weight: 700;
+}
+.table .th td {
+	padding: 8px 0px; text-align: left; font-weight: 700;
+}
+.table tr:first-child th {
+	border-bottom-color: rgb(0, 144, 197); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.table tr:first-child.th td {
+	border-bottom-color: rgb(0, 144, 197); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.table th:first-child {
+	text-align: left;
+}
+.table td:first-child {
+	text-align: left;
+}
+.th-standard td {
+	color: rgb(0, 144, 197); padding-top: 14px; font-weight: 700; vertical-align: bottom;
+}
+.th2 td {
+	color: rgb(0, 144, 197); padding-top: 14px; font-weight: 700; vertical-align: bottom;
+}
+.table p {
+	margin: 0px; padding: 0px;
+}
+td.emptycell {
+	color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);
+}
+td.indent {
+	padding-left: 1em;
+}
+td.dblindent {
+	padding-left: 2em;
+}
+.tablegend {
+	color: rgb(102, 102, 102); font-weight: 400;
+}
+table .em {
+	padding-right: 2px; padding-left: 10px;
+}
+table.condensed .em {
+	padding-right: 2px; padding-left: 10px;
+}
+.em {
+	background-color: rgb(236, 247, 252);
+}
+.betterhover {
+	background-color: rgb(243, 243, 243);
+}
+.betterhover .em {
+	background-color: rgb(189, 226, 240);
+}
+.legend {
+	margin: 4px 10px 0px; font-size: 10px;
+}
+.legend p {
+	margin: 0px;
+}
+.txtR td {
+	padding-right: 10px; padding-left: 2px;
+}
+.txtR th {
+	padding-right: 10px; padding-left: 2px;
+}
+table .txtR td {
+	padding-right: 10px; padding-left: 2px;
+}
+table .txtR th {
+	padding-right: 10px; padding-left: 2px;
+}
+table tr .txtR {
+	padding-right: 10px; padding-left: 2px;
+}
+table.txtR.condensed .em {
+	padding-right: 10px; padding-left: 2px;
+}
+.txtR .txtL {
+	padding-right: 0px; padding-left: 0px;
+}
+.txtR .txtL td {
+	padding-right: 0px; padding-left: 0px;
+}
+.txtR .txtL th {
+	padding-right: 0px; padding-left: 0px;
+}
+table.condensed td {
+	padding-right: 0px; padding-left: 0px;
+}
+table.condensed th {
+	padding-right: 0px; padding-left: 0px;
+}
+table.condensed {
+	font-size: 11px;
+}
+.onAccordion .table {
+	margin-top: 10px;
+}
+.margin {
+	margin: 0px 10px;
+}
+.row {
+	margin: 0px 10px;
+}
+.margin h1 {
+	margin-right: 0px; margin-left: 0px;
+}
+.margin h2 {
+	margin-right: 0px; margin-left: 0px;
+}
+.margin h3 {
+	margin-right: 0px; margin-left: 0px;
+}
+.margin h4 {
+	margin-right: 0px; margin-left: 0px;
+}
+.sameheight116 {
+	height: 116px;
+}
+.lfthnd {
+	clear: left;
+}
+.lfthndnavi {
+	margin: 0px 10px; border-top-color: rgb(220, 220, 220); border-top-width: 1px; border-top-style: solid;
+}
+.lfthnd li {
+	position: relative;
+}
+.lfthndnavi a {
+	padding: 3px 4px 3px 8px; color: rgb(51, 51, 51); line-height: 16px; border-bottom-color: rgb(220, 220, 220); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+.lfthndnavi ul a {
+	padding-left: 24px;
+}
+.lfthndnavi ul ul a {
+	padding-left: 40px;
+}
+.lfthndnavi ul ul ul a {
+	padding-left: 56px;
+}
+.lfthndnavi a:hover {
+	color: rgb(51, 153, 0);
+}
+.lfthndnavi a.selected {
+	color: rgb(51, 153, 0); font-weight: 700;
+}
+.lfthndnavi ul {
+	display: none;
+}
+.lfthndnavi .selected > ul {
+	display: block;
+}
+.lfthndnavi li.lhhover.haschildren > a {
+	color: rgb(51, 153, 0); text-decoration: underline; border-top-color: rgb(220, 220, 220); border-top-width: 1px; border-top-style: solid;
+}
+.lfthndnavi li.lhhover.haschildren {
+	width: 182px; margin-top: -1px;
+}
+.lfthndnavi li.lhhover > ul {
+	padding: 12px 12px 12px 0px; border: 0px currentColor; border-image: none; top: -1px; width: 181px; margin-top: -11px; margin-left: 180px; display: block; position: absolute; z-index: 100; box-shadow: 4px 1px 4px 0px #666; background-color: rgb(255, 255, 255);
+}
+.lt-ie9 .lfthndnavi li.lhhover > ul {
+	border-width: 1px 1px 1px 0px; border-style: solid; border-color: rgb(220, 220, 220); border-image: none; margin-top: -12px;
+}
+.lfthndnavi li.lhhover > ul li {
+	padding-left: 10px; border-left-color: rgb(220, 220, 220); border-left-width: 1px; border-left-style: solid;
+}
+.lfthndnavi li.lhhover > ul li:first-child {
+	padding-left: 11px; border-top-color: rgb(220, 220, 220); border-left-color: currentColor; border-top-width: 1px; border-left-width: 0px; border-top-style: solid; border-left-style: none;
+}
+.lfthndnavi li.lhhover > ul a {
+	padding-left: 8px;
+}
+.additionaltext {
+	padding: 0px 0px 8px 8px; color: rgb(0, 144, 197); margin-top: -1px; border-bottom-color: rgb(220, 220, 220); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(255, 255, 255);
+}
+.lfthndnavi li.haschildren > a {
+	background: url("//shared.bayer.com/img/sys/sprite.png") no-repeat 159px -2898px; padding-right: 11px;
+}
+.lfthndnavi li.selected > a {
+	background-position: -200px 100px;
+}
+.lfthndnavi li.lhhover.haschildren > a {
+	background-position: 159px -398px; padding-right: 22px;
+}
+.mobilenav {
+	height: 35px; display: none; background-color: rgb(0, 144, 197);
+}
+.mobilenav li {
+	border-right-color: rgb(102, 188, 220); border-right-width: 1px; border-right-style: solid; float: left;
+}
+.mobilenav a {
+	background: url("//shared.bayer.com/img/sys/mobile-nav.png") no-repeat 0px 0px rgb(0, 144, 197); padding: 9px 11px 9px 29px; color: rgb(255, 255, 255); font-size: 13px; font-weight: 700; display: block;
+}
+.en .mobilenav a {
+	padding-right: 10px;
+}
+.en .mobilenav a.mcontact {
+	padding-right: 9px;
+}
+a.msearch {
+	background-position: 0px -80px;
+}
+a.mcontact {
+	background-position: 0px -160px;
+}
+.mobilenav .selected a {
+	color: rgb(0, 144, 197); text-decoration: none; background-color: rgb(236, 247, 252);
+}
+.mobilenav a:hover {
+	color: rgb(0, 144, 197); text-decoration: none; background-color: rgb(236, 247, 252);
+}
+.selected a.mnav {
+	background-position: 0px -40px;
+}
+a.mnav:hover {
+	background-position: 0px -40px;
+}
+.selected a.msearch {
+	background-position: 0px -120px;
+}
+a.msearch:hover {
+	background-position: 0px -120px;
+}
+.selected a.mcontact {
+	background-position: 0px -200px;
+}
+a.mcontact:hover {
+	background-position: 0px -200px;
+}
+li.mlang {
+	border: 0px currentColor; border-image: none; float: right;
+}
+a.mlang {
+	background: rgb(76, 173, 208); margin: 7px 8px 0px; padding: 2px 9px;
+}
+.flex-container a:active {
+	outline: 0px;
+}
+.flexslider a:active {
+	outline: 0px;
+}
+.flex-container a:focus {
+	outline: 0px;
+}
+.flexslider a:focus {
+	outline: 0px;
+}
+.slides {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.flex-control-nav {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.flex-direction-nav {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.flexslider {
+	margin: 0px; padding: 0px;
+}
+.flexslider .slides > li {
+	display: none; -webkit-backface-visibility: hidden;
+}
+.flexslider .slides > li {
+	position: relative;
+}
+.flexslider .slides img {
+	width: 100%; height: auto; display: block;
+}
+.flex-pauseplay span {
+	text-transform: capitalize;
+}
+.slides::after {
+	height: 0px; line-height: 0; clear: both; display: block; visibility: hidden; content: ".";
+}
+html[xmlns] .slides {
+	display: block;
+}
+* html .slides {
+	height: 1%;
+}
+.no-js .slides > li:first-child {
+	display: block;
+}
+.flex-caption {
+	margin: 0px; padding: 10px 2%; left: 0px; width: 96%; height: 32px; bottom: 0px; color: rgb(51, 51, 51); position: relative; background-color: rgb(245, 245, 245);
+}
+.flexslider {
+	border: 0px currentColor; border-image: none; -ms-zoom: 1;
+}
+.flex-viewport {
+	transition:1s; max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease;
+}
+.loading .flex-viewport {
+	max-height: 2000px;
+}
+.flexslider .slides {
+	-ms-zoom: 1;
+}
+.carousel li {
+	margin-right: 5px;
+}
+.flex-direction-nav a {
+	background: url("//shared.bayer.com/img/sys/sprite.png") no-repeat 0px -2000px; margin: -20px 0px 0px; top: 50%; width: 30px; height: 30px; text-indent: -9999px; display: block; position: absolute; cursor: pointer; opacity: 0; -webkit-transition: all .3s ease;
+}
+.tl_prev {
+	background: url("//shared.bayer.com/img/sys/sprite.png") no-repeat 0px -2000px; margin: -20px 0px 0px; top: 50%; width: 30px; height: 30px; text-indent: -9999px; display: block; position: absolute; cursor: pointer; opacity: 0; -webkit-transition: all .3s ease;
+}
+.tl_next {
+	background: url("//shared.bayer.com/img/sys/sprite.png") no-repeat 0px -2000px; margin: -20px 0px 0px; top: 50%; width: 30px; height: 30px; text-indent: -9999px; display: block; position: absolute; cursor: pointer; opacity: 0; -webkit-transition: all .3s ease;
+}
+.flex-direction-nav .flex-next {
+	background-position: 100% -2050px; right: -36px;
+}
+.tl_next {
+	background-position: 100% -2050px; right: -36px;
+}
+.flex-direction-nav .flex-prev {
+	left: -36px;
+}
+.flexslider:hover .flex-next {
+	right: 5px; opacity: 0.8;
+}
+.flexslider:hover .flex-prev {
+	left: 5px; opacity: 0.8;
+}
+.flexslider:hover .flex-next:hover {
+	opacity: 1;
+}
+.flexslider:hover .flex-prev:hover {
+	opacity: 1;
+}
+.flex-direction-nav .disabled {
+	cursor: default; opacity: 0.3 !important;
+}
+.flex-control-nav {
+	padding: 0px 68px; text-align: right; right: 0px; bottom: 10px; position: absolute;
+}
+.flex-control-nav li {
+	margin: 0px 1px; display: inline-block; -ms-zoom: 1;
+}
+.flex-control-paging li a {
+	background: url("//shared.bayer.com/img/sys/sprite.png") no-repeat 0px -2117px; width: 16px; height: 16px; text-align: center; text-indent: -9999px; display: block; cursor: pointer;
+}
+.flex-control-paging li a:hover {
+	background-position: 0px -2134px;
+}
+.flex-control-paging li a.flex-active {
+	background-position: 0px -2100px;
+}
+.flex-control-thumbs {
+	margin: 5px 0px 0px; overflow: hidden; position: static;
+}
+.flex-control-thumbs li {
+	margin: 0px; width: 25%; float: left;
+}
+.flex-control-thumbs img {
+	width: 100%; display: block; cursor: pointer; opacity: 0.7;
+}
+.flex-control-thumbs img:hover {
+	opacity: 1;
+}
+.flex-control-thumbs .active {
+	cursor: default; opacity: 1;
+}
+figure .flex-control-nav {
+	display: none;
+}
+.flex-disabled {
+	display: none !important;
+}
+div.animated .flex-disabled {
+	display: block !important;
+}
+.inlinegallery {
+	position: relative;
+}
+.inlinegallery .flex-direction-nav a {
+	background: url("//shared.bayer.com/img/sys/galleries.png") no-repeat 14px -194px; margin: 0px; top: 100%; width: 25px; height: 25px; opacity: 1 !important;
+}
+.inlinegallery .flex-direction-nav .flex-next {
+	right: 0px;
+}
+.inlinegallery .flex-direction-nav .flex-prev {
+	background-position: 4px -244px; left: 0px;
+}
+.imgcount {
+	padding: 1px 0px 13px; text-align: center; font-weight: 400; margin-top: -3px;
+}
+@media screen and (max-width:860px)
+{
+.flex-direction-nav .flex-prev {
+	left: 5px; opacity: 1;
+}
+.flex-direction-nav .flex-next {
+	right: 5px; opacity: 1;
+}
+}
+.stage01 {
+	margin: 10px 10px 30px; height: 315px; overflow: hidden; position: relative; z-index: 1;
+}
+.stage02 {
+	margin: 10px 10px 30px; height: 315px; overflow: hidden; position: relative; z-index: 1;
+}
+.stage02 {
+	height: 320px; display: none;
+}
+.subhm .stage01 {
+	width: 800px; height: 253px; margin-top: 0px; float: left;
+}
+.fullstage .stage01 {
+	width: 995px; height: 315px; float: none;
+}
+.stagetext {
+	padding: 10px 20px 16px; width: 322px; right: 40px; bottom: 44px; overflow: hidden; position: absolute; box-shadow: 0px 0px 10px rgba(102,102,102,0.3); background-color: rgba(255, 255, 255, 0.85); -webkit-box-shadow: 0 0 10px rgba(102, 102, 102, .3); -moz-box-shadow: 0 0 10px rgba(102, 102, 102, .3);
+}
+.stagetext p {
+	margin: 0px; display: inline;
+}
+.stageContent p {
+	margin: 0px; display: inline;
+}
+.stageleft {
+	left: 40px;
+}
+.bluestage {
+	background-color: rgba(5, 60, 86, 0.9);
+}
+.nobg {
+	box-shadow: none; background-color: transparent;
+}
+.bluehdln .stagehdln {
+	color: rgb(0, 144, 197);
+}
+.bluelnk .lnk {
+	background-position: -27px 1px; color: rgb(0, 144, 197);
+}
+.brownstage {
+	background-color: rgba(113, 90, 27, 0.75);
+}
+.bmsstage {
+	background-color: rgba(83, 91, 111, 0.9);
+}
+.bhcstage {
+	background-color: rgba(0, 105, 154, 0.9);
+}
+.bcsstage {
+	background-color: rgba(100, 114, 104, 0.9);
+}
+.stagetopline {
+	font-size: 14px;
+}
+.stagehdln {
+	margin: 4px 0px 2px; color: rgb(51, 153, 0); line-height: 28px; font-weight: 400;
+}
+.invert .stagetopline {
+	color: rgb(130, 205, 233);
+}
+.invert .more {
+	color: rgb(130, 205, 233);
+}
+.invert .more {
+	background-position: right -800px;
+}
+.invert .stagehdln {
+	color: rgb(255, 255, 255);
+}
+.stagetext.invert {
+	color: rgb(255, 255, 255);
+}
+.invert .lnk {
+	background-position: -27px -798px; color: rgb(130, 205, 233); display: inline-block;
+}
+.stageContent {
+	padding: 0px; top: 60px; width: 375px; right: 45px; position: absolute;
+}
+.nbstage {
+	width: 340px; max-height: 152px; background-color: rgba(68, 163, 0, 0.8);
+}
+.en .nbstage {
+	max-height: 166px;
+}
+.temp150 {
+	top: 112px; width: 313px; max-height: 116px; background-color: rgba(32, 157, 205, 0.8);
+}
+.lightbluestage {
+	background-color: rgba(32, 157, 205, 0.8);
+}
+.greenstage {
+	background-color: rgba(68, 163, 0, 0.8);
+}
+.stagevideo {
+	left: 40px; width: 368px; height: 232px; bottom: 44px; position: absolute;
+}
+#sod .stagevideo {
+	left: 131px; bottom: 30px;
+}
+@media only screen and (max-width:1012px) and (min-width:768px)
+{
+.stagevideo {
+	width: 320px; height: 205px; bottom: 16px;
+}
+}
+@media only screen and (max-width:767px)
+{
+.stagevideo {
+	display: none;
+}
+}
+.stagevideo img {
+	top: 0px; position: absolute; cursor: pointer;
+}
+.txt-white .stagetopline {
+	color: rgb(255, 255, 255);
+}
+.txt-white .lnk {
+	color: rgb(255, 255, 255);
+}
+.txt-white .lnk {
+	background-position: -2px -603px;
+}
+.txt-white .more {
+	background-position: right -604px; color: rgb(255, 255, 255); padding-right: 34px;
+}
+.abq12013 {
+	left: 40px; width: 270px; bottom: 63px; background-color: rgba(17, 95, 159, 0.9);
+}
+.stageList {
+	left: 570px; top: 264px; display: block; position: absolute;
+}
+.stageList ul li {
+	margin: 0px 5px; float: left;
+}
+.text {
+	width: 370px;
+}
+.stageContent .tpln {
+	font-size: 14px;
+}
+.stageContent .hdln {
+	margin: 3px 0px 12px; color: rgb(51, 153, 0); line-height: 1.2; font-size: 24px; font-weight: 200;
+}
+.stageList ul .selected {
+	border-bottom-color: rgb(107, 194, 0); border-bottom-width: 3px; border-bottom-style: solid;
+}
+.stageList ul li img {
+	margin-bottom: 1px;
+}
+.more {
+	background: url("//shared.bayer.com/img/sys/sprite.png") no-repeat right 0px; color: rgb(0, 144, 197); padding-right: 9px; font-weight: 400; -ms-zoom: 1;
+}
+a:hover .more {
+	color: rgb(0, 144, 197); text-decoration: underline;
+}
+.lnk {
+	margin: -1px 10px 0px;
+}
+a.lnk {
+	margin: -1px 0px 0px;
+}
+.newslist .lnk {
+	padding-top: 8px;
+}
+.lnk a {
+	background: url("//shared.bayer.com/img/sys/sprite.png") no-repeat -2px -200px; padding: 0px 0px 0px 7px; color: rgb(51, 51, 51); line-height: 18px; font-weight: 400; display: block;
+}
+a.lnk {
+	background: url("//shared.bayer.com/img/sys/sprite.png") no-repeat -2px -200px; padding: 0px 0px 0px 7px; color: rgb(51, 51, 51); line-height: 18px; font-weight: 400; display: block;
+}
+.mlnk a {
+	background: url("//shared.bayer.com/img/sys/sprite.png") no-repeat -2px -200px; padding: 0px 0px 0px 7px; color: rgb(51, 51, 51); line-height: 18px; font-weight: 400; display: block;
+}
+.mlnk a {
+	padding: 1px 0px 1px 7px; line-height: 16px;
+}
+.lnk > br {
+	display: none;
+}
+.lnk a.selected {
+	background-position: 0px -400px; color: rgb(51, 153, 0); font-weight: 700;
+}
+a.selected.lnk {
+	background-position: 0px -400px; color: rgb(51, 153, 0); font-weight: 700;
+}
+.lnkmorespace a {
+	margin-bottom: 4px;
+}
+.float .lnk {
+	margin: auto; overflow: hidden;
+}
+.mlnk {
+	margin: 0px 18px 0px 10px; clear: left;
+}
+.mlnk p {
+	margin: 0px;
+}
+a:hover .hilight {
+	text-decoration: underline;
+}
+.mlnk a.hilight {
+	background-position: 0px -400px;
+}
+.lnk a.hilight {
+	background-position: 0px -400px;
+}
+a.hilight.lnk {
+	background-position: 0px -400px;
+}
+.mlnk ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.hilight.more {
+	background-position: 0px -400px; margin: 8px 0px 0px; padding: 0px 0px 0px 7px; line-height: 18px; display: block;
+}
+.newstopline {
+	color: rgb(51, 153, 0);
+}
+.margi .newstopline {
+	color: rgb(136, 136, 136);
+}
+.margi .bd {
+	margin-bottom: 0px;
+}
+.newsimg {
+	width: auto !important; margin-bottom: -5px; max-height: 145px;
+}
+.orange .hdln a {
+	color: rgb(255, 102, 0);
+}
+.orange .newstopline {
+	color: rgb(255, 102, 0);
+}
+.orange .newsdate {
+	color: rgb(51, 51, 51);
+}
+.hlght.media {
+	padding: 9px 8px 0px; margin-top: -1px; border-top-color: rgb(220, 220, 220); border-top-width: 1px; border-top-style: solid; background-color: rgb(247, 251, 231);
+}
+.newslist div div:nth-of-type(1).hlght {
+	margin-top: 9px;
+}
+.hlght.media .img {
+	margin-left: -8px;
+}
+.download {
+	padding: 0px; margin-top: 0px; position: relative;
+}
+.download a {
+	background-position: 6px -198px; padding: 2px 100px 2px 15px; border-bottom-color: rgb(220, 220, 220); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.odd {
+	background-color: rgb(236, 247, 252);
+}
+.fileinfo {
+	top: 2px; width: 90px; right: 0px; position: absolute;
+}
+.download p {
+	margin: 0px;
+}
+.download em {
+	left: 500px; top: 2px; font-style: normal; position: absolute;
+}
+a:hover .fileinfo {
+	text-decoration: underline;
+}
+.download a:hover em {
+	text-decoration: underline;
+}
+.smallh2 + .lnk {
+	padding-top: 1px;
+}
+.media .lnk {
+	padding-top: 5px;
+}
+.panel .lnk {
+	padding-top: 5px;
+}
+.media .bd .lnk a {
+	overflow: hidden;
+}
+.shoppingcart {
+	background: url("//shared.bayer.com/img/sys/sprite.png") no-repeat 0px -2700px rgb(255, 255, 255); padding-left: 17px; font-weight: 700;
+}
+#publicationcartblock {
+	display: none;
+}
+.fixed#publicationcartblock {
+	top: 20px; position: fixed;
+}
+.margiblock {
+	width: 190px; padding-bottom: 10px; float: left;
+}
+.contnt .margiblock {
+	width: 180px; padding-bottom: 15px; margin-bottom: 15px; background-color: rgb(243, 243, 243);
+}
+.margi hr {
+	margin-bottom: 5px;
+}
+.contnt .margi hr {
+	margin-left: 8px;
+}
+.margi img {
+	margin: 2px 20px 4px 8px;
+}
+.mimg img {
+	border: 1px solid rgb(220, 220, 220); border-image: none;
+}
+.noborder {
+	border: 0px currentColor !important; border-image: none !important;
+}
+.noborder img {
+	border: 0px currentColor !important; border-image: none !important;
+}
+.margi img {
+	height: auto; max-width: 90%;
+}
+.margi .p {
+	margin: 0px 20px 0px 8px;
+}
+.margi .mcontent {
+	margin: 0px 20px 1px 10px;
+}
+.margi select {
+	width: 100%;
+}
+.margi hr.dottet {
+	margin-top: 4px; margin-bottom: 2px;
+}
+.contnt .mlnk {
+	margin-right: 10px; margin-left: 10px;
+}
+.contnt h5 {
+	margin-right: 20px; margin-left: 8px;
+}
+.contnt .h5 {
+	margin-right: 20px; margin-left: 8px;
+}
+.contnt .margi .mlnk {
+	margin-right: 20px; margin-left: 8px;
+}
+.contnt h5 {
+	padding-top: 8px;
+}
+.contnt .h5 {
+	padding-top: 8px;
+}
+.socialmedia {
+	margin: 0px 10px;
+}
+.socialmedia li {
+	float: left;
+}
+.socialmedia a {
+	margin: 5px 7px 5px 0px; width: 16px; height: 16px; opacity: 0.65;
+}
+.socialmedia a:hover {
+	opacity: 1;
+}
+.fb {
+	background-position: 0px -1900px;
+}
+.gp {
+	background-position: 0px -1916px;
+}
+.tw {
+	background-position: 0px -1932px;
+}
+.yt {
+	background-position: 0px -1948px;
+}
+.li {
+	background-position: 0px -1964px;
+}
+.rss {
+	background-position: -16px -1900px;
+}
+.tickerelement .ir {
+	width: 8px; height: 8px; margin-left: 1px; display: inline-block;
+}
+.tickerelement .down {
+	background-position: 0px -2500px;
+}
+.tickerelement .eq {
+	background-position: 0px -2516px;
+}
+.tickerelement .up {
+	background-position: 0px -2532px;
+}
+.tickerelement {
+	margin: 0px 18px 5px 10px; line-height: 1.16em; padding-top: 2px;
+}
+.tickerelement a {
+	color: rgb(51, 51, 51);
+}
+.smedia {
+	margin-right: -15px;
+}
+.smedia h3 {
+	margin: 0px;
+}
+.smedia .nobulls {
+	margin: 16px 0px;
+}
+.smedia li {
+	margin-bottom: 10px;
+}
+.smedia .greybg {
+	padding: 9px 15px 20px; margin-right: 15px; background-color: rgb(243, 243, 243);
+}
+.smedia .size1of4 .greybg {
+	height: 195px;
+}
+.smedia .ir {
+	width: 16px; height: 16px; margin-right: 8px; float: left; background-image: url("//shared.bayer.com/img/sys/some.png");
+}
+.facebook {
+	background-position: 0px 0px;
+}
+.linkedin {
+	background-position: 0px -16px;
+}
+.xing {
+	background-position: 0px -32px;
+}
+.googleplus {
+	background-position: 0px -48px;
+}
+.foursquare {
+	background-position: 0px -64px;
+}
+.pinterest {
+	background-position: 0px -80px;
+}
+.twitter {
+	background-position: 0px -96px;
+}
+.blogger {
+	background-position: 0px -112px;
+}
+.wordpress {
+	background-position: 0px -128px;
+}
+.newsvine {
+	background-position: 0px -144px;
+}
+.digg {
+	background-position: 0px -160px;
+}
+.reddit {
+	background-position: 0px -176px;
+}
+.webnews {
+	background-position: 0px -192px;
+}
+.delicious {
+	background-position: 0px -208px;
+}
+.googleshare {
+	background-position: 0px -224px;
+}
+.misterwong {
+	background-position: 0px -240px;
+}
+.stumbleupon {
+	background-position: 0px -256px;
+}
+.oneview {
+	background-position: 0px -272px;
+}
+.yigg {
+	background-position: 0px -288px;
+}
+.recommend {
+	background-position: 0px -304px;
+}
+.nw {
+	background-position: 0px -2800px; margin: 0px 0px 0px 10px; width: 11px; height: 12px; display: inline-block !important;
+}
+.searchlist li {
+	margin-bottom: 16px; white-space: pre-line; -ms-word-wrap: break-word;
+}
+@media not all
+{
+.searchlist li a {
+	white-space: pre; -ms-word-wrap: break-word;
+}
+}
+ul.pagination {
+	height: 24px; margin-left: -5px; display: block;
+}
+ul.pagination li {
+	height: 24px; color: rgb(51, 51, 51); font-size: 12px; margin-left: 5px; float: left; display: block;
+}
+ul.pagination li a {
+	padding: 1px 7px; color: rgb(51, 51, 51); display: block;
+}
+ul.pagination li:hover a {
+	background: rgb(243, 243, 243);
+}
+ul.pagination li a:focus {
+	background: rgb(243, 243, 243);
+}
+ul.pagination li.unavailable a {
+	color: rgb(204, 204, 204); cursor: default;
+}
+ul.pagination li.unavailable:hover a {
+	background: none;
+}
+ul.pagination li.unavailable a:focus {
+	background: none;
+}
+ul.pagination li.current a {
+	background: rgb(0, 144, 197); color: rgb(255, 255, 255); font-weight: 700; cursor: default;
+}
+ul.pagination li.current a:hover {
+	background: rgb(0, 144, 197);
+}
+.pagination_info {
+	color: rgb(0, 144, 197);
+}
+.carousel {
+	margin: 0px 37px; height: 90px; padding-top: 10px; position: relative; background-color: rgb(235, 246, 250);
+}
+.carousel li {
+	margin-right: 0px;
+}
+.carousel .slides a {
+	display: block;
+}
+.carousel .slides img {
+	margin: 2px 8px 0px 0px; width: 135px; height: 76px; float: left;
+}
+.carousel .flex-direction-nav a {
+	margin: 0px; top: 0px; width: 17px; height: 100px; opacity: 1; background-image: url("//shared.bayer.com/img/sys/carousel.png"); background-color: rgb(174, 218, 234);
+}
+.carousel .flex-direction-nav .flex-prev {
+	background-position: 0px 0px; left: -27px; border-right-color: rgb(235, 246, 250); border-right-width: 10px; border-right-style: solid; opacity: 1;
+}
+.carousel .flex-direction-nav .flex-next {
+	background-position: 0px -100px; right: -27px; border-left-color: rgb(235, 246, 250); border-left-width: 10px; border-left-style: solid; opacity: 1;
+}
+.txtsmall {
+	line-height: 14px;
+}
+.vhead {
+	height: 50px; overflow: hidden; padding-right: 6px; display: block;
+}
+a:hover .grey {
+	color: rgb(51, 51, 51); text-decoration: underline;
+}
+.playbtn {
+	background: url("//shared.bayer.com/img/sys/play.png") no-repeat center; width: 135px; height: 76px; margin-top: 2px; display: block; position: absolute; z-index: 2;
+}
+.margi .playbtn {
+	background-position: center 25px; width: 171px; height: 96px; margin-left: 8px;
+}
+.onAccHead {
+	background: url("//shared.bayer.com/img/sys/sprite.png") no-repeat 0px -999px rgb(255, 255, 255); border-width: 1px 0px; border-style: solid; border-color: rgb(220, 220, 220); padding: 7px 10px 4px 23px; border-image: none; color: rgb(0, 144, 197); font-size: 100%; margin-bottom: -1px; display: block; cursor: pointer;
+}
+.onAccordion .onAccHead:hover {
+	color: rgb(51, 153, 0);
+}
+.onAccordion .selected a {
+	color: rgb(51, 153, 0);
+}
+.onAccordion .selected {
+	color: rgb(51, 153, 0);
+}
+.onAccordion .selected {
+	background-position: 0px -1049px;
+}
+.onAccordionContent {
+	padding: 5px 0px 10px; margin-left: 23px;
+}
+.onAccordionContent :first-child.p {
+	margin-top: 9px;
+}
+a.closeall {
+	background: url("//shared.bayer.com/img/sys/sprite.png") no-repeat 0px -1100px; margin: 6px 0px; padding: 5px 0px 5px 12px; color: rgb(51, 51, 51); display: block;
+}
+.generate-ui-tab {
+	margin: 0px 10px;
+}
+.ui-tabs-hide {
+	display: none;
+}
+.ui-tabs-nav {
+	list-style: none; margin: 0px; padding: 0px 0px 0px 1px;
+}
+.ui-tabs-nav::after {
+	clear: both; display: block; content: " ";
+}
+.ui-tabs-nav li {
+	margin: 0px 0px 0px -1px; float: left; min-width: 34px;
+}
+.ui-tabs-nav a {
+	background-color: rgb(236, 247, 252);
+}
+.ui-tabs-nav a {
+	padding: 0px 15px; display: block;
+}
+.ui-tabs-nav a span {
+	padding: 0px 15px; display: block;
+}
+.ui-tabs-nav a {
+	border-width: 2px 2px 0px 3px; border-style: solid; border-color: rgb(255, 255, 255); margin: -2px 0px 0px; outline: 0px; border-image: none; top: 1px; text-align: center; padding-left: 0px; text-decoration: none; white-space: nowrap;
+}
+.ui-tabs-nav .ui-tabs-selected {
+	margin-bottom: -7px;
+}
+.ui-tabs-nav .ui-tabs-selected a {
+	border-width: 1px 1px 0px; border-style: solid; border-color: rgb(220, 220, 220); border-image: none; top: -6px; color: rgb(51, 153, 0); font-weight: 700; margin-top: 0px; position: relative; z-index: 2;
+}
+.ui-tabs-nav a {
+	padding: 5px 15px 0px; width: 30px; height: 21px; min-height: 21px; min-width: 30px;
+}
+* > .ui-tabs-nav a {
+	width: auto; height: auto;
+}
+.ui-tabs-nav .ui-tabs-selected a {
+	padding-top: 7px; padding-bottom: 6px;
+}
+.ui-tabs-nav .ui-tabs-selected a {
+	background-color: rgb(255, 255, 255);
+}
+.ui-tabs-nav a:hover {
+	background-color: rgb(255, 255, 255);
+}
+.ui-tabs-nav a:focus {
+	background-color: rgb(255, 255, 255);
+}
+.ui-tabs-nav a:active {
+	background-color: rgb(255, 255, 255);
+}
+.ui-tabs-nav .ui-tabs-selected a:link {
+	cursor: text;
+}
+.ui-tabs-nav .ui-tabs-selected a:visited {
+	cursor: text;
+}
+.ui-tabs-nav a:hover {
+	cursor: pointer;
+}
+.ui-tabs-nav a:focus {
+	cursor: pointer;
+}
+.ui-tabs-nav a:active {
+	cursor: pointer;
+}
+.ui-tabs-nav .ui-tabs-unselect a:hover {
+	cursor: pointer;
+}
+.ui-tabs-nav .ui-tabs-unselect a:focus {
+	cursor: pointer;
+}
+.ui-tabs-nav .ui-tabs-unselect a:active {
+	cursor: pointer;
+}
+.ui-tabs-panel {
+	background: rgb(255, 255, 255); padding: 10px 8px; border: 1px solid rgb(220, 220, 220); border-image: none;
+}
+* html .ui-tabs-nav {
+	display: inline-block;
+}
+*:first-child + html .ui-tabs-nav {
+	display: inline-block;
+}
+.supertab-head {
+	display: none;
+}
+.tooltip {
+	padding: 5px; line-height: 14px; font-size: 11px; display: block; visibility: visible; position: absolute; z-index: 1020; opacity: 0;
+}
+.in.tooltip {
+	opacity: 0.86;
+}
+.top.tooltip {
+	margin-top: -2px;
+}
+.right.tooltip {
+	margin-left: 2px;
+}
+.bottom.tooltip {
+	margin-top: 2px;
+}
+.left.tooltip {
+	margin-left: -2px;
+}
+.top.tooltip .tooltip-arrow {
+	left: 50%; bottom: 0px; margin-left: -5px; border-top-color: rgb(68, 68, 68); border-right-color: transparent; border-left-color: transparent; border-top-width: 5px; border-right-width: 5px; border-left-width: 5px; border-top-style: solid; border-right-style: solid; border-left-style: solid;
+}
+.left.tooltip .tooltip-arrow {
+	top: 50%; right: 0px; margin-top: -5px; border-top-color: transparent; border-bottom-color: transparent; border-left-color: rgb(68, 68, 68); border-top-width: 5px; border-bottom-width: 5px; border-left-width: 5px; border-top-style: solid; border-bottom-style: solid; border-left-style: solid;
+}
+.bottom.tooltip .tooltip-arrow {
+	left: 50%; top: 0px; margin-left: -5px; border-right-color: transparent; border-bottom-color: rgb(68, 68, 68); border-left-color: transparent; border-right-width: 5px; border-bottom-width: 5px; border-left-width: 5px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid;
+}
+.right.tooltip .tooltip-arrow {
+	left: 0px; top: 50%; margin-top: -5px; border-top-color: transparent; border-right-color: rgb(68, 68, 68); border-bottom-color: transparent; border-top-width: 5px; border-right-width: 5px; border-bottom-width: 5px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid;
+}
+.tooltip-inner {
+	padding: 3px 8px; border-radius: 4px; text-align: center; color: rgb(255, 255, 255); text-decoration: none; max-width: 120px; background-color: rgb(68, 68, 68); -webkit-border-radius: 4px; -moz-border-radius: 4px;
+}
+.tooltip-arrow {
+	width: 0px; height: 0px; position: absolute;
+}
+.reveal-modal-bg {
+	background: rgb(0, 0, 0); left: 0px; top: 0px; width: 100%; height: 100%; display: none; position: fixed; z-index: 40;
+}
+.reveal-modal {
+	background: white; padding: 44px 20px 20px; left: 46%; top: 30px; width: 720px; margin-left: -360px; display: none; visibility: hidden; position: absolute; z-index: 41; box-shadow: 0px 0px 10px rgba(0,0,0,0.4); -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .4); -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+}
+.reveal-modal *:first-child {
+	margin-top: 0px;
+}
+.reveal-modal *:last-child {
+	margin-bottom: 0px;
+}
+.reveal-modal .close-reveal-modal {
+	top: 8px; right: 11px; color: rgb(51, 51, 51); font-size: 12px; position: absolute; cursor: pointer;
+}
+.close-reveal-modal {
+	top: 8px; right: 11px; color: rgb(51, 51, 51); font-size: 12px; position: absolute; cursor: pointer;
+}
+.reveal-modal .close {
+	width: 19px; height: 18px; text-align: center; color: rgb(119, 119, 119); line-height: 16px; padding-top: 1px; font-size: 19px; font-weight: 700; text-decoration: none; margin-left: 6px; vertical-align: middle; display: inline-block; background-color: rgb(220, 220, 220);
+}
+.close {
+	width: 19px; height: 18px; text-align: center; color: rgb(119, 119, 119); line-height: 16px; padding-top: 1px; font-size: 19px; font-weight: 700; text-decoration: none; margin-left: 6px; vertical-align: middle; display: inline-block; background-color: rgb(220, 220, 220);
+}
+.small.reveal-modal {
+	width: 30%; margin-left: -10%;
+}
+.medium.reveal-modal {
+	width: 40%; margin-left: -20%;
+}
+.large.reveal-modal {
+	width: 60%; margin-left: -30%;
+}
+.expand.reveal-modal {
+	width: 90%; margin-left: -45%;
+}
+.reveal-modal .row {
+	min-width: 0px;
+}
+#mobileModal {
+	padding: 20px 15px 0px; left: 42%; width: 277px; font-size: 16px; margin-left: -40%;
+}
+#mobileModal .btn {
+	background-position: right -694px; text-align: left; padding-top: 10px; padding-bottom: 12px; font-size: 16px; font-weight: 700; margin-top: 10px; display: block;
+}
+#mobileModal h1 {
+	font-size: 22px; margin-bottom: 6px;
+}
+#mobileModal p {
+	margin: 0px;
+}
+#mobileModal .nvgtn {
+	margin: 0px -15px;
+}
+#mobileModal .nvgtn li {
+	padding: 8px 15px 20px; color: rgb(0, 144, 197); background-color: rgb(236, 247, 252);
+}
+.rwd .rwdon {
+	display: none;
+}
+.printheader {
+	display: none;
+}
+.printfooter {
+	display: none;
+}
+.printheader {
+	top: 0px; width: 600px; position: absolute;
+}
+.printheader a {
+	background: url("//shared.bayer.com/img/sys/sprite.png") no-repeat 0px -2300px rgb(243, 243, 243) !important; padding: 4px 16px 4px 24px; color: rgb(102, 102, 102) !important; text-decoration: none; float: left; display: block;
+}
+body.popup {
+	background-color: rgb(255, 255, 255);
+}
+.popup header {
+	background: url("/img/header/150.png") no-repeat 19px -76px rgb(255, 255, 255); height: 60px !important; margin-bottom: 0px; border-bottom-color: rgb(181, 181, 181); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.popup .namingarea {
+	margin: 26px 0px 0px; width: 255px !important;
+}
+.popup .logo {
+	top: 7px; width: 48px; height: 48px; right: 19px; background-image: url("//shared.bayer.com/img/logo-small.png");
+}
+.popup .logo object {
+	width: 48px; height: 48px; visibility: hidden;
+}
+.popup .namingarea {
+	display: none;
+}
+.popup .wrapper {
+	width: 620px !important; min-width: 620px !important; max-width: 620px !important;
+}
+.popup .page {
+	width: 600px !important;
+}
+.popup .size-col-d {
+	width: 620px !important;
+}
+.popup .form-horizontal .controls {
+	margin-left: 160px !important;
+}
+.popup .form-horizontal .control-label {
+	float: left !important;
+}
+.popup .page {
+	width: 460px !important;
+}
+.popup .size-col-d {
+	width: 480px !important;
+}
+.popup .btn {
+	vertical-align: bottom;
+}
+.popup .input-large {
+	width: 260px;
+}
+.popup textarea.input-large {
+	width: 265px;
+}
+.popup .mbn {
+	margin-bottom: 5px !important;
+}
+.sitemap .size1of4 {
+	margin: 0px 15px 0px 10px; width: 230px;
+}
+.sitemap :last-child.size1of4 {
+	margin-right: 10px;
+}
+.sitemap ul {
+	margin: 0px;
+}
+.sitemap ul li {
+	margin-bottom: 50px; border-bottom-color: rgb(220, 220, 220); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.sitemap ul li li {
+	margin-bottom: 0px; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.sitemap li a {
+	padding: 5px 8px; color: rgb(255, 255, 255); font-weight: 700; margin-bottom: 12px; display: block; background-color: rgb(0, 144, 197);
+}
+.sitemap li li a {
+	margin: 0px; padding: 3px 8px; color: rgb(0, 144, 197); border-top-color: rgb(220, 220, 220); border-top-width: 1px; border-top-style: solid; background-color: rgb(240, 250, 227);
+}
+.sitemap li li li a {
+	padding-left: 33px; font-weight: 400; background-color: rgb(255, 255, 255);
+}
+.sitemap li li li li a {
+	padding-left: 58px;
+}
+.newlinkmargin {
+	color: rgb(51, 51, 51);
+}
+.paz {
+	padding-right: 20px; font-weight: 700;
+}
+.onlymobile {
+	display: none !important;
+}
+.mobilehint {
+	margin: 10px 10px 0px; padding: 14px 3px 13px 9px; border: 1px solid rgb(220, 220, 220); border-image: none; display: none;
+}
+.sendselect {
+	border-color: rgb(220, 220, 220); margin: 3px 0px 0px 4px; padding: 2px 6px 4px; color: rgb(102, 102, 102); font-size: 13px; -webkit-border-radius: 4px;
+}
+.no-touch .sendselect {
+	display: none;
+}
+.plaintext .snd {
+	margin-left: 120px;
+}
+@media only screen and (max-width:1024px) and (min-width:1013px)
+{
+.rwd .page {
+	overflow: hidden;
+}
+}
+@media only screen and (max-width:1012px) and (min-width:768px)
+{
+.rwd .namingarea {
+	display: none;
+}
+.rwd #header {
+	background: url("/img/header/150.png") no-repeat 40px 60px rgb(255, 255, 255);
+}
+.rwd .popup #header {
+	background-position: 19px -76px;
+}
+.rwd .wrapper {
+	min-width: 762px; max-width: 848px;
+}
+.rwd footer {
+	min-width: 762px; max-width: 848px;
+}
+.rwd .fatfooter {
+	width: 742px;
+}
+.rwd .page {
+	width: 762px; overflow: hidden;
+}
+.rwd .stage01 {
+	height: 241px;
+}
+.rwd .subhm .stage01 {
+	width: 762px; height: 253px;
+}
+.rwd .size-col-b {
+	width: 192px; margin-right: 0px; margin-left: 10px;
+}
+.rwd .selects {
+	padding-right: 6px;
+}
+.rwd .selects select {
+	width: 142px;
+}
+.rwd .stageContent .plntxt {
+	display: none;
+}
+.rwd .subhm .stagetext .plntxt {
+	display: none;
+}
+.rwd #carousel {
+	right: 13px;
+}
+.rwd .stageContent {
+	right: 13px;
+}
+.rwd .margi {
+	left: 0px; width: 100% !important; clear: both; margin-top: 0px; float: none; position: relative !important;
+}
+.rwd .contnt .margiblock {
+	background-color: rgb(255, 255, 255);
+}
+.subhm .size-col-d {
+	width: 592px; margin-right: 0px;
+}
+.size-col-d {
+	width: 592px; margin-right: 0px;
+}
+.servicenav {
+	left: 620px;
+}
+.rwd h5 {
+	margin-right: 10px !important; margin-left: 10px !important;
+}
+.rwd .h5 {
+	margin-right: 10px !important; margin-left: 10px !important;
+}
+.rwd .mlnk {
+	margin-right: 10px !important; margin-left: 10px !important;
+}
+.rwd .subhead {
+	margin-right: 10px !important; margin-left: 10px !important;
+}
+.rwd .margi .p {
+	margin-right: 10px !important; margin-left: 10px !important;
+}
+.rwd .margi img {
+	margin-right: 10px !important; margin-left: 10px !important;
+}
+.rwd #worldwide a.sp03 {
+	padding-right: 28px;
+}
+.rwd .fctgry {
+	width: 162px; margin-right: 18px; margin-bottom: 20px; max-width: 200px;
+}
+.rwd .fatfooter .n6 {
+	clear: left;
+}
+.stylish-select.rwd .newListSelected {
+	width: 162px;
+}
+.rwd .bluebg input[type='search'] {
+	width: 140px;
+}
+.rwd .sitemap .size1of4 {
+	width: 171px;
+}
+.rwd .flexslider .nobg {
+	box-shadow: 0px 0px 10px rgba(102,102,102,0.3); background-color: rgba(255, 255, 255, 0.85); -webkit-box-shadow: 0 0 10px rgba(102, 102, 102, .3); -moz-box-shadow: 0 0 10px rgba(102, 102, 102, .3);
+}
+.rwd .subhm .stage01 {
+	height: 241px;
+}
+.stageContent {
+	top: 34px !important; width: 335px;
+}
+.stageContent.slayer {
+	z-index: 26;
+}
+.stageContent .hdln {
+	margin: 3px 0px; font-size: 20px;
+}
+.stageContent p {
+	font-size: 11px;
+}
+.stageContent .more {
+	font-size: 11px;
+}
+.subhm .stagetext p {
+	font-size: 11px;
+}
+.subhm .stagetext .more {
+	font-size: 11px;
+}
+.stageContent.slayer p {
+	font-size: 12px;
+}
+.stageContent.slayer {
+	font-size: 12px;
+}
+.stageContent.slayer .hdln {
+	margin: 3px 0px 12px; font-size: 24px;
+}
+#truckcontainer {
+	height: 401px !important;
+}
+.size-col-d.unit :nth-child(3n+1).size1of3.unit {
+	clear: left;
+}
+.temp150 {
+	top: 64px;
+}
+.kyvsl img {
+	width: 100%; height: auto;
+}
+.p03 .lastUnit {
+	width: 98%;
+}
+.panel {
+	width: 762px; padding-bottom: 30px;
+}
+.p01 {
+	padding: 27px 0px 56px;
+}
+.p02 {
+	padding: 27px 0px 56px;
+}
+.p03 {
+	padding: 27px 0px 56px;
+}
+.size575 {
+	width: 378px; padding-right: 0px; margin-right: 10px;
+}
+.size575 .size1of2 {
+	width: 100%; margin-bottom: 16px;
+}
+.size575 .spacer {
+	display: none;
+}
+.panelmargi {
+	width: 164px;
+}
+.panel img {
+	width: 100%; height: auto;
+}
+.size3metarows {
+	width: 578px;
+}
+.panel .preloader {
+	width: 752px !important;
+}
+.kv {
+	max-width: 762px;
+}
+.tl_next {
+	right: 248px;
+}
+}
+@media only screen and (max-width:767px)
+{
+.reveal-modal-bg {
+	position: absolute;
+}
+.reveal-modal {
+	padding: 20px; left: 46%; top: 15px; width: 80%; height: auto; margin-left: -40%;
+}
+.small.reveal-modal {
+	padding: 20px; left: 46%; top: 15px; width: 80%; height: auto; margin-left: -40%;
+}
+.medium.reveal-modal {
+	padding: 20px; left: 46%; top: 15px; width: 80%; height: auto; margin-left: -40%;
+}
+.large.reveal-modal {
+	padding: 20px; left: 46%; top: 15px; width: 80%; height: auto; margin-left: -40%;
+}
+.xlarge.reveal-modal {
+	padding: 20px; left: 46%; top: 15px; width: 80%; height: auto; margin-left: -40%;
+}
+.onlymobile {
+	display: block !important;
+}
+span.onlymobile {
+	display: inline !important;
+}
+.notmobile {
+	display: none !important;
+}
+.rwd .namingarea {
+	display: none;
+}
+.rwd #header {
+	background: url("/img/header/150.png") no-repeat 19px -185px rgb(255, 255, 255);
+}
+.rwd footer {
+	padding: 0px;
+}
+.rwd .wrapper {
+	min-width: 300px; max-width: 380px;
+}
+.rwd .page {
+	width: 300px; overflow: hidden;
+}
+.kv {
+	width: 300px; overflow: hidden;
+}
+.rwd .stage01 {
+	height: 95px;
+}
+.rwd .subhm .stage01 {
+	width: 300px; height: 118px; display: none;
+}
+.rwd .stageContent {
+	display: none;
+}
+.rwd .subhm .stagetext .subhm .stagetext {
+	display: none;
+}
+.rwd #carousel {
+	display: none;
+}
+.rwd .stagetext p {
+	display: none;
+}
+.rwd .flexslider .nobg {
+	box-shadow: 0px 0px 10px rgba(102,102,102,0.3); background-color: rgba(255, 255, 255, 0.85); -webkit-box-shadow: 0 0 10px rgba(102, 102, 102, .3); -moz-box-shadow: 0 0 10px rgba(102, 102, 102, .3);
+}
+.rwd .stagetopline {
+	display: none;
+}
+.rwd .stagetext span {
+	display: none;
+}
+.rwd .stagehdln {
+	line-height: 16px; padding-right: 6px; font-size: 12px; font-weight: 700; margin-top: 0px; float: left;
+}
+.rwd .stagetext {
+	padding: 8px 12px; max-width: 196px;
+}
+.rwd .stagetext {
+	bottom: 30px;
+}
+.rwd .stagehdln br {
+	display: none;
+}
+.rwd .lfthnd {
+	display: none;
+}
+.rwd .margi {
+	left: 0px; width: 96% !important; clear: both; margin-top: 0px; float: none; position: relative !important;
+}
+.rwd .contnt .margiblock {
+	background-color: rgb(255, 255, 255);
+}
+.rwd .size-col-d {
+	width: 320px; margin-right: 0px;
+}
+.rwd .size1of2 {
+	width: auto;
+}
+.rwd .size1of3 {
+	width: auto;
+}
+.rwd .size2of3 {
+	width: auto;
+}
+.rwd .size1of4 {
+	width: auto;
+}
+.rwd .size3of4 {
+	width: auto;
+}
+.rwd .size1of5 {
+	width: auto;
+}
+.rwd .size2of5 {
+	width: auto;
+}
+.rwd .size3of5 {
+	width: auto;
+}
+.rwd .size4of5 {
+	width: auto;
+}
+.rwd .size1of4 {
+	width: 50%; float: left !important;
+}
+.rwd :nth-child(2n+1).size1of4 {
+	clear: left;
+}
+.rwd .size-col-aa {
+	width: auto;
+}
+.rwd .unit {
+	margin-bottom: 25px; float: none;
+}
+.rwd footer .unit {
+	float: left;
+}
+.rwd .fctgry {
+	width: 120px; margin-right: 0px;
+}
+.rwd .size-col-a {
+	width: auto;
+}
+.rwd .size-col-b {
+	width: auto; margin-right: 10px; margin-left: 10px;
+}
+.rwd .size-col-c {
+	width: 320px;
+}
+.rwd .size-col-c .media .img img {
+	width: 120px;
+}
+.rwd .size-col-b .media .img img {
+	width: 120px;
+}
+.rwd .standardwidth {
+	width: 100%; margin-right: 0px; float: none;
+}
+.rwd h5 {
+	margin-right: 10px !important; margin-left: 10px !important;
+}
+.h5 {
+	margin-right: 10px !important; margin-left: 10px !important;
+}
+.rwd .mlnk {
+	margin-right: 10px !important; margin-left: 10px !important;
+}
+.subhead {
+	margin-right: 10px !important; margin-left: 10px !important;
+}
+.margi .p {
+	margin-right: 10px !important; margin-left: 10px !important;
+}
+.margi img {
+	margin-right: 10px !important; margin-left: 10px !important;
+}
+.rwd .pagefunctions {
+	width: 100%; padding-left: 0px; margin-top: 4px; float: left;
+}
+.rwd .ifooter li {
+	width: 50%; display: inline-block;
+}
+.rwd .ifooter li:last-child {
+	width: 100%; text-align: right;
+}
+.ifooter .icnPrint {
+	border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+.rwd .lfthndnavi {
+	display: none;
+}
+.rwd .subhm .size-col-b {
+	margin-top: 0px;
+}
+.rwd .margiblock {
+	width: 300px;
+}
+.rwd .fatfooter {
+	display: none;
+}
+.rwd .form-horizontal .controls {
+	margin-left: 0px;
+}
+.rwd .form-horizontal .control-label {
+	float: none;
+}
+.rwd .input-xxlarge {
+	width: 95%;
+}
+.rwd .margi .playbtn {
+	width: 196px; height: 110px;
+}
+.rwd [role='navigation'] {
+	height: 0px; overflow: hidden; clear: both;
+}
+.rwd [role='navigation'] {
+	transition:0.25s ease-in; -webkit-transition: .25s all ease-in; -moz-transition: .25s all ease-in; -o-transition: .25s all ease-in;
+}
+.rwd .active-nav [role='navigation'] {
+	height: auto;
+}
+.rwd #worldwide {
+	height: 0px; overflow: hidden; clear: both; position: relative;
+}
+.rwd #worldwide li {
+	display: none;
+}
+.rwd #worldwide li.fastsearch {
+	padding: 20px; display: block;
+}
+.rwd #worldwide {
+	transition:0.25s ease-in; -webkit-transition: .25s all ease-in; -moz-transition: .25s all ease-in; -o-transition: .25s all ease-in;
+}
+.rwd .active-search #worldwide {
+	height: auto;
+}
+.rwd #header {
+	height: 60px;
+}
+.rwd .logo {
+	top: 7px; width: 48px; height: 48px; right: 19px; background-image: url("//shared.bayer.com/img/logo-small.png");
+}
+.rwd .logo object {
+	width: 48px; height: 48px; visibility: hidden;
+}
+.rwd .meta {
+	display: none;
+}
+.rwd .size-col-a .media .bd {
+	clear: none;
+}
+.rwd .size-col-b .media .bd {
+	clear: none;
+}
+.rwd .size-col-c .size1of3 .media .bd {
+	clear: none;
+}
+.rwd .cright {
+	margin: 0px -10px -4px; padding: 0px 10px 6px 20px; font-size: 10px; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 3px; border-bottom-style: solid; display: block;
+}
+.rwd .ifooter {
+	padding-right: 0px; padding-left: 0px;
+}
+.rwd .ifooter .icnTop {
+	background-position: 217px -1100px; border-top-color: rgb(255, 255, 255); border-left-color: currentColor; border-top-width: 10px; border-left-width: 0px; border-top-style: solid; border-left-style: none;
+}
+.rwd .en .ifooter .icnTop {
+	background-position: 260px -1100px;
+}
+.rwd .ifooter .icnMobile {
+	background-position: 0px -2408px; border-top-color: rgb(255, 255, 255); border-left-color: currentColor; border-top-width: 10px; border-left-width: 0px; border-top-style: solid; border-left-style: none;
+}
+.rwd .ifooter .icnContact {
+	border-top-color: rgb(255, 255, 255); border-top-width: 10px; border-top-style: solid;
+}
+.rwd .ifooter a {
+	padding-right: 7px;
+}
+.rwd #airshipcontainer {
+	display: none;
+}
+.rwd #airship {
+	display: none;
+}
+.stage01 .more {
+	line-height: 16px;
+}
+.rwd footer .shdw {
+	display: none;
+}
+.rwd .supertab .bd {
+	clear: left;
+}
+.rwd .supertab .media .img {
+	float: none;
+}
+.rwd .subhm .service {
+	margin-bottom: 25px;
+}
+.rwd figure.autowidth {
+	float: none;
+}
+.rwd #flash {
+	display: none;
+}
+.rwd .vs {
+	background: 0px;
+}
+.rwd .form-horizontal .select {
+	max-width: 280px;
+}
+.rwd .control-group input.text {
+	max-width: 268px;
+}
+#sod {
+	height: 790px; display: block;
+}
+#sod .stageContent {
+	top: 335px; width: 99%; right: 0px; display: block; z-index: 2;
+}
+#sod .visuallyhidden {
+	width: auto; height: auto; position: relative; clip: rect(auto, auto, auto, auto);
+}
+#sod .layer365 {
+	display: none;
+}
+#sod .flexslider .slides img {
+	width: auto;
+}
+.rwd .sdate {
+	right: 44px;
+}
+.temp150 {
+	top: inherit;
+}
+.plaintext .snd {
+	margin-left: 0px;
+}
+.touch .selects select {
+	width: 180px;
+}
+.servicenav {
+	display: none;
+}
+.kyvsl img {
+	width: 100%; height: auto;
+}
+.kv {
+	max-width: 762px;
+}
+.tl_next {
+	right: 550px;
+}
+}
+@media only screen and (max-width:767px) and (min-width:460px)
+{
+#sod {
+	height: 624px;
+}
+.rwd #header {
+	background-position: 19px -76px;
+}
+.rwd .wrapper {
+	min-width: 460px; max-width: 540px;
+}
+.rwd .page {
+	width: 460px; overflow: hidden;
+}
+.kv {
+	width: 460px; overflow: hidden;
+}
+.rwd .stage01 {
+	height: 146px;
+}
+.rwd .subhm .stage01 {
+	width: 460px; height: 181px;
+}
+.rwd .stageContent {
+	display: none;
+}
+.rwd .subhm .stagetext {
+	display: none;
+}
+.rwd #carousel {
+	display: none;
+}
+.rwd .size-col-c {
+	width: 480px;
+}
+.rwd .margiblock {
+	width: 240px;
+}
+.rwd .size-col-d {
+	width: 480px; margin-right: 0px;
+}
+.rwd .standardwidth {
+	margin: 3px 12px 12px 0px; width: 224px; float: left;
+}
+.rwd .stagetopline {
+	font-size: 12px;
+}
+.rwd .stagetext span {
+	display: inline;
+}
+.rwd .cright {
+	font-size: 11px;
+}
+.rwd .subhm .service {
+	border-bottom-color: rgb(220, 220, 220); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.btn-primary.btn {
+	margin-top: 10px; margin-left: 0px !important;
+}
+.popup .page {
+	width: 460px !important;
+}
+.popup .size-col-d {
+	width: 480px !important;
+}
+.popup .btn {
+	vertical-align: bottom;
+}
+.popup .input-large {
+	width: 260px;
+}
+.popup textarea.input-large {
+	width: 265px;
+}
+.popup .mbn {
+	margin-bottom: 5px !important;
+}
+#worldwide {
+	top: 0px;
+}
+.stage01 {
+	margin-top: 0px;
+}
+.rwd #worldwide li.fastsearch {
+	padding: 20px 10px;
+}
+.rwd #worldwide li.fastsearch {
+	background-color: rgb(236, 247, 252);
+}
+#worldwide {
+	background-color: rgb(236, 247, 252);
+}
+.fastsearch input {
+	width: 304px; height: 25px; font-size: 13px; margin-right: 11px; border-right-color: rgb(170, 213, 230); border-right-width: 1px; border-right-style: solid; background-color: rgb(255, 255, 255);
+}
+.fastsearch .btn {
+	background: url("//shared.bayer.com/img/sys/mobile-nav.png") no-repeat -2px -245px rgb(9, 148, 199); border: currentColor; border-image: none; width: 34px; height: 30px;
+}
+.rwd .ifooter .icnTop {
+	background-position: 375px -1100px;
+}
+.rwd .en .ifooter .icnTop {
+	background-position: 422px -1100px;
+}
+}
+@media only screen and (max-width:459px)
+{
+.inline.radio {
+	margin-left: 0px !important;
+}
+.input-large {
+	width: 95%;
+}
+textarea.input-large {
+	width: 97%;
+}
+select.input-large {
+	width: 100%;
+}
+.btn-primary.btn {
+	margin-top: 10px; margin-left: 0px !important;
+}
+.ifooter {
+	margin-top: 0px;
+}
+.popup .page {
+	width: 300px !important;
+}
+.popup .size-col-d {
+	width: 320px !important;
+}
+.popup .btn {
+	vertical-align: bottom;
+}
+.popup .input-large {
+	width: 270px;
+}
+.popup textarea.input-large {
+	width: 275px;
+}
+.popup .mbn {
+	margin-bottom: 5px !important;
+}
+.popup #getKontakt_NachrichtLabel {
+	width: 200px;
+}
+#worldwide {
+	top: 0px;
+}
+.stage01 {
+	margin-top: 0px;
+}
+.rwd #worldwide li.fastsearch {
+	padding: 20px 10px;
+}
+.rwd #worldwide li.fastsearch {
+	background-color: rgb(236, 247, 252);
+}
+#worldwide {
+	background-color: rgb(236, 247, 252);
+}
+.fastsearch input {
+	width: 204px; height: 25px; font-size: 13px; margin-right: 11px; border-right-color: rgb(170, 213, 230); border-right-width: 1px; border-right-style: solid; background-color: rgb(255, 255, 255);
+}
+.fastsearch .btn {
+	background: url("//shared.bayer.com/img/sys/mobile-nav.png") no-repeat -2px -245px rgb(9, 148, 199); border: currentColor; border-image: none; width: 34px; height: 30px;
+}
+.tl_next {
+	right: 710px;
+}
+}
+@media only screen and (max-width:767px)
+{
+table.responsive {
+	margin-bottom: 0px;
+}
+.pinned {
+	background: rgb(255, 255, 255); left: 0px; top: 0px; width: 45%; overflow: hidden; border-right-color: rgb(220, 220, 220); border-left-color: rgb(204, 204, 204); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; position: absolute; -ms-overflow-x: auto;
+}
+.pinned table {
+	width: 100%; border-right-color: currentColor; border-left-color: currentColor; border-right-width: 0px; border-left-width: 0px; border-right-style: none; border-left-style: none;
+}
+.pinned table th {
+	white-space: nowrap;
+}
+.pinned table td {
+	white-space: nowrap;
+}
+.pinned td:last-child {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+div.table-wrapper {
+	overflow: hidden; margin-bottom: 20px; border-right-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid; position: relative;
+}
+div.table-wrapper div.scrollable table {
+	margin-left: 45%;
+}
+div.table-wrapper div.scrollable {
+	overflow: scroll; -ms-overflow-y: hidden;
+}
+table.responsive td {
+	overflow: hidden; white-space: nowrap; position: relative;
+}
+table.responsive th {
+	overflow: hidden; white-space: nowrap; position: relative;
+}
+table.responsive th:first-child {
+	display: none;
+}
+table.responsive td:first-child {
+	display: none;
+}
+table.responsive td:first-child {
+	display: none;
+}
+table.pinned.responsive td {
+	display: none;
+}
+}
+.clear {
+	clear: both;
+}
+.ir {
+	border: 0px currentColor; border-image: none; text-align: left; text-indent: -999em; overflow: hidden; display: block; direction: ltr; background-image: url("//shared.bayer.com/img/sys/sprite.png"); background-repeat: no-repeat; background-color: transparent;
+}
+.ir br {
+	display: none;
+}
+.hide {
+	display: none;
+}
+.hidden {
+	display: none !important; visibility: hidden;
+}
+.visuallyhidden {
+	margin: -1px; padding: 0px; border: 0px currentColor; border-image: none; width: 1px; height: 1px; overflow: hidden; position: absolute; clip: rect(0px, 0px, 0px, 0px);
+}
+.focusable.visuallyhidden:active {
+	margin: 0px; width: auto; height: auto; overflow: visible; position: static; clip: auto;
+}
+.focusable.visuallyhidden:focus {
+	margin: 0px; width: auto; height: auto; overflow: visible; position: static; clip: auto;
+}
+.invisible {
+	visibility: hidden;
+}
+.clearfix::before {
+	display: table; content: "";
+}
+.clearfix::after {
+	display: table; content: "";
+}
+.clearfix::after {
+	clear: both;
+}
+.clearfix {
+	
+}
+.media::before {
+	display: table; content: "";
+}
+.media::after {
+	display: table; content: "";
+}
+.media::after {
+	clear: both;
+}
+.media {
+	
+}
+.fr {
+	float: right;
+}
+.fl {
+	float: left;
+}
+.fn {
+	float: none !important;
+}
+.block {
+	display: block;
+}
+.inline {
+	display: inline;
+}
+.ofv {
+	overflow: visible;
+}
+.w70 {
+	width: 70px;
+}
+.ptn {
+	padding-top: 0px !important;
+}
+.pvn {
+	padding-top: 0px !important;
+}
+.pan {
+	padding-top: 0px !important;
+}
+.prn {
+	padding-right: 0px !important;
+}
+.phn {
+	padding-right: 0px !important;
+}
+.pan {
+	padding-right: 0px !important;
+}
+.pbn {
+	padding-bottom: 0px !important;
+}
+.pvn {
+	padding-bottom: 0px !important;
+}
+.pan {
+	padding-bottom: 0px !important;
+}
+.pln {
+	padding-left: 0px !important;
+}
+.phn {
+	padding-left: 0px !important;
+}
+.pan {
+	padding-left: 0px !important;
+}
+.mtn {
+	margin-top: 0px !important;
+}
+.mvn {
+	margin-top: 0px !important;
+}
+.man {
+	margin-top: 0px !important;
+}
+.mrn {
+	margin-right: 0px !important;
+}
+.mhn {
+	margin-right: 0px !important;
+}
+.man {
+	margin-right: 0px !important;
+}
+.mbn {
+	margin-bottom: 0px !important;
+}
+.mvn {
+	margin-bottom: 0px !important;
+}
+.man {
+	margin-bottom: 0px !important;
+}
+.mln {
+	margin-left: 0px !important;
+}
+.mhn {
+	margin-left: 0px !important;
+}
+.man {
+	margin-left: 0px !important;
+}
+.ptt {
+	padding-top: 10px !important;
+}
+.pvt {
+	padding-top: 10px !important;
+}
+.pat {
+	padding-top: 10px !important;
+}
+.prt {
+	padding-right: 10px !important;
+}
+.pht {
+	padding-right: 10px !important;
+}
+.pat {
+	padding-right: 10px !important;
+}
+.pbt {
+	padding-bottom: 10px !important;
+}
+.pvt {
+	padding-bottom: 10px !important;
+}
+.pat {
+	padding-bottom: 10px !important;
+}
+.plt {
+	padding-left: 10px !important;
+}
+.pht {
+	padding-left: 10px !important;
+}
+.pat {
+	padding-left: 10px !important;
+}
+.ptv {
+	padding-top: 5px !important;
+}
+.pvv {
+	padding-top: 5px !important;
+}
+.pav {
+	padding-top: 5px !important;
+}
+.prv {
+	padding-right: 5px !important;
+}
+.phv {
+	padding-right: 5px !important;
+}
+.pav {
+	padding-right: 5px !important;
+}
+.pbv {
+	padding-bottom: 5px !important;
+}
+.pvv {
+	padding-bottom: 5px !important;
+}
+.pav {
+	padding-bottom: 5px !important;
+}
+.plv {
+	padding-left: 5px !important;
+}
+.phv {
+	padding-left: 5px !important;
+}
+.pav {
+	padding-left: 5px !important;
+}
+.pr28 {
+	padding-right: 28px !important;
+}
+.pt8 {
+	padding-top: 8px !important;
+}
+.txtC {
+	text-align: center;
+}
+table .txtC {
+	text-align: center;
+}
+table tr .txtC {
+	text-align: center;
+}
+.textcenter {
+	text-align: center;
+}
+.txtL {
+	text-align: left;
+}
+table .txtL {
+	text-align: left;
+}
+table tr .txtL {
+	text-align: left;
+}
+.txtR {
+	text-align: right;
+}
+table .txtR {
+	text-align: right;
+}
+table tr .txtR {
+	text-align: right;
+}
+table tr .txtR {
+	text-align: right !important;
+}
+.txtT {
+	vertical-align: top;
+}
+table .txtT {
+	vertical-align: top;
+}
+table tr .txtT {
+	vertical-align: top;
+}
+.txtB {
+	vertical-align: bottom;
+}
+table .txtB {
+	vertical-align: bottom;
+}
+table tr .txtB {
+	vertical-align: bottom;
+}
+.txtM {
+	vertical-align: middle;
+}
+table .txtM {
+	vertical-align: middle;
+}
+table tr .txtM {
+	vertical-align: middle;
+}
+.txtbold {
+	font-weight: 700;
+}
+.txtnormal {
+	font-weight: 400;
+}
+.txtstandard {
+	font-size: 12px;
+}
+.txtsmall {
+	font-size: 11px;
+}
+.txtxs {
+	font-size: 10px;
+}
+.pre {
+	white-space: pre-line; -ms-word-wrap: break-word;
+}
+h1 {
+	white-space: pre-line; -ms-word-wrap: break-word;
+}
+.google {
+	background-position: right 0px; margin: -16px 10px 0px; height: 25px; background-image: url("//shared.bayer.com/img/sys/google.png");
+}
+@media print
+{
+* {
+	background: none !important; color: black !important; box-shadow: none !important; text-shadow: none !important;
+}
+#sod {
+	display: none;
+}
+.outerstage {
+	display: none;
+}
+#themap {
+	display: none;
+}
+.hilight {
+	color: black !important;
+}
+.tickerelement .ir {
+	margin: 0px; width: auto; height: auto; text-indent: 0px; display: inline;
+}
+abbr[title]::after {
+	content: " (" attr(title) ")";
+}
+.up::before {
+	content: "\25B2 ";
+}
+.eq::before {
+	content: "\25BA ";
+}
+.down::before {
+	content: "\25BC ";
+}
+.more::after {
+	line-height: 15px; padding-left: 2px; font-size: 9px; vertical-align: top; content: "\25BA ";
+}
+.lnk a::before {
+	font-size: 9px; vertical-align: top; content: "\25BA  ";
+}
+.mlnk a::before {
+	font-size: 9px; vertical-align: top; content: "\25BA  ";
+}
+.lnk {
+	text-indent: -12px; padding-left: 12px;
+}
+.mlnk {
+	text-indent: -12px; padding-left: 12px;
+}
+.lnk a {
+	padding-left: 0px;
+}
+.mlnk a {
+	padding-left: 0px;
+}
+pre {
+	border: 1px solid rgb(153, 153, 153); border-image: none; page-break-inside: avoid;
+}
+blockquote {
+	border: 1px solid rgb(153, 153, 153); border-image: none; page-break-inside: avoid;
+}
+thead {
+	display: table-header-group;
+}
+tr {
+	page-break-inside: avoid;
+}
+img {
+	page-break-inside: avoid;
+}
+img.kv {
+	max-width: 600px;
+}
+p {
+	orphans: 3; widows: 3;
+}
+h2 {
+	orphans: 3; widows: 3;
+}
+h3 {
+	orphans: 3; widows: 3;
+}
+h2 {
+	page-break-after: avoid;
+}
+h3 {
+	page-break-after: avoid;
+}
+.logo object {
+	display: block; visibility: visible;
+}
+.logo img {
+	display: block; visibility: visible;
+}
+.lfthnd {
+	display: none;
+}
+.margi {
+	display: none;
+}
+nav[role='navigation'] {
+	display: none;
+}
+#worldwide {
+	display: none;
+}
+.meta {
+	display: none;
+}
+footer {
+	display: none;
+}
+.pagefunctions {
+	display: none;
+}
+.lgladvice {
+	display: none;
+}
+.servicenav {
+	display: none;
+}
+.socialmediablock {
+	display: none;
+}
+.stage01 #carousel {
+	display: none;
+}
+.homepage .size-col-b {
+	display: none;
+}
+.printfooter {
+	display: block;
+}
+.supertab-head {
+	display: block;
+}
+.wrapper {
+	width: 600px; overflow: visible; min-width: 600px; max-width: 600px;
+}
+.page {
+	width: 600px; overflow: visible; min-width: 600px; max-width: 600px;
+}
+.stage01 {
+	width: 600px !important; height: 193px;
+}
+.stagetext {
+	background: rgba(255, 255, 255, 0.85) !important; padding: 5px 10px 6px; bottom: 10px;
+}
+.subhm .stage01 {
+	height: 240px;
+}
+.flexslider .slides img {
+	width: 600px;
+}
+.inlinegallery li img {
+	width: auto !important; height: auto !important;
+}
+.carousel .slides img {
+	width: 135px;
+}
+.stageContent {
+	left: 57%; top: 18px; width: 41%;
+}
+.stageContent .hdln {
+	line-height: 0.9; font-size: 24px; margin-top: 0px; margin-bottom: 6px;
+}
+li.flex-active-slide {
+	width: 600px !important;
+}
+li.flex-active-slide .stageContent {
+	left: 54%; width: 44%;
+}
+.size-col-b {
+	margin-right: 10px;
+}
+.namingarea {
+	width: 430px; margin-left: 20px;
+}
+#header {
+	margin-bottom: 0px; border-bottom-color: rgb(181, 181, 181); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.service {
+	border: 0px currentColor; border-image: none; margin-bottom: 20px;
+}
+.breadcrumb {
+	margin-left: 0px;
+}
+.homepage #header {
+	margin-bottom: 34px;
+}
+.ifooter {
+	padding: 8px 0px; overflow: visible; clear: both; margin-top: 32px; border-top-color: rgb(181, 181, 181); border-top-width: 1px; border-top-style: solid;
+}
+section > .line {
+	overflow: visible;
+}
+.homepage .margi {
+	left: 0px; width: 100% !important; clear: both; margin-top: 0px; float: none; display: block; position: relative !important;
+}
+.subhm .margi {
+	left: 0px; width: 100% !important; clear: both; margin-top: 0px; float: none; display: block; position: relative !important;
+}
+.homepage .size-col-c {
+	width: 620px;
+}
+.teaser a.img {
+	margin-right: 0px; float: none;
+}
+.teaser img {
+	width: 100% !important;
+}
+.teaser .bd {
+	padding-top: 10px; clear: both;
+}
+.margiblock {
+	width: 206px;
+}
+.size-col-b {
+	margin-right: 0px;
+}
+a.closeall {
+	display: none;
+}
+.onAccHead {
+	border: 0px currentColor; border-image: none;
+}
+.onAccHead span {
+	padding: 0px;
+}
+.onAccordion .hide {
+	display: block;
+}
+.onAccordionContent {
+	margin-left: 0px;
+}
+.onAccordionContent .p {
+	margin-top: 0px;
+}
+.ui-tabs {
+	margin: 0px;
+}
+.ui-tabs-hide {
+	display: block;
+}
+.ui-tabs-nav {
+	display: none;
+}
+.ui-tabs-panel {
+	padding: 0px; border: 0px currentColor; border-image: none; margin-bottom: 16px;
+}
+.p ul {
+	padding: 0px 0px 0px 18px; list-style-type: disc;
+}
+.plntxt ul {
+	padding: 0px 0px 0px 18px; list-style-type: disc;
+}
+.p ul li {
+	background: 0px; padding-left: 0px;
+}
+.plntxt ul li {
+	background: 0px; padding-left: 0px;
+}
+.dontprint {
+	display: none !important;
+}
+.printheader {
+	display: block;
+}
+.line {
+	overflow: visible;
+}
+.lastUnit {
+	overflow: visible;
+}
+.well .quote {
+	border: 0px currentColor; border-image: none;
+}
+#header {
+	height: 92px;
+}
+.namingarea {
+	margin-top: 36px; margin-left: 32px;
+}
+.logo {
+	top: 10px; right: 32px;
+}
+hr {
+	clear: left;
+}
+.homepage .colhead {
+	margin-top: 0px;
+}
+.stagetext {
+	background: rgb(255, 255, 255) !important; padding: 5px 10px 6px; bottom: 10px;
+}
+}
+@media print
+{
+#header {
+	background: rgb(255, 255, 255) !important; margin: 0px; left: 0px; top: 0px; height: 82px; position: relative;
+}
+.printheader {
+	display: none !important;
+}
+.namingarea {
+	margin-top: 26px;
+}
+.logo {
+	top: 0px !important;
+}
+.page {
+	top: 0px;
+}
+}
+.margin div.lnk {
+	margin: 0px;
+}
+div.lnk ul {
+	margin: 0px; padding-left: 0px;
+}
+div.lnk ul li {
+	list-style: none;
+}
+.contnt .margi {
+	margin-top: 0px;
+}
+#ContentPlaceHolder1_ContentPlaceHolder2_WarenkorbInput .controls {
+	padding-top: 4px;
+}
+.citys a {
+	display: block;
+}
+.flash {
+	overflow: auto;
+}
+.ecard-post-stamp {
+	top: 10px; width: 127px; height: 101px; right: 10px; position: absolute;
+}
+.checkboxlist-special span {
+	float: left;
+}
+.label-s {
+	padding-top: 2px !important;
+}
+.radioButtonWrapper label {
+	display: inline;
+}
+.radioButtonWrapper label input {
+	margin-left: 5px;
+}
+#videochannel_3848 {
+	background: rgb(255, 255, 255); margin: 0px auto; width: auto !important; min-width: 995px; max-width: 1075px;
+}
+#videochannel_3862 {
+	background: rgb(255, 255, 255); margin: 0px auto; width: auto !important; min-width: 995px; max-width: 1075px;
+}
+#videochannel_2371 {
+	background: rgb(255, 255, 255); margin: 0px auto; width: auto !important; min-width: 995px; max-width: 1075px;
+}
+#videochannel_2515 {
+	background: rgb(255, 255, 255); margin: 0px auto; width: auto !important; min-width: 995px; max-width: 1075px;
+}
+#wrapper {
+	margin: 0px auto; width: 995px; position: relative;
+}
+#header > div {
+	float: none !important;
+}
+#videochannel_3848 .pageheader {
+	height: 124px; background-color: rgb(255, 255, 255);
+}
+#videochannel_3862 .pageheader {
+	height: 124px; background-color: rgb(255, 255, 255);
+}
+#videochannel_2371 .pageheader {
+	height: 124px; background-color: rgb(255, 255, 255);
+}
+#videochannel_2515 .pageheader {
+	height: 124px; background-color: rgb(255, 255, 255);
+}
+#innerContent {
+	margin: 0px -10px !important; width: 210px;
+}
+#videochannel_3848 #footer {
+	margin: 0px -40px;
+}
+#videochannel_3862 #footer {
+	margin: 0px -40px;
+}
+#videochannel_2371 #footer {
+	margin: 0px -40px;
+}
+#videochannel_2515 #footer {
+	margin: 0px -40px;
+}
+#videochannel_3848 .ifooter {
+	margin-right: 40px; margin-left: 40px;
+}
+#videochannel_3862 .ifooter {
+	margin-right: 40px; margin-left: 40px;
+}
+#videochannel_2371 .ifooter {
+	margin-right: 40px; margin-left: 40px;
+}
+#videochannel_2515 .ifooter {
+	margin-right: 40px; margin-left: 40px;
+}
+#videochannel_3848 .lgladvice {
+	margin-left: 42px;
+}
+#videochannel_3862 .lgladvice {
+	margin-left: 42px;
+}
+#videochannel_2371 .lgladvice {
+	margin-left: 42px;
+}
+#videochannel_2515 .lgladvice {
+	margin-left: 42px;
+}
+#videochannel_3848 #header {
+	height: 201px;
+}
+#videochannel_3862 #header {
+	height: 201px;
+}
+#videochannel_2371 #header {
+	height: 201px;
+}
+#videochannel_2515 #header {
+	height: 201px;
+}
+#videochannel_3848 .service {
+	margin-right: 0px; margin-left: 0px;
+}
+#videochannel_3862 .service {
+	margin-right: 0px; margin-left: 0px;
+}
+#videochannel_2371 .service {
+	margin-right: 0px; margin-left: 0px;
+}
+#videochannel_2515 .service {
+	margin-right: 0px; margin-left: 0px;
+}
+#videochannel_3848 h3 {
+	margin-right: 0px; margin-left: 0px;
+}
+#videochannel_3862 h3 {
+	margin-right: 0px; margin-left: 0px;
+}
+#videochannel_2371 h3 {
+	margin-right: 0px; margin-left: 0px;
+}
+#videochannel_2515 h3 {
+	margin-right: 0px; margin-left: 0px;
+}
+#videochannel_3848 .p02 h3 {
+	margin-left: 10px;
+}
+#videochannel_3862 .p02 h3 {
+	margin-left: 10px;
+}
+#videochannel_2371 .p02 h3 {
+	margin-left: 10px;
+}
+#videochannel_2515 .p02 h3 {
+	margin-left: 10px;
+}
+.vrecommend {
+	clear: left;
+}
+.recommend_video_form textarea {
+	width: 100%;
+}
+#videochannel_3848 .text {
+	width: auto;
+}
+#videochannel_3862 .text {
+	width: auto;
+}
+#videochannel_2371 .text {
+	width: auto;
+}
+#videochannel_2515 .text {
+	width: auto;
+}
+#embedBox p {
+	margin: 0px;
+}
+.radioButtonWrapper {
+	float: left;
+}
+.radioButtonWrapper label input {
+	float: left;
+}
+.radioButtonWrapper {
+	margin-top: 3px;
+}
+.radioButtonWrapper label input {
+	margin-top: 1px;
+}
+.radioButtonWrapper label {
+	padding-left: 5px;
+}
+#ctl00_ContentPlaceHolder1_lostPassword .row {
+	margin-bottom: 10px;
+}
+#ctl00_ContentPlaceHolder1_register .row {
+	margin-bottom: 10px;
+}
+#ctl00_ContentPlaceHolder1_register .rowagb.row > input#inputctl00_ContentPlaceHolder1_lostPassword_Captcha {
+	margin-bottom: 10px;
+}
+.counter.loading {
+	background: url("//shared.bayer.com/img/sys/loader.gif") no-repeat;
+}
+.resultcounter.loading {
+	background: url("//shared.bayer.com/img/sys/loader.gif") no-repeat;
+}
+.results.loading {
+	background: url("//shared.bayer.com/img/sys/loader.gif") no-repeat 50% 50%;
+}
+.p#ErrorLabelNewsletter {
+	display: block;
+}
+.copies {
+	margin-left: 10px;
+}
+@media not all, all and (min-resolution:192dpi)
+{
+.closepaneltop {
+	background-image: url("//shared.bayer.com/img/sys/sprite_new_retina.png"); background-size: 32px 3000px; -webkit-background-size: 32px 3000px;
+}
+.closepanel {
+	background-image: url("//shared.bayer.com/img/sys/sprite_new_retina.png"); background-size: 32px 3000px; -webkit-background-size: 32px 3000px;
+}
+.lnk a {
+	background-image: url("//shared.bayer.com/img/sys/sprite_new_retina.png"); background-size: 32px 3000px; -webkit-background-size: 32px 3000px;
+}
+a.lnk {
+	background-image: url("//shared.bayer.com/img/sys/sprite_new_retina.png"); background-size: 32px 3000px; -webkit-background-size: 32px 3000px;
+}
+#worldwide a {
+	background-image: url("//shared.bayer.com/img/sys/sprite_new_retina.png"); background-size: 32px 3000px; -webkit-background-size: 32px 3000px;
+}
+.fastsearch .btn {
+	background-image: url("//shared.bayer.com/img/sys/sprite_new_retina.png"); background-size: 32px 3000px; -webkit-background-size: 32px 3000px;
+}
+.bluebg .btn {
+	background-image: url("//shared.bayer.com/img/sys/sprite_new_retina.png"); background-size: 32px 3000px; -webkit-background-size: 32px 3000px;
+}
+.ifooter a {
+	background-image: url("//shared.bayer.com/img/sys/sprite_new_retina.png"); background-size: 32px 3000px; -webkit-background-size: 32px 3000px;
+}
+.more {
+	background-image: url("//shared.bayer.com/img/sys/sprite_new_retina.png"); background-size: 32px 3000px; -webkit-background-size: 32px 3000px;
+}
+.mlnk a {
+	background-image: url("//shared.bayer.com/img/sys/sprite_new_retina.png"); background-size: 32px 3000px; -webkit-background-size: 32px 3000px;
+}
+.socialmedia .ir {
+	background-image: url("//shared.bayer.com/img/sys/sprite_new_retina.png"); background-size: 32px 3000px; -webkit-background-size: 32px 3000px;
+}
+.tickerelement .ir {
+	background-image: url("//shared.bayer.com/img/sys/sprite_new_retina.png"); background-size: 32px 3000px; -webkit-background-size: 32px 3000px;
+}
+.mobilenav a {
+	background-image: url("//shared.bayer.com/img/sys/mobile-nav_retina.png"); background-size: 30px 280px; -webkit-background-size: 30px 280px;
+}
+.fastsearch .btn {
+	background-image: url("//shared.bayer.com/img/sys/mobile-nav_retina.png"); background-size: 30px 280px; -webkit-background-size: 30px 280px;
+}
+.mobilenav a.mlang {
+	background: rgb(76, 173, 208);
+}
+.logo {
+	background-image: url("//shared.bayer.com/img/logo_retina.png"); background-size: 72px 72px; -webkit-background-size: 72px 72px;
+}
+}
+@media not all, only screen and (min-width:1013px) and (min-resolution:192dpi)
+{
+.namingarea {
+	display: none;
+}
+.rwd #header {
+	background: url("/img/header/150ySFABL_retina.png") no-repeat 51px 61px / 700px 34px rgb(255, 255, 255); -webkit-background-size: 700px 34px;
+}
+}
+@media not all, only screen and (max-width:767px) and (min-resolution:192dpi)
+{
+.rwd #header {
+	background-image: url("/img/header/150_retina.png"); background-size: 570px 232px; -webkit-background-size: 570px 232px;
+}
+}
+@media not all, only screen and (max-width:767px) and (min-resolution:192dpi)
+{
+.rwd .logo {
+	background-image: url("//shared.bayer.com/img/logo-small_retina.png"); background-size: 48px 48px; -webkit-background-size: 48px 48px;
+}
+}
+.touch .socialmedia a {
+	width: 32px; height: 32px; opacity: 1; background-image: url("//shared.bayer.com/img/sys/sprite_new_retina.png"); background-size: 64px 6000px;
+}
+.touch .fb {
+	background-position: 0px -3800px;
+}
+.touch .gp {
+	background-position: 0px -3832px;
+}
+.touch .tw {
+	background-position: 0px -3864px;
+}
+.touch .yt {
+	background-position: 0px -3896px;
+}
+.touch .li {
+	background-position: 0px -3928px;
+}
+.touch .rss {
+	background-position: -32px -3800px;
+}
+.intro_starter {
+	background: url("//shared.bayer.com/img/sys/sprite.png") no-repeat -24px 0px; padding: 0px 12px 10px 10px; right: 0px; bottom: 0px; display: none; position: absolute;
+}
+.hasflash .intro_starter {
+	display: block;
+}
+.radioButtonListWrapperCustom input {
+	float: left;
+}
+.radioButtonListWrapperCustom label {
+	float: left;
+}
+.radioButtonListWrapperCustom label {
+	margin: 4px 10px 0px 5px;
+}
+.js .margininput .contacts.newlinkmargin {
+	display: none;
+}
+.js .margininput .horline {
+	display: none;
+}
+.hdrdfiftybx {
+	padding: 13px 8px 12px; border: 1px solid rgb(255, 102, 0); border-image: none; width: 152px; margin-top: 35px; margin-left: 10px; background-color: rgb(255, 243, 235);
+}
+.hdrdfiftybx a {
+	color: rgb(255, 102, 0); font-size: 13px; text-decoration: none; display: block;
+}
+.hdrdfiftybx .orange-arrow {
+	background: url("//shared.bayer.com/img/sys/arrow-orange.png") no-repeat right 3px !important; color: rgb(255, 102, 0) !important; line-height: 18px;
+}
+.green.hdrdfiftybx {
+	border: 1px solid rgb(51, 153, 0); border-image: none; background-color: rgb(240, 250, 227);
+}
+.green.hdrdfiftybx a {
+	color: rgb(51, 153, 0);
+}
+.hdrdfiftybx .green-arrow {
+	background: url("//shared.bayer.com/img/sys/arrow-green.png") no-repeat right 3px !important; color: rgb(51, 153, 0) !important;
+}
+#truckcontainer {
+	height: 475px;
+}
+#truck {
+	left: -812px; bottom: 0px;
+}
+.gibgas#truck {
+	transition:left 20s linear; left: 160%; -webkit-transition: left 20s linear; -moz-transition: left 20s linear; -o-transition: left 20s linear;
+}
+.navigation {
+	position: relative; z-index: 25;
+}
+.megamenu ul {
+	display: none;
+}
+.megamenu ul {
+	list-style: none;
+}
+.megamenu ul li {
+	list-style: none;
+}
+.megamenu ul {
+	margin: 0px; padding: 0px; position: relative;
+}
+.megamenu .newsub ul {
+	display: block;
+}
+.megamenu {
+	background: rgb(0, 144, 197); font: 13px/normal Arial, sans-serif; list-style: none; margin: 0px; padding: 0px; width: 100%; height: 26px; position: relative; font-size-adjust: none; font-stretch: normal;
+}
+.megamenu > li {
+	margin: 0px; padding: 0px; float: left;
+}
+.megamenu > li > a {
+	padding: 5px 15px 5px 14px; color: rgb(255, 255, 255); line-height: 16px; font-weight: 700; text-decoration: none; border-right-color: rgb(102, 188, 220); border-right-width: 1px; border-right-style: solid; float: left; display: block; background-color: rgb(0, 144, 197);
+}
+.megamenu > li > a:hover {
+	color: rgb(0, 144, 197); background-color: rgb(232, 245, 251);
+}
+.megamenu > li:hover > a {
+	color: rgb(0, 144, 197); background-color: rgb(232, 245, 251);
+}
+.megamenu > li > a.selected {
+	color: rgb(255, 255, 255); background-color: rgb(107, 194, 0);
+}
+.megamenu li.mhover > ul {
+	display: block;
+}
+.megamenu .newsub {
+	padding: 24px 20px; left: 0px; top: 26px; width: 955px; position: absolute; min-height: 392px; box-shadow: 0px 24px 18px -18px #666; background-color: rgb(232, 245, 251);
+}
+.newsub .newsub {
+	box-shadow: none;
+}
+.megaTsrBx {
+	padding: 0px 15px 28px; width: 170px; margin-right: 20px; float: left; background-color: rgb(255, 255, 255);
+}
+.megaTsrBx p {
+	margin: 0px; padding: 10px 0px 0px; color: rgb(51, 51, 51); line-height: 16px; font-size: 12px;
+}
+.megaTsrBx h2 {
+	margin: 0px; padding: 7px 0px 8px;
+}
+.megamenu .lnk {
+	margin: 5px 0px 0px;
+}
+.megamenu .newlevel2 {
+	width: 190px; float: left;
+}
+.megamenu .newlevel2 a {
+	border-width: 1px 0px; border-style: solid; border-color: rgb(189, 226, 240); padding: 4px 8px; border-image: none; color: rgb(0, 144, 197); line-height: 16px; font-size: 0.92em; font-weight: 700; margin-bottom: -1px; float: none; display: block;
+}
+.megamenu .simple a {
+	border-width: 1px 0px; border-style: solid; border-color: rgb(189, 226, 240); padding: 4px 8px; border-image: none; color: rgb(0, 144, 197); line-height: 16px; font-size: 0.92em; font-weight: 700; margin-bottom: -1px; float: none; display: block;
+}
+.megamenu .newlevel2 li.haschild > a {
+	background: url("//shared.bayer.com/img/sys/sprite.png") no-repeat 153px 6px;
+}
+.megamenu .newlevel2 li.haschild:hover > a {
+	background-position: 180px -396px; width: 174px; padding-right: 19px; position: relative; z-index: 20;
+}
+.megamenu .newlevel2 li:hover > a {
+	color: rgb(51, 153, 0); text-decoration: underline; background-color: rgb(255, 255, 255);
+}
+.megamenu .simple li:hover > a {
+	color: rgb(51, 153, 0); text-decoration: underline; background-color: rgb(255, 255, 255);
+}
+.megamenu .newlevel2 ul ul {
+	display: none;
+}
+.megamenu .newlevel2 ul li.mhover > ul {
+	display: block;
+}
+.megamenu .newlevel2 ul ul {
+	padding: 0px 10px 0px 9px; top: 0px; width: 191px; margin-left: 200px; border-left-color: rgb(189, 226, 240); border-left-width: 1px; border-left-style: solid; position: absolute; min-height: 392px; background-color: rgb(255, 255, 255);
+}
+.megamenu .newlevel2 ul ul ul {
+	margin-left: 219px;
+}
+.megamenu .newlevel2 li li.haschild:hover > a {
+	padding-right: 29px;
+}
+.megamenu li.n1 a {
+	width: 61px;
+}
+.homepage .megamenu .n1 a {
+	width: 60px; visibility: hidden;
+}
+.homepage .megamenu .n1 {
+	border-right-color: rgb(102, 188, 220); border-right-width: 1px; border-right-style: solid;
+}
+.megamenu ul.simple {
+	padding: 25px 15px 10px; top: 26px; margin-left: -10px; position: absolute; background-color: rgb(232, 245, 251);
+}
+.megamenu ul.simple li {
+	margin: 0px; padding: 0px; width: 190px;
+}
+.megamenu ul.simple li a {
+	padding-left: 10px; border-top-color: rgb(189, 226, 240); border-top-width: 1px; border-top-style: solid;
+}
+.megamenu ul.simple li a:hover {
+	color: rgb(51, 153, 0);
+}
+.megamenu li .lst {
+	border-bottom-color: rgb(189, 226, 240); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.megamenu .additionaltext {
+	padding: 12px 1px 20px; width: 400px; font-size: 12px; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none; background-color: rgb(232, 245, 251);
+}
+@media only screen and (max-width:1012px) and (min-width:768px)
+{
+.download em {
+	left: 485px;
+}
+.megamenu > li > a {
+	padding-right: 5px; padding-left: 5px;
+}
+#mega-menu .megaTsrBx {
+	display: none;
+}
+}
+@media only screen and (max-width:767px)
+{
+.megamenu {
+	height: auto;
+}
+.homepage .megamenu .n1 {
+	display: none;
+}
+.megamenu .megaTsrBx {
+	display: none;
+}
+.megamenu .notmobile {
+	display: block !important;
+}
+.megamenu ul {
+	margin: 0px !important; border: 0px currentColor !important; border-image: none !important; width: auto !important; float: none !important; background-color: rgb(255, 255, 255) !important;
+}
+.megamenu li {
+	margin: 0px !important; border: 0px currentColor !important; border-image: none !important; width: auto !important; float: none !important; background-color: rgb(255, 255, 255) !important;
+}
+.megamenu a {
+	margin: 0px !important; border: 0px currentColor !important; border-image: none !important; width: auto !important; float: none !important; background-color: rgb(255, 255, 255) !important;
+}
+.megamenu ul {
+	padding: 0px !important; top: 0px !important; position: relative !important; min-height: 24px !important;
+}
+.megamenu li {
+	padding: 0px !important; top: 0px !important; position: relative !important; min-height: 24px !important;
+}
+.megamenu a {
+	padding: 7px 12px 9px 20px !important; color: rgb(0, 144, 197) !important; line-height: 120% !important; font-size: 16px !important; font-weight: 400 !important; text-decoration: none !important; border-bottom-color: rgb(220, 220, 220) !important; border-bottom-width: 1px !important; border-bottom-style: solid !important;
+}
+.megamenu a.haschild {
+	background-position: right -1200px !important; background-image: url("//shared.bayer.com/img/sys/sprite.png"); background-repeat: no-repeat;
+}
+.megamenu li:hover > a.haschild {
+	background-position: right -1300px !important; color: rgb(51, 153, 0) !important;
+}
+.megamenu a.selected.haschild {
+	background-position: right -1300px !important; color: rgb(51, 153, 0) !important;
+}
+.megamenu a.selected {
+	color: rgb(51, 153, 0) !important;
+}
+.megamenu .selected > ul {
+	display: block;
+}
+.megamenu .newlevel2 .selected > ul {
+	display: block;
+}
+.megamenu > li > a {
+	background-color: rgb(236, 247, 252) !important;
+}
+.megamenu ul ul a {
+	padding-left: 45px !important;
+}
+.megamenu ul ul ul a {
+	padding-left: 70px !important;
+}
+.megamenu ul ul ul ul a {
+	padding-left: 95px !important;
+}
+.rwd .mobilenav {
+	display: block;
+}
+}
+#dsclmr .clogo {
+	margin: 0.9em 0px 0.7em 1.6em !important; width: 139px;
+}
+#dsclmr img.close {
+	top: 0.7em; width: auto !important; height: auto !important; right: 0.8em; float: right; position: absolute; cursor: pointer;
+}
+#dsclmr #dsclmrdescription {
+	margin: 0px 1.33em; color: rgb(51, 51, 51); line-height: 1.33em;
+}
+#dsclmr {
+	border-width: 0.2em; border-style: solid; border-color: rgb(255, 255, 255) rgb(204, 204, 204) rgb(204, 204, 204) rgb(255, 255, 255); left: 34%; top: 30%; width: 300px; height: 195px; visibility: hidden; position: fixed; z-index: 30000; box-shadow: -12px 27px 22px -18px #666; background-color: rgb(243, 243, 243);
+}
+@media only screen and (max-width:767px)
+{
+.rwd .stagehdln {
+	float: none; display: inline;
+}
+.rwd .stagetext div {
+	display: inline;
+}
+.rwd .stagetext .stagetopline {
+	display: none;
+}
+}
+img.namingarea {
+	margin: 0px !important; width: 100% !important; height: auto !important;
+}
+@media only screen and (max-width:1012px) and (min-width:768px)
+{
+img.namingarea {
+	margin: 5px 0px 0px -11px !important; width: 892px !important;
+}
+.rwd .namingarea {
+	display: block !important;
+}
+.rwd #header {
+	background: rgb(255, 255, 255) !important;
+}
+}
+@media only screen and (max-width:767px) and (min-width:460px)
+{
+img.namingarea {
+	margin: -22px 0px 0px -18px !important; width: 653px !important;
+}
+.rwd .namingarea {
+	display: block !important;
+}
+.rwd #header {
+	background: rgb(255, 255, 255) !important; overflow: hidden !important;
+}
+}
+@media only screen and (max-width:459px)
+{
+img.namingarea {
+	display: none !important;
+}
+.rwd #header {
+	background: url("/img/header/sfabl-small.svg") no-repeat 0px 0px rgb(255, 255, 255) !important;
+}
+}
+@media print
+{
+img.namingarea {
+	margin: -17px 0px 0px -20px !important; width: 798px !important;
+}
+}

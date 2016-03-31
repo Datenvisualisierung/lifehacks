@@ -1,0 +1,422 @@
+/*
+ * jQuery FlexSlider v2.2.0
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ */
+
+
+/* Browser Resets
+*********************************/
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus {
+	outline: none;
+}
+
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/* Icon Fonts
+*********************************/
+/* Font-face Icons */
+@font-face {
+	font-family: 'flexslider-icon';
+	src:url('../../fonts/bms/fonts/flexslider-icon.eot');
+	src:url('../../fonts/bms/fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'),
+		url('../../fonts/bms/fonts/flexslider-icon.woff') format('woff'),
+		url('../../bms/fonts/flexslider-icon.ttf') format('truetype'),
+		url('../../fonts/bms/fonts/flexslider-icon.svg#flexslider-icon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* FlexSlider Necessary Styles
+*********************************/
+.flexslider,
+.miniSlider {
+	margin: 0;
+	padding: 0;
+
+}
+
+.flexslider .slides > li,
+ .miniSlider .slides > li{
+	display: none;
+	-webkit-backface-visibility: hidden;
+	position: relative;
+} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img,
+.miniSlider .slides img {
+	width: 100%;
+	display: block;
+}
+.flexslider .slides img{
+ 	@include mybreakpoint(sm) {
+		padding-top: 1px;
+		border-top: 4px solid $green2;
+ 	}
+}
+.miniSlider .slides img {
+	padding-top: 1px;
+	border-top: 4px solid $orange1;
+}
+
+
+
+/* Clearfix for the .slides element */
+.slides:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+html[xmlns] .slides {
+	display: block;
+}
+
+* html .slides {
+	height: 1%;
+}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {
+	display: block;
+}
+
+/* FlexSlider Default Theme
+*********************************/
+.flexslider {
+	margin: 0;
+	background: #fff;
+	position: relative;
+	zoom: 1;
+	z-index: 1;
+
+}
+
+.flex-viewport {
+	max-height: 315px;
+}
+
+.loading .flex-viewport {
+	max-height: 300px;
+}
+
+.flexslider .slides {
+	zoom: 1;
+}
+
+.carousel li {
+	margin-right: 5px;
+}
+
+/* Direction Nav */
+.flex-direction-nav {
+	*height: 0;
+}
+
+.flex-direction-nav a {
+	text-decoration: none;
+	display: block;
+	width: 35px;
+	height: 35px;
+	margin: -20px 0 0;
+	position: absolute;
+	top: 50%;
+	z-index: 10;
+	overflow: hidden;
+	opacity: 0;
+	cursor: pointer;
+	color: rgba(0,0,0,0.8);
+	text-shadow: 1px 1px 0 rgba(255,255,255,0.3);
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	transition: all .3s ease;
+
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	background-color: silver;
+ 	@include mybreakpoint(sm) {
+ 		display: none;
+ 	}
+
+}
+
+.flex-direction-nav .flex-prev {
+	left: -50px;
+	text-align: right;
+}
+
+.flex-direction-nav .flex-next {
+	right: -50px;
+	text-align: right;
+}
+.flex-direction-nav .flex-next a {
+	//text-indent: 9999px;
+}
+.flex-direction-nav .flex-prev a {
+	//text-indent: 9999px;
+}
+.flexslider:hover .flex-prev {
+	opacity: 0.7;
+	left: 10px;
+}
+
+.flexslider:hover .flex-next {
+	opacity: 0.7;
+	right: 10px;
+}
+
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {
+	opacity: 1;
+}
+
+.flex-direction-nav .flex-disabled {
+	opacity: 0!important;
+	filter: alpha(opacity=0);
+	cursor: default;
+}
+//Änderung Vor und Zurück
+.flex-direction-nav a:before {
+	font-family: "flexslider-icon";
+	font-size: 16px;
+	color: white;
+	line-height: 1;
+	display: inline-block;
+	//display: block;
+	content: '\f001';
+	margin-top: 7px;
+	margin-right: 9px;
+ 	@include mybreakpoint(sm) {
+ 		display: none;
+ 	}
+}
+
+.flex-direction-nav a.flex-prev:before {
+	margin-right: 12px;
+}
+//Änderung Vor
+.flex-direction-nav a.flex-next:before {
+	content: '\f002';
+	margin-top: 7px;
+}
+
+/* Pause/Play */
+.flex-pauseplay a {
+	display: block;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	bottom: 5px;
+	left: 10px;
+	opacity: 0.8;
+	z-index: 10;
+	overflow: hidden;
+	cursor: pointer;
+	color: #000;
+}
+
+.flex-pauseplay a:before {
+	font-family: "flexslider-icon";
+	font-size: 20px;
+	display: inline-block;
+	content: '\f004';
+}
+
+.flex-pauseplay a:hover {
+	opacity: 1;
+}
+
+.flex-pauseplay a.flex-play:before {
+	content: '\f003';
+}
+
+/* Control Nav */
+.flex-control-nav {
+	width: 100%;
+	position: absolute;
+	bottom: 13px;
+	right: 0;
+ 	padding-right: 60px;
+	text-align: right;
+ 	@include mybreakpoint(sm) {
+ 		text-align: center;
+    	bottom: -44px;
+ 		right: auto;
+ 		padding-bottom: 14px;
+ 		border-bottom: 1px solid $gray4;
+ 		padding-right: 0;
+ 	}	
+}
+
+
+
+
+//Abstand der Bullets über margin
+.flex-control-nav li {
+	margin: 0 7px;
+	display: inline-block;
+	zoom: 1;
+	vertical-align: middle;
+	*display: inline;
+ 	@include mybreakpoint(sm) {
+	    margin: 0 10px;
+    	//width: 17px;
+    }
+}
+
+.flex-control-paging .flex-active{
+
+}
+.flex-control-paging li a {
+	width: 12px;
+	height: 12px;
+	display: block;
+	background: white;
+	cursor: pointer;
+	//text-indent: 9999px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	border-radius: 20px;
+ 	@include mybreakpoint(sm) {
+		border: 2px solid $green2;
+		width: 6px;
+		height: 6px;
+ 	}		
+}
+
+.flex-control-paging li a:hover {
+	background: $green3;	
+}
+
+.flex-control-paging li a.flex-active {
+	cursor: default;
+	background: $green1;
+	border: 1px solid white;
+ 	@include mybreakpoint(sm) {
+		border: 2px solid $green1;
+	    height: 9px;
+	    width: 9px;
+ 	}	
+}
+
+.flex-control-thumbs {
+	margin: 5px 0 0;
+	position: static;
+	overflow: hidden;
+}
+
+.flex-control-thumbs li {
+	width: 25%;
+	float: left;
+	margin: 0;
+}
+
+.flex-control-thumbs img {
+	width: 100%;
+	display: block;
+	opacity: .7;
+	cursor: pointer;
+}
+
+.flex-control-thumbs img:hover {
+	opacity: 1;
+}
+
+.flex-control-thumbs .flex-active {
+	opacity: 1;
+	cursor: default;
+}
+
+//////////////////////////////////////////
+// weißer Kastern in Slider
+//////////////////////////////////////////
+.stagetext {
+	@include boxSizing;
+    background-color: rgba(255, 255, 255, 0.85);
+    bottom: 31px;
+    box-shadow: 0 0 10px rgba(102, 102, 102, 0.3);
+    overflow: hidden;
+    padding: 10px 20px 16px;
+    position: absolute;
+    left: 60px;
+    width: 350px;
+    z-index: 2;
+ 	@include mybreakpoint(sm) {
+	    box-shadow: none;
+	    overflow: hidden;
+	    position: static;
+	    width: 100%;
+	    display: table;
+	    padding: 0px 20px 0px;
+	    padding-right: 0px;
+ 	}
+ 	@include mybreakpoint(xs) {
+	    padding: 0px 10px 0px;
+ 	}
+}
+
+
+//Überschrift
+.stagehdln {
+    color: $green1;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 2px 0 -1px;
+ 	@include mybreakpoint(sm) {
+ 		text-transform: uppercase;
+ 		display: table-cell;
+		font-size: 13px;
+		font-weight: bold;
+	    margin: 0px 0 0px;
+	   	padding: 0;
+ 	}
+}
+
+//Titel über Überschrift
+.stagetopline {
+    font-size: 14px;
+    line-height: 1.3333;
+
+ 	@include mybreakpoint(sm) {
+ 		display: none;
+ 	}
+}
+.stagetext p, .stageContent p {
+    display: inline;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+ 	@include mybreakpoint(sm) {
+ 		display: none;
+ 	}
+}
+.stagetext .more{
+    font-size: 12px;
+    line-height: 16px;	
+ 	@include mybreakpoint(sm) {
+ 		font-size: 13px;
+ 		display: table-cell;
+	    margin: 0px 0 0px;
+	    padding: 0;
+ 	}	
+}

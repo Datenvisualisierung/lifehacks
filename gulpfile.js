@@ -1,23 +1,21 @@
 var gulp       = require('gulp'),
     gulpif   = require('gulp-if'),
     gutil      = require('gulp-util'),
+    sass       = require('gulp-sass'),
     concat     = require('gulp-concat'),
-    //prefix     = require('gulp-autoprefixer'),
+    prefix     = require('gulp-autoprefixer'),
     swig       = require('gulp-swig'),
 	debug      = require('gulp-debug'),
 	livereload = require('gulp-livereload'),
      uglify   = require('gulp-uglifyjs');
-	sourcemaps = require('gulp-sourcemaps');
-	less = require('gulp-less');
-	path = require('path');
 
 
 
-var args = require('yargs').
- boolean('iscroll').
- boolean('compress').argv;
 
-gulp.task('default', ['build-html', 'build-css', 'build-images', 'build-images-dynamic', 'build-js', 'build-fonts']);
+
+var args = require('yargs').boolean('iscroll').boolean('compress').argv;
+
+gulp.task('default', ['build-html', 'build-css', 'build-img', 'build-js', 'build-fonts']);
 
 gulp.task('build-html', function() {
 
@@ -28,73 +26,51 @@ gulp.task('build-html', function() {
 });
 
 gulp.task('build-css', function() {
+	gulp.src(['src/css/*.css'])
+		.pipe(gulp.dest('build/css/'));
 
-	gulp.src([	'src/css/*.less',
-				'src/css/styles_typo3.css' ])
-	  	.pipe(sourcemaps.init())
-		.pipe(less())
-  		.pipe(sourcemaps.write())
-		//.pipe(prefix())
-		.pipe(gulp.dest('build/css'));
-
-
-
+	gulp.src(['src/sass/*.scss', '!src/sass/_*.scss'])
+		.pipe(sass())
+		.pipe(prefix())
+		.pipe(gulp.dest('build/css/'));
 
 });
 
+gulp.task('build-img', function() {
 
-
-
-
-gulp.task('build-images', function() {
-
-	gulp.src('src/images/**/*')
-		.pipe(gulp.dest('build/images'));
+	gulp.src('src/img/**/*')
+		.pipe(gulp.dest('build/img/'));
 
 });
-gulp.task('build-images-dynamic', function() {
 
-	gulp.src('src/images-dynamic/**/*')
-		.pipe(gulp.dest('build/images-dynamic'));
-
-});
 
 gulp.task('build-js', function() {
 
 var scripts = [
 
-        'src/js/main.js'
-
-
     ];
     gulp.src(scripts).
-        pipe(concat("main.js")).
         pipe(gulpif(args.compress, uglify())).
         pipe(gulp.dest('build/js'));
 
-//aus libraries
+//aus Vendor
     gulp.src([
-		'src/libraries/bootstrap.min.js',
-        'src/libraries/jquery-2.1.1.min.js',
-        'src/libraries/jquery-ui.min.js',
-		'src/libraries/jquery.mCustomScrollbar.min.js',
-		'src/libraries/jquery.mousewheel.min.js',
-		'src/libraries/selectBoxIt-3.8.1.min.js',
-		'src/libraries/jquery.mobile.custom.min.js'
-		
+		'src/js/vendor/jquery.min.js',
+		'src/js/vendor/what-input.min.js',
+		'src/js/foundation.min.js'
 
 
     ]).
-    	//pipe(concat("libraries.js")).
-        //pipe(gulpif(args.compress, uglify())).
-    	pipe(gulp.dest('build/libraries'));
+    	pipe(concat("vendor.js")).
+        pipe(gulpif(args.compress, uglify())).
+    	pipe(gulp.dest('build/js/vendor'));
 
 });
 
 gulp.task('build-fonts', function() {
 
 	gulp.src('src/fonts/**/*.*')
-		.pipe(gulp.dest('build/fonts'));
+		.pipe(gulp.dest('build/fonts/bms'));
 
 });
 
@@ -108,21 +84,18 @@ gulp.task('watch', function() {
 		server.changed(file.path);
 	});
 
-	gulp.watch('src/css/**/*.less', ['build-css']).on('change', function(file) {
+	gulp.watch('src/sass/**/*.scss', ['build-css']).on('change', function(file) {
 		server.changed(file.path);
 	});
 
-	gulp.watch('src/images/**/*', ['build-images']).on('change', function(file) {
-		server.changed(file.path);
-	});
-	gulp.watch('src/images-dynamic/**/*', ['build-images-dynamic']).on('change', function(file) {
+	gulp.watch('src/img/**/*', ['build-img']).on('change', function(file) {
 		server.changed(file.path);
 	});
 
 	gulp.watch('src/js/**/*.js', ['build-js']).on('change', function(file) {
 		server.changed(file.path);
 	});
-	gulp.watch('src/fonts/*/', ['build-fonts']).on('change', function(file) {
+	gulp.watch('src/js/**/*.js', ['build-fonts']).on('change', function(file) {
 		server.changed(file.path);
 	});
 

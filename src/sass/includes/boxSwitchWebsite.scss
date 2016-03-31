@@ -1,0 +1,450 @@
+.switchCountry{
+    background-color: $orange2; 
+    position: relative;  
+
+}
+.search{
+    background-color: $green2;  
+    position: relative;
+    z-index: 1;
+    margin-bottom: 23px!important;
+    @include mybreakpoint(sm) {
+        display: none;
+    } 
+}
+.formBox {
+    margin: 0 0 12px;
+    padding: 9px 15px 15px 15px;
+}
+
+.formBox label {
+    line-height: 1.3125;
+    margin: 0;
+    @include rem (font-size, 16px);
+    font-weight: 700;
+    @include rem (padding-bottom, 5px);
+    color: #fff;
+    display: block;
+    @include mybreakpoint(sm) {
+        @include rem (font-size, 18px);
+    }
+    @include mybreakpoint(xs) {
+
+    }
+}
+// Input
+ .search input{
+    width: 118px;
+    border-right: 0 none;
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 3px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    height: 19px;
+    line-height: 1;
+    background-color: $green1;
+    border-color: $green3 $green3 $green3;
+    @include rem (font-size, 11px);
+    @include mybreakpoint(sm) {
+        @include rem (font-size, 15px);
+        @include rem (width, 400px);
+    }
+    @include mybreakpoint(xs) {
+        //@include rem (width, 240px);
+    }
+}
+// Button
+.search .btn{
+    width: 17px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    border-left: 0 none;
+    padding: 0;
+    margin-top: 0;
+    overflow: hidden;
+    text-indent: -9999em;
+    padding-left: 0px;
+    padding-right:0px;
+    position: absolute;
+    bottom:15px;
+    right:15px;
+    height: 21px;
+
+} 
+//weißes Dreieck
+.search .btn:after {
+    content: "\f0da";
+    display: block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+    line-height: 1;
+    padding-right: 3px;
+    text-decoration: none;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 13px;
+    left: -2px;
+    text-indent: 0;
+    margin-top: -10px;
+
+}
+.search .btn {
+    background-color: $green1;
+    border-color: $green3  $green3  $green3;
+}
+.switchCountry .btn {
+
+    background-color: $orange1;
+    border-color: $orange1 $orange1 $orange1;
+    border-left: 0 none;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-left:2px;
+    margin-top: 0;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    width: 138px;
+    position: relative;
+    @include mybreakpoint(sm) {
+        @include boxSizing;
+        width: 100%;
+        padding:6px 0 6px 10px;
+        font-size: 15px
+    }
+
+}
+//weißes Dreieck
+.switchCountry  .btn:after {
+    content: "\f0d7";
+    display: block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+    line-height: 1;
+    text-decoration: none;
+    position: absolute;
+
+    height: 20px;
+    top: 13px;
+    right: 5px;
+    text-indent: 0;
+    margin-top: -10px;
+    @include mybreakpoint(sm) {
+
+        top: 16px;
+        right: 5px;
+    }
+
+}
+
+.switchCountry .btn {
+    border-color: $orange1;
+}
+.search .btn {
+    border-color: $green3;
+}
+
+//////////////////////////////////////////////
+//die "Select-Box" für switchCountry
+//////////////////////////////////////////////
+
+
+//switchCountrySelect = beide Seiten zusammen
+.switchCountrySelect{
+    position: absolute;
+    z-index: 20;
+    left: -187px;
+    top: 37px;
+    height: 45px;
+    display: none;
+    @include mybreakpoint(sm) {
+        left: 11px;
+        right: 11px;
+        top: 37px;
+    }
+}
+
+.selectLeft,
+.selectRight{
+    float: left;
+    @include mybreakpoint(sm) {
+        float: none;
+    }
+}
+.selectLeft
+{
+    @include mybreakpoint(sm) {
+        display: none;
+    }
+}
+.selectLeftMobile
+{        
+    display: none;
+    @include mybreakpoint(sm) {
+        display: block;
+    }
+}
+
+//Linke Seite
+//Corporate Website, Product Center, Special Topics
+
+.selectLeft ul{
+    margin-top: 14px;
+    margin-bottom: 14px;
+    margin-left:11px;
+    margin-right: 20px;
+
+}
+.selectLeftMobile ul{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left:0px;
+    margin-right: 0px;
+    width: 100%;
+    text-align: center;
+}
+.selectLeft li {
+    position: relative;
+}
+
+.selectLeft{
+    background-color: $gray2;
+    min-width: 186px; 
+    border-right-color: white;
+    border-right-width: 1px;
+    border-right-style: solid;
+ 
+}
+.selectLeft li {
+    margin-top:1px;
+}
+.selectLeft li a {
+
+    color: white;
+    background-color:$green2;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 8px 0 0 19px;
+    min-height: 30px;
+    text-decoration: none;
+    display: block;
+    @include boxSizing;
+}
+
+.selectLeftMobile li  {
+    color: white;
+    background-color: $green2;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 12px 0;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    @include mybreakpoint(sm) {
+        background-color:$orange1;
+    }  
+}
+//weißer Kreis
+.selectLeftMobile li a {
+
+
+    cursor: pointer;
+    display: block;
+    height: 30px;
+    overflow: hidden;
+    position: absolute;
+    text-decoration: none;
+    top: 50%;
+    margin-top: -15px ;
+    width: 30px;
+    z-index: 10;
+}
+.selectLeftMobile li a.prev{
+    left:9px;
+}
+.selectLeftMobile li a.next{
+    right: 9px;
+}
+.selectLeftMobile li a.prev:before{
+    content: '\f001';
+    right: 6px;
+}
+.selectLeftMobile li a.next:before{
+    content: '\f002';
+    right: 6px;
+}
+.selectLeftMobile li a.next:before,
+.selectLeftMobile li a.prev:before{
+    font-family: "flexslider-icon";
+    font-size: 16px;
+    line-height: 1;
+    color: white;
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    top: 50%;
+    margin-top: -7px ;
+}
+.selectLeft li a:hover,
+.selectLeft li a.active
+ {
+    background-color: $green1; 
+}
+//weißes Dreieck am Anfang
+.selectLeft li a:before{
+    content: "\f0da";
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    position: absolute;
+    left: 11px;
+    padding-top: 0px;
+}
+
+//das grüne Dreieck am Ende
+.selectLeft li a.active:after,
+.selectLeft ul li a:hover:after{
+  content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 15px solid rgba(255, 255, 255, 0);
+    border-bottom: 15px solid rgba(255, 255, 255, 0);
+    border-left: 15px solid $green1;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 2;
+
+}
+.selectLeft > li > a{
+    background-color: #66cccc;
+    color: white;
+    padding-left: 20px;
+}
+
+//Rechte Seite
+
+.selectRight li{
+    position: relative;
+
+}
+.selectRight ul{
+    width: 170px;
+    background-color: $orange1;
+    @include mybreakpoint(sm) {
+        width: 100%;
+        height: auto;
+        background-color: $orange2;
+    }
+}
+.selectRight li a{
+    display: block;
+    border-bottom: 1px solid $orange1; 
+    font-size: 12px;
+    color: white;
+    line-height: 1;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;   
+    display: relative;
+
+    @include mybreakpoint(sm) {
+        font-size: 15px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        padding-right: 10px;
+        margin-left: 17px;
+        margin-right: 17px;   
+    }
+}
+.selectRight li:last-child a{
+    border-bottom: none;   
+}
+
+.selectRight {
+    display: none;
+}
+
+.sub1{
+    display: block;
+}
+
+.selectRight li a:after{
+    content: "\f0da";
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    position: absolute;
+    right: 12px;
+    padding-top: 1px;
+    @include mybreakpoint(sm) {
+        right: 19px;
+    }
+}
+
+.selectRight li a:hover,
+.selectLeft li a:hover{
+    font-weight: bold;
+    text-decoration: none;
+}
+.selectRight li a:hover:after{
+    display: none;
+}
+
+// Select Control Paging Responsive
+@include mybreakpoint(sm) {
+    .selectControlPagin {
+        background-color: $orange1;
+    }
+    .selectControlPagin ul {
+        bottom: 13px;
+        text-align: center;
+        width: 100%;
+        display: table;
+        vertical-align: middle;
+    }
+    .selectControlPagin li{
+        color: white;
+        font-size: 12px;
+        font-weight: normal;
+        padding: 12px 0;
+        text-decoration: none;
+        display: inline-block;
+        margin: 0 7px;
+        vertical-align: middle;
+    }
+
+    //die Bullets
+    .selectControlPagin li a {
+        background: none repeat scroll 0 0 white;
+        border-radius: 20px;
+        cursor: pointer;
+        display: inline-block;
+        height: 10px;
+        width: 10px;
+    }
+    .selectControlPagin li a.active {
+        background: $orange1;
+        border-radius: 20px;
+        border: 2px solid white;
+        cursor: pointer;
+        display: inline-block;
+        height: 10px;
+        width: 10px;
+    }
+}

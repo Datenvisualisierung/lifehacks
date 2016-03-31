@@ -1,0 +1,190 @@
+
+.meta {
+    position: absolute;
+    right: 188px;
+    top: 105px;
+    z-index: 100;
+
+    @include mybreakpoint(md) {
+        top: 70px;
+
+    }
+    @include mybreakpoint(sm) {
+        top: 59px;
+        right: 0;
+
+    }
+    @include mybreakpoint(xs) {
+
+    }
+}
+.meta li {
+    display: inline-block;
+    float: left;
+}
+
+.meta a {
+    color: $gray1;
+    display: block;
+    font-size: 11px;
+    line-height: 1;
+
+}
+.meta a:hover {
+    text-decoration: underline;
+}
+//nur die übergeordneten
+.meta > ul > li > a {
+    border-right: 1px solid $gray6;
+    padding: 1px 8px 0;
+    @include mybreakpoint(sm) {
+        padding:0;
+    }
+}
+.meta .last{
+    border-right: none;
+}
+.meta .bayerGroup{
+	padding-left: 45px;
+    @include mybreakpoint(md) {
+        display: none;
+    }
+}
+.meta li.noMobile{
+    @include mybreakpoint(md) {
+        display: none;
+    }
+}
+.meta .languageSelector ul a {
+    padding: 2px 0px 3px 15px;
+}
+.meta .bayerGroup ul a {
+    padding: 2px 0px 3px 15px;
+    @include mybreakpoint(sm) {
+        padding:0;
+    }
+}
+
+///////////////////////////////
+// hasDropdown
+//////////////////////////////
+
+//Kategorie
+.dropdownKategorie span{
+    color: #000000;
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.hasDropdown ul li ul,
+.meta ul li{
+        @include boxSizing;
+}
+.hasDropdown ul li a,
+.hasDropdown ul li a:visited {
+    display: block;
+    text-align: left;
+}
+.hasDropdown ul li {
+    float: left;
+    position: relative;
+}
+.hasDropdown ul li ul {
+    display:none;
+    position: absolute;
+    z-index:1;
+    top: 19px;
+    border: 1px solid $gray4;
+}
+.hasDropdown ul li ul li:last-child{
+    margin-bottom: 2px;
+}
+.hasDropdown ul li ul{
+    background-color: white;
+}
+.hasDropdown>ul>li:hover>a,
+.hasDropdown>ul>li:focus>a,
+.hasDropdown>ul>li>a:hover,
+.hasDropdown>ul>li>a:focus {
+    background: white;
+    @include mybreakpoint(md) {
+        background: transparent;
+    }
+}
+
+
+//grüner Rahmen nur um BayerGroup und  Language
+
+.meta .bayerGroup > a,
+.meta .bayerGroup > a:visited,
+.meta .languageSelector > a,
+.meta .languageSelector > a:visited {
+    position: relative;
+    z-index:2;
+    height: 19px;
+    padding-top:0;
+}
+
+
+//um springen bei hover vermeiden
+.meta .bayerGroup > a,
+.meta .languageSelector > a{
+    border-left: 1px solid transparent;
+    border-right:1px solid transparent;
+    border-top: 1px solid transparent;
+}
+.meta .bayerGroup:hover>a,
+.meta .bayerGroup:focus>a,
+.meta .languageSelector:hover>a,
+.meta .languageSelector:focus>a {
+    border-left: 1px solid $gray4;
+    border-right:1px solid $gray4;
+    border-top: 1px solid $gray4;
+    @include mybreakpoint(md) {
+        border-left: 1px solid transparent;
+        border-right:1px solid transparent;
+        border-top: 1px solid transparent;
+    }
+}
+.hasDropdown ul li ul {
+    display:none;
+
+}
+
+.hasDropdown ul li:hover ul,
+.hasDropdown ul li:focus ul {
+    display:block;
+    //Ausschalten des Submenues
+    @include mybreakpoint(md) {
+        display: none!important;
+    }
+}
+.bayerGroup:hover ul li,
+.languageSelector:hover ul li,
+.languageSelector:focus ul li {
+    display: block;
+    background: white;
+    clear: both;
+
+}
+.bayerGroup:hover ul li {
+    width: 170px;
+}
+.languageSelector:hover ul li,
+.languageSelector:focus ul li {
+    width: 110px;
+}
+.hasDropdown ul li:hover ul li a,
+.hasDropdown ul li:focus ul li a {
+    display: block;
+    background: white;
+
+}
+
+.hasDropdown ul li:hover ul li a:hover,
+.hasDropdown ul li:focus ul li a:focus {
+    background: $gray2;
+    text-decoration: none;
+    font-weight: bold;
+}
